@@ -4,7 +4,7 @@ Atlas anatomique interactif en français : exploration d'un modèle humain 3D, s
 
 ## Version hébergée
 
-La version Sites est publiée à l'adresse https://anatomy2see.but2amiliad.chatgpt.site avec un accès privé lié au compte propriétaire. Cette publication est distincte de GitHub Pages. Le code source complet peut être téléchargé à https://anatomy2see.but2amiliad.chatgpt.site/anatomy2see-source.zip.
+La version Sites est publiée à l'adresse https://anatomy2see.but2amiliad.chatgpt.site avec un accès privé lié au compte propriétaire. Cette publication est distincte de GitHub Pages. Le code source complet peut être téléchargé à https://github.com/WaridoSann/anatomy2see/archive/refs/heads/main.zip.
 
 ## Installation et commandes
 
