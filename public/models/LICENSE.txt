@@ -1,0 +1,10 @@
+BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International.
+https://creativecommons.org/licenses/by/4.0/
+
+Source: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html
+Official current terms (updated 2025-02-27): https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html
+
+Adapted for anatomy2see: grouped anatomical structures, geometry decimation,
+recalculated normals, colors, coordinate normalization, binary glTF conversion.
+These adapted meshes are distributed under Creative Commons Attribution 4.0.
+See repository ASSETS.md for details and the legacy license-header explanation.

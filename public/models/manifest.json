@@ -1,0 +1,134 @@
+{
+  "source": "BodyParts3D v4.0 (2013), Database Center for Life Science",
+  "license": "CC-BY-4.0",
+  "licenseURL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+  "coordinates": {
+    "height": 1.8,
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "up": "+Y",
+    "front": "+Z"
+  },
+  "structures": [
+    {
+      "id": "skeleton",
+      "sourceParts": 171,
+      "sourceTriangles": 329308,
+      "triangles": 75000,
+      "meshes": [
+        "skeleton"
+      ]
+    },
+    {
+      "id": "skull",
+      "sourceParts": 43,
+      "sourceTriangles": 330828,
+      "triangles": 39999,
+      "meshes": [
+        "skull"
+      ]
+    },
+    {
+      "id": "spine",
+      "sourceParts": 48,
+      "sourceTriangles": 124220,
+      "triangles": 35000,
+      "meshes": [
+        "spine"
+      ]
+    },
+    {
+      "id": "heart",
+      "sourceParts": 83,
+      "sourceTriangles": 102802,
+      "triangles": 30000,
+      "meshes": [
+        "heart"
+      ]
+    },
+    {
+      "id": "lung-left",
+      "sourceParts": 124,
+      "sourceTriangles": 41438,
+      "triangles": 19999,
+      "meshes": [
+        "lung-left"
+      ]
+    },
+    {
+      "id": "lung-right",
+      "sourceParts": 156,
+      "sourceTriangles": 73312,
+      "triangles": 19999,
+      "meshes": [
+        "lung-right"
+      ]
+    },
+    {
+      "id": "brain",
+      "sourceParts": 59,
+      "sourceTriangles": 322262,
+      "triangles": 40000,
+      "meshes": [
+        "brain"
+      ]
+    },
+    {
+      "id": "liver",
+      "sourceParts": 60,
+      "sourceTriangles": 191622,
+      "triangles": 15000,
+      "meshes": [
+        "liver"
+      ]
+    },
+    {
+      "id": "stomach",
+      "sourceParts": 1,
+      "sourceTriangles": 1810,
+      "triangles": 1810,
+      "meshes": [
+        "stomach"
+      ]
+    },
+    {
+      "id": "kidney-left",
+      "sourceParts": 1,
+      "sourceTriangles": 2982,
+      "triangles": 2982,
+      "meshes": [
+        "kidney-left"
+      ]
+    },
+    {
+      "id": "kidney-right",
+      "sourceParts": 1,
+      "sourceTriangles": 2310,
+      "triangles": 2310,
+      "meshes": [
+        "kidney-right"
+      ]
+    },
+    {
+      "id": "intestines",
+      "sourceParts": 63,
+      "sourceTriangles": 75054,
+      "triangles": 29999,
+      "meshes": [
+        "intestines"
+      ]
+    },
+    {
+      "id": "skin",
+      "sourceParts": 1,
+      "sourceTriangles": 203382,
+      "triangles": 25000,
+      "meshes": [
+        "skin"
+      ]
+    }
+  ]
+}
