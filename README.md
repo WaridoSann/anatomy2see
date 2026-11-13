@@ -1,78 +1,69 @@
 # anatomy2see
 
-Atlas anatomique interactif en français : exploration d'un modèle humain 3D, sélection d'organes, cadrage automatique, isolation, couches anatomiques et fiches scientifiques sourcées.
+Un cabinet de curiosité anatomique en français : un accueil clair, un voyage illustré dans un vaisseau sanguin, puis une salle de SVT où le corps humain se découvre une couche à la fois.
 
-## Version hébergée
+**Site public : https://waridosann.github.io/anatomy2see/**  
+**Code : https://github.com/WaridoSann/anatomy2see**
 
-La version Sites est publiée à l'adresse https://anatomy2see.but2amiliad.chatgpt.site avec un accès privé lié au compte propriétaire. Cette publication est distincte de GitHub Pages. Le code source complet peut être téléchargé à https://github.com/WaridoSann/anatomy2see/archive/refs/heads/main.zip.
+## Le parcours
 
-## Installation et commandes
+1. **Bienvenue** : une page d’entrée avec un seul appel à commencer.
+2. **Le voyage** : une introduction WebGL d’environ dix secondes, dans un vaisseau avec des globules rouges schématiques, puis un retour au geste de boire. Elle peut être passée et respecte la réduction des animations.
+3. **La salle d’anatomie** : un squelette 3D devant une salle de SVT dessinée en SVG 2D. Les tables ne sont pas des objets 3D.
+4. **Quatre points de vue** : muscles, organes, squelette, structures nerveuses. Un seul système de présentation est actif à la fois.
+5. **Observer** : faire tourner, zoomer, survoler pour lire un nom, cliquer pour cadrer et ouvrir une fiche illustrée. L’isolation permet d’atteindre les petites structures et les muscles profonds.
+6. **Retrouver** : une liste repliée et une page de fiches proposent une recherche par nom et par région, avec accès direct au modèle.
 
-Utiliser Node.js 22 et npm.
+L’interface emploie Manrope, auto-hébergée, sur une palette papier, encre et jaune. Les réglages graphiques et la transparence sont réunis dans un menu. Les fiches apparaissent au moment de la sélection ; elles gardent la 3D visible, y compris sur mobile.
+
+## Modèles réellement disponibles
+
+| Vue | Groupes sélectionnables | Contenu |
+| --- | ---: | --- |
+| Muscles | 398 | 425 éléments musculaires de BodyParts3D, certains regroupés par concept anatomique ; chefs, faisceaux et ensembles restent identifiés |
+| Squelette | 238 | Os et structures de soutien, dont cartilages et disques ; ce chiffre n’est pas un nombre d’os humains |
+| Structures nerveuses | 80 | Régions de l’encéphale, cavités cérébrospinales et petits nerfs crâniens/orbitaires disponibles |
+| Organes | 7 | Cœur, poumons, encéphale, foie, estomac, reins, intestins |
+
+Tous les maillages sont de vraies ressources BodyParts3D, sous CC BY 4.0, et non des primitives remplaçant les organes. Les positions relatives des structures sont conservées. Les GLB sont compressés avec Meshopt et les positions quantifiées sur 14 bits. Les tailles exactes sont consignées dans les manifestes.
+
+**Limites de couverture** : les 398 groupes ne représentent pas tous les muscles humains. Le droit de l’abdomen, le grand dorsal, le masséter et le temporal ne figurent notamment pas dans cette source. La moelle épinière complète et les réseaux nerveux périphériques du tronc et des membres ne sont pas livrés. Les cavités du système nerveux sont nommées comme des cavités, pas comme des nerfs. Le modèle est issu d’une anatomie adulte masculine de référence ; il ne couvre pas la variabilité individuelle.
+
+## Installation
+
+Node.js 22 et npm sont recommandés. Aucun backend ni secret côté client n’est nécessaire.
 
 ```bash
 npm ci
 npm run dev
 ```
 
-Ouvrir l'adresse locale affichée par Vite. Le projet ne nécessite ni backend ni secret côté client.
-
 | Commande | Usage |
 | --- | --- |
-| `npm run dev` | Serveur de développement Vite |
-| `npm run typecheck` | Vérification TypeScript |
-| `npm test` | Tests unitaires Vitest |
-| `npm run build` | Compilation de production dans `dist/` |
-| `npm run preview` | Consultation du résultat compilé |
-| `npm run test:e2e` | Scénarios Playwright dans un environnement disposant d'un navigateur compatible |
+| `npm run dev` | Lancer Vite |
+| `npm run typecheck` | Vérifier TypeScript |
+| `npm test` | Tests unitaires, décodage des vrais GLB et interactions de l’interface dans jsdom |
+| `npm run build` | Compiler dans `dist/` |
+| `npm run preview` | Consulter le build |
+| `npm run test:e2e` | Exécuter les scénarios Playwright dans un environnement autorisant un navigateur WebGL |
 
-## Utilisation
+Les tests jsdom ne vérifient pas l’apparence du rendu GPU. Les scénarios Playwright ne sont pas exécutés automatiquement par la CI et leur présence ne constitue pas une validation visuelle. Aucun benchmark FPS n’est annoncé.
 
-- Glisser sur le modèle pour le faire tourner ; utiliser la molette ou les commandes de zoom pour se rapprocher.
-- Sélectionner une structure dans la scène ou dans la liste pour lire sa fiche et lancer son cadrage.
-- Isoler la sélection, la masquer ou atténuer les autres structures.
-- Activer ou désactiver les systèmes disponibles, afficher les étiquettes et revenir au corps entier.
-- Sur mobile, utiliser les commandes d'ouverture des panneaux pour conserver de la place pour la scène.
+## Déploiement
 
-Le cadrage utilise les limites réelles des maillages. Un geste sur les contrôles orbitaux interrompt la transition caméra. La préférence de réduction des animations est respectée pour ces déplacements.
+Le workflow `.github/workflows/deploy.yml` installe les dépendances, vérifie TypeScript, exécute les tests, compile puis publie sur GitHub Pages à chaque push sur `main`.
 
-## Modèles et sources scientifiques
+La source Pages doit être réglée sur **GitHub Actions**. Vite utilise `/anatomy2see/` quand `GITHUB_ACTIONS` est défini, et `/` pour un hébergement à la racine. Les pages utilisent des fragments (`#/explorer/muscles`, `#/library`) afin de rester compatibles avec Pages sans réécriture serveur.
 
-Le modèle GLB provient de **BodyParts3D v4.0**, Database Center for Life Science, sous **CC BY 4.0**. Il contient 13 maillages de présentation issus de la composition scientifique officielle, regroupés et simplifiés. Le manifeste conserve les nombres réellement exportés. La peau est incluse dans l'asset mais n'est pas affichée dans la scène actuelle. Les fichiers sont locaux au dépôt ; aucun modèle externe n'est nécessaire à l'exécution.
+Le fichier `.openai/hosting.json` concerne la copie hébergée avec Sites et reste indépendant de GitHub Pages.
+
+## Sources et réutilisation
 
 > BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International.
 
-Voir [ASSETS.md](ASSETS.md) pour les liens officiels, la vérification de licence, les modifications et les limites scientifiques. Les correspondances de meshes se trouvent dans `public/models/manifest.json` et les éléments d'origine dans `public/models/source-parts.json`.
+- [ASSETS.md](ASSETS.md) : licence et transformations des modèles.
+- [ILLUSTRATIONS.md](ILLUSTRATIONS.md) : planches du domaine public et images OpenStax CC BY 3.0, auteurs, liens et modifications de format.
+- [SOURCES.md](SOURCES.md) : références scientifiques. Les descriptions françaises sont des résumés originaux ; les fiches renvoient aux chapitres OpenStax pertinents et conservent les noms d’origine des structures.
+- [ARCHITECTURE.md](ARCHITECTURE.md) : données, navigation, scène et gestion de caméra.
 
-Les fiches sont des résumés originaux en français fondés sur **OpenStax Anatomy and Physiology 2e**. Chaque fiche contient une référence accessible. Voir [SOURCES.md](SOURCES.md). Les couleurs facilitent la lecture ; elles ne représentent pas l'apparence histologique des tissus.
-
-## Déploiement GitHub Pages
-
-Le workflow `.github/workflows/deploy.yml` vérifie TypeScript, exécute les tests unitaires, compile et publie `dist/` à chaque push sur `main`. Les pull requests exécutent les vérifications et la compilation sans publication.
-
-1. Héberger le code dans le dépôt `WaridoSann/anatomy2see`.
-2. Dans **Settings → Pages**, choisir **GitHub Actions** comme source de publication.
-3. Pousser sur `main` ou lancer manuellement le workflow.
-4. Attendre le succès du job de publication avant d'annoncer l'adresse comme active.
-
-L'adresse attendue après un déploiement réussi est `https://waridosann.github.io/anatomy2see/`. Elle n'est pas une preuve de publication. Le workflow définit `GITHUB_ACTIONS`, ce qui sélectionne automatiquement le chemin Vite `/anatomy2see/`. En hébergement à la racine, le build local utilise `/`. Les chemins des modèles s'appuient sur `import.meta.env.BASE_URL` et la navigation ne dépend pas de routes serveur.
-
-Le fichier `.openai/hosting.json` concerne l'hébergement Sites distinct de GitHub Pages. Une URL Sites publiée n'atteste pas la création d'un dépôt GitHub ni la publication de GitHub Pages.
-
-## Architecture
-
-Voir [ARCHITECTURE.md](ARCHITECTURE.md). Le registre scientifique, la correspondance des maillages, l'état de l'explorateur, la caméra et l'interface sont séparés afin d'ajouter de futurs systèmes sans réécrire la scène.
-
-## Vérification et limites
-
-Les tests unitaires contrôlent la navigation, les changements rapides de sélection, le retour général, les couches, les erreurs de chargement, les correspondances bilatérales et le cadrage à partir de géométries Three.js. Les scénarios Playwright sont fournis séparément ; leur présence n'atteste pas leur exécution. Le résultat effectif des vérifications est indiqué dans la livraison.
-
-- Aucun système musculaire n'est disponible dans cette version ; sa commande reste inactive.
-- Le système nerveux représente l'encéphale, et le cardiovasculaire le cœur. Les réseaux nerveux et vasculaires complets ne sont pas inclus.
-- Les animations de rythme cardiaque et de respiration de l'interface sont schématiques ; elles ne déforment pas le modèle et ne sont pas des simulations physiologiques.
-- Les profils graphiques ajustent notamment le ratio de pixels ; le bloom est réservé au profil Ultra.
-- Le modèle représente une anatomie adulte masculine de référence, sans couvrir la variabilité individuelle. La simplification géométrique retire certains détails.
-- Le fallback WebGL permet de consulter les fiches si la 3D est indisponible. Une perte de contexte est signalée et nécessite de recharger la page.
-- Aucune mesure FPS ou promesse de 60 FPS en 4K n'est annoncée. Les performances doivent être mesurées sur le matériel cible.
-
-Cet atlas est un outil d'apprentissage général, pas un dispositif de diagnostic ni un outil de planification clinique.
+Les illustrations régionales sont présentées comme des planches de repérage. Elles ne prétendent pas montrer chaque muscle sélectionné isolément. Le portrait de l’accueil est un rendu des maillages réels. Le voyage, le geste de boire et le décor de classe sont des créations artistiques illustratives.

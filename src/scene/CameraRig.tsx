@@ -22,14 +22,15 @@ export default function CameraRig({model}:{model:Group|null}) {
    position.sub(target).multiplyScalar(request.value!>0?0.8:1.25).add(target);
    const delta=position.clone().sub(target);delta.setLength(Math.min(8,Math.max(0.08,delta.length())));position.copy(target).add(delta);
   } else {
-   const box=request.type==='focus'&&request.id?boundsForStructure(model,request.id):all;
+   const focusId=request.type==='focus'?request.id:request.type==='view'?useExplorer.getState().selectedId:undefined;
+   const box=focusId?boundsForStructure(model,focusId):all;
    if(!box)return;
    target=box.center;
    const distance=framingBoxDistance(box.bounds.getSize(new Vector3()),camera.fov,size.width/size.height,request.type==='view'&&request.view==='side');
    const direction=request.type==='view'&&request.view==='back'?new Vector3(0,0,-1):request.type==='view'&&request.view==='side'?new Vector3(1,0,0):new Vector3(0,0,1);
    position=target.clone().add(direction.multiplyScalar(distance));
   }
-  orbit.minDistance=request.type==='focus'?0.06:0.4;orbit.maxDistance=8;
+  orbit.minDistance=useExplorer.getState().selectedId?0.015:0.35;orbit.maxDistance=8;
   const state={px:camera.position.x,py:camera.position.y,pz:camera.position.z,tx:orbit.target.x,ty:orbit.target.y,tz:orbit.target.z};
   tween.current=gsap.to(state,{px:position.x,py:position.y,pz:position.z,tx:target.x,ty:target.y,tz:target.z,duration:matchMedia('(prefers-reduced-motion: reduce)').matches?0:1.15,ease:'power3.inOut',onUpdate:()=>{camera.position.set(state.px,state.py,state.pz);orbit.target.set(state.tx,state.ty,state.tz);orbit.update();}});
   return ()=>{tween.current?.kill();};

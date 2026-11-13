@@ -1,0 +1,4 @@
+.room{position:absolute;inset:0;pointer-events:none;overflow:hidden;isolation:isolate;background:#f8f6ed}
+.room>svg{display:block;width:100%;height:100%;opacity:.83}
+.wash{position:absolute;inset:0;background:radial-gradient(ellipse at 51% 46%,rgba(255,253,244,.08) 20%,rgba(252,250,241,.25) 70%);pointer-events:none}
+@media(max-width:700px){.room>svg{width:150%;max-width:none;margin-left:-25%;opacity:.58}.wash{background:linear-gradient(180deg,#fcfaf133,transparent 55%,#fcfaf14d)}}

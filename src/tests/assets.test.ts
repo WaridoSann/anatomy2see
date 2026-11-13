@@ -2,13 +2,14 @@ import { readFile } from 'node:fs/promises';
 import { describe, expect, it } from 'vitest';
 import { Mesh, Vector3 } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
 import { anatomy } from '../data/anatomy';
 import { boundsForStructure, framingDistance, structureForMesh } from '../scene/model';
 
 describe('modèle anatomique livré', () => {
   it('charge le GLB réel et associe les dix groupes disponibles à des fiches', async () => {
     const bytes = await readFile(new URL('../../public/models/anatomy.glb', import.meta.url));
-    const gltf = await new GLTFLoader().parseAsync(Uint8Array.from(bytes).buffer, '');
+    const gltf = await new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).parseAsync(Uint8Array.from(bytes).buffer, '');
     const manifest = JSON.parse(await readFile(new URL('../../public/models/manifest.json', import.meta.url), 'utf8')) as {
       structures: Array<{ id: string; meshes: string[] }>;
     };

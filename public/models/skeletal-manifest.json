@@ -1,0 +1,4071 @@
+{
+  "source": "BodyParts3D v4.0 — Database Center for Life Science",
+  "license": "CC-BY-4.0",
+  "licenseURL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+  "coordinates": {
+    "sourceCenter": [
+      0.023406982421875,
+      -109.03314971923828,
+      782.8699340820312
+    ],
+    "scale": 0.00105462085236557,
+    "up": "+Y",
+    "front": "+Z"
+  },
+  "structures": [
+    {
+      "id": "bone-FMA52749",
+      "name": "Os hyoïde",
+      "originalName": "hyoid bone",
+      "latin": "hyoid bone",
+      "system": "skeletal",
+      "region": "neck",
+      "meshNames": [
+        "bone-FMA52749"
+      ],
+      "sourceIds": [
+        "FJ2772",
+        "FJ3201"
+      ],
+      "fmaId": "FMA52749",
+      "sourceTriangles": 2392,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA16586",
+      "name": "Os coxal · côté droit",
+      "originalName": "right hip bone",
+      "latin": "right hip bone",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA16586"
+      ],
+      "sourceIds": [
+        "FJ3152"
+      ],
+      "fmaId": "FMA16586",
+      "sourceTriangles": 2374,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA10037",
+      "name": "Vertèbre thoracique T10",
+      "originalName": "tenth thoracic vertebra",
+      "latin": "tenth thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA10037"
+      ],
+      "sourceIds": [
+        "FJ3154"
+      ],
+      "fmaId": "FMA10037",
+      "sourceTriangles": 2790,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA10059",
+      "name": "Vertèbre thoracique T11",
+      "originalName": "eleventh thoracic vertebra",
+      "latin": "eleventh thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA10059"
+      ],
+      "sourceIds": [
+        "FJ3155"
+      ],
+      "fmaId": "FMA10059",
+      "sourceTriangles": 2674,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA10081",
+      "name": "Vertèbre thoracique T12",
+      "originalName": "twelfth thoracic vertebra",
+      "latin": "twelfth thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA10081"
+      ],
+      "sourceIds": [
+        "FJ3156"
+      ],
+      "fmaId": "FMA10081",
+      "sourceTriangles": 2772,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA13072",
+      "name": "Vertèbre lombaire L1",
+      "originalName": "first lumbar vertebra",
+      "latin": "first lumbar vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA13072"
+      ],
+      "sourceIds": [
+        "FJ3157"
+      ],
+      "fmaId": "FMA13072",
+      "sourceTriangles": 2972,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA9165",
+      "name": "Vertèbre thoracique T1",
+      "originalName": "first thoracic vertebra",
+      "latin": "first thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA9165"
+      ],
+      "sourceIds": [
+        "FJ3158"
+      ],
+      "fmaId": "FMA9165",
+      "sourceTriangles": 1700,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA13073",
+      "name": "Vertèbre lombaire L2",
+      "originalName": "second lumbar vertebra",
+      "latin": "second lumbar vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA13073"
+      ],
+      "sourceIds": [
+        "FJ3159"
+      ],
+      "fmaId": "FMA13073",
+      "sourceTriangles": 3214,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA9187",
+      "name": "Vertèbre thoracique T2",
+      "originalName": "second thoracic vertebra",
+      "latin": "second thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA9187"
+      ],
+      "sourceIds": [
+        "FJ3160"
+      ],
+      "fmaId": "FMA9187",
+      "sourceTriangles": 1938,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA12521",
+      "name": "Vertèbre cervicale C3",
+      "originalName": "third cervical vertebra",
+      "latin": "third cervical vertebra",
+      "system": "skeletal",
+      "region": "neck",
+      "meshNames": [
+        "bone-FMA12521"
+      ],
+      "sourceIds": [
+        "FJ3161"
+      ],
+      "fmaId": "FMA12521",
+      "sourceTriangles": 2030,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA13074",
+      "name": "Vertèbre lombaire L3",
+      "originalName": "third lumbar vertebra",
+      "latin": "third lumbar vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA13074"
+      ],
+      "sourceIds": [
+        "FJ3162"
+      ],
+      "fmaId": "FMA13074",
+      "sourceTriangles": 3272,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA9209",
+      "name": "Vertèbre thoracique T3",
+      "originalName": "third thoracic vertebra",
+      "latin": "third thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA9209"
+      ],
+      "sourceIds": [
+        "FJ3163"
+      ],
+      "fmaId": "FMA9209",
+      "sourceTriangles": 2038,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA12522",
+      "name": "Vertèbre cervicale C4",
+      "originalName": "fourth cervical vertebra",
+      "latin": "fourth cervical vertebra",
+      "system": "skeletal",
+      "region": "neck",
+      "meshNames": [
+        "bone-FMA12522"
+      ],
+      "sourceIds": [
+        "FJ3164"
+      ],
+      "fmaId": "FMA12522",
+      "sourceTriangles": 2410,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA13075",
+      "name": "Vertèbre lombaire L4",
+      "originalName": "fourth lumbar vertebra",
+      "latin": "fourth lumbar vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA13075"
+      ],
+      "sourceIds": [
+        "FJ3165"
+      ],
+      "fmaId": "FMA13075",
+      "sourceTriangles": 3512,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA9248",
+      "name": "Vertèbre thoracique T4",
+      "originalName": "fourth thoracic vertebra",
+      "latin": "fourth thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA9248"
+      ],
+      "sourceIds": [
+        "FJ3166"
+      ],
+      "fmaId": "FMA9248",
+      "sourceTriangles": 2066,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA12523",
+      "name": "Vertèbre cervicale C5",
+      "originalName": "fifth cervical vertebra",
+      "latin": "fifth cervical vertebra",
+      "system": "skeletal",
+      "region": "neck",
+      "meshNames": [
+        "bone-FMA12523"
+      ],
+      "sourceIds": [
+        "FJ3167"
+      ],
+      "fmaId": "FMA12523",
+      "sourceTriangles": 2196,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA13076",
+      "name": "Vertèbre lombaire L5",
+      "originalName": "fifth lumbar vertebra",
+      "latin": "fifth lumbar vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA13076"
+      ],
+      "sourceIds": [
+        "FJ3168"
+      ],
+      "fmaId": "FMA13076",
+      "sourceTriangles": 3892,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA9922",
+      "name": "Vertèbre thoracique T5",
+      "originalName": "fifth thoracic vertebra",
+      "latin": "fifth thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA9922"
+      ],
+      "sourceIds": [
+        "FJ3169"
+      ],
+      "fmaId": "FMA9922",
+      "sourceTriangles": 2280,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA12524",
+      "name": "Vertèbre cervicale C6",
+      "originalName": "sixth cervical vertebra",
+      "latin": "sixth cervical vertebra",
+      "system": "skeletal",
+      "region": "neck",
+      "meshNames": [
+        "bone-FMA12524"
+      ],
+      "sourceIds": [
+        "FJ3170"
+      ],
+      "fmaId": "FMA12524",
+      "sourceTriangles": 2374,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA9945",
+      "name": "Vertèbre thoracique T6",
+      "originalName": "sixth thoracic vertebra",
+      "latin": "sixth thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA9945"
+      ],
+      "sourceIds": [
+        "FJ3171"
+      ],
+      "fmaId": "FMA9945",
+      "sourceTriangles": 2248,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA12525",
+      "name": "Vertèbre cervicale C7",
+      "originalName": "seventh cervical vertebra",
+      "latin": "seventh cervical vertebra",
+      "system": "skeletal",
+      "region": "neck",
+      "meshNames": [
+        "bone-FMA12525"
+      ],
+      "sourceIds": [
+        "FJ3172"
+      ],
+      "fmaId": "FMA12525",
+      "sourceTriangles": 1820,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA9968",
+      "name": "Vertèbre thoracique T7",
+      "originalName": "seventh thoracic vertebra",
+      "latin": "seventh thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA9968"
+      ],
+      "sourceIds": [
+        "FJ3173"
+      ],
+      "fmaId": "FMA9968",
+      "sourceTriangles": 2574,
+      "triangles": 1298
+    },
+    {
+      "id": "bone-FMA9991",
+      "name": "Vertèbre thoracique T8",
+      "originalName": "eighth thoracic vertebra",
+      "latin": "eighth thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA9991"
+      ],
+      "sourceIds": [
+        "FJ3174"
+      ],
+      "fmaId": "FMA9991",
+      "sourceTriangles": 2424,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA10014",
+      "name": "Vertèbre thoracique T9",
+      "originalName": "ninth thoracic vertebra",
+      "latin": "ninth thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA10014"
+      ],
+      "sourceIds": [
+        "FJ3175"
+      ],
+      "fmaId": "FMA10014",
+      "sourceTriangles": 2586,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA12519",
+      "name": "Atlas (C1)",
+      "originalName": "atlas",
+      "latin": "atlas",
+      "system": "skeletal",
+      "region": "neck",
+      "meshNames": [
+        "bone-FMA12519"
+      ],
+      "sourceIds": [
+        "FJ3176"
+      ],
+      "fmaId": "FMA12519",
+      "sourceTriangles": 2094,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA12520",
+      "name": "Axis (C2)",
+      "originalName": "axis",
+      "latin": "axis",
+      "system": "skeletal",
+      "region": "neck",
+      "meshNames": [
+        "bone-FMA12520"
+      ],
+      "sourceIds": [
+        "FJ3177"
+      ],
+      "fmaId": "FMA12520",
+      "sourceTriangles": 2288,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA32653",
+      "name": "Phalange distale — 2e orteil · côté gauche",
+      "originalName": "distal phalanx of left second toe",
+      "latin": "distal phalanx of left second toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32653"
+      ],
+      "sourceIds": [
+        "FJ3179"
+      ],
+      "fmaId": "FMA32653",
+      "sourceTriangles": 240,
+      "triangles": 240
+    },
+    {
+      "id": "bone-FMA32655",
+      "name": "Phalange distale — 3e orteil · côté gauche",
+      "originalName": "distal phalanx of left third toe",
+      "latin": "distal phalanx of left third toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32655"
+      ],
+      "sourceIds": [
+        "FJ3180"
+      ],
+      "fmaId": "FMA32655",
+      "sourceTriangles": 336,
+      "triangles": 336
+    },
+    {
+      "id": "bone-FMA32657",
+      "name": "Phalange distale — 4e orteil · côté gauche",
+      "originalName": "distal phalanx of left fourth toe",
+      "latin": "distal phalanx of left fourth toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32657"
+      ],
+      "sourceIds": [
+        "FJ3181"
+      ],
+      "fmaId": "FMA32657",
+      "sourceTriangles": 226,
+      "triangles": 226
+    },
+    {
+      "id": "bone-FMA32651",
+      "name": "Phalange distale — gros orteil · côté gauche",
+      "originalName": "distal phalanx of left big toe",
+      "latin": "distal phalanx of left big toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32651"
+      ],
+      "sourceIds": [
+        "FJ3182"
+      ],
+      "fmaId": "FMA32651",
+      "sourceTriangles": 378,
+      "triangles": 378
+    },
+    {
+      "id": "bone-FMA23953",
+      "name": "Phalange distale — index · côté gauche",
+      "originalName": "distal phalanx of left index finger",
+      "latin": "distal phalanx of left index finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23953"
+      ],
+      "sourceIds": [
+        "FJ3183"
+      ],
+      "fmaId": "FMA23953",
+      "sourceTriangles": 328,
+      "triangles": 328
+    },
+    {
+      "id": "bone-FMA23959",
+      "name": "Phalange distale — auriculaire · côté gauche",
+      "originalName": "distal phalanx of left little finger",
+      "latin": "distal phalanx of left little finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23959"
+      ],
+      "sourceIds": [
+        "FJ3184"
+      ],
+      "fmaId": "FMA23959",
+      "sourceTriangles": 198,
+      "triangles": 198
+    },
+    {
+      "id": "bone-FMA32659",
+      "name": "Phalange distale — petit orteil · côté gauche",
+      "originalName": "distal phalanx of left little toe",
+      "latin": "distal phalanx of left little toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32659"
+      ],
+      "sourceIds": [
+        "FJ3185"
+      ],
+      "fmaId": "FMA32659",
+      "sourceTriangles": 220,
+      "triangles": 220
+    },
+    {
+      "id": "bone-FMA23955",
+      "name": "Phalange distale — majeur · côté gauche",
+      "originalName": "distal phalanx of left middle finger",
+      "latin": "distal phalanx of left middle finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23955"
+      ],
+      "sourceIds": [
+        "FJ3186"
+      ],
+      "fmaId": "FMA23955",
+      "sourceTriangles": 266,
+      "triangles": 266
+    },
+    {
+      "id": "bone-FMA23957",
+      "name": "Phalange distale — annulaire · côté gauche",
+      "originalName": "distal phalanx of left ring finger",
+      "latin": "distal phalanx of left ring finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23957"
+      ],
+      "sourceIds": [
+        "FJ3187"
+      ],
+      "fmaId": "FMA23957",
+      "sourceTriangles": 196,
+      "triangles": 196
+    },
+    {
+      "id": "bone-FMA23951",
+      "name": "Phalange distale — pouce · côté gauche",
+      "originalName": "distal phalanx of left thumb",
+      "latin": "distal phalanx of left thumb",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23951"
+      ],
+      "sourceIds": [
+        "FJ3188"
+      ],
+      "fmaId": "FMA23951",
+      "sourceTriangles": 270,
+      "triangles": 270
+    },
+    {
+      "id": "bone-FMA32652",
+      "name": "Phalange distale — 2e orteil · côté droit",
+      "originalName": "distal phalanx of right second toe",
+      "latin": "distal phalanx of right second toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32652"
+      ],
+      "sourceIds": [
+        "FJ3189"
+      ],
+      "fmaId": "FMA32652",
+      "sourceTriangles": 200,
+      "triangles": 200
+    },
+    {
+      "id": "bone-FMA32654",
+      "name": "Phalange distale — 3e orteil · côté droit",
+      "originalName": "distal phalanx of right third toe",
+      "latin": "distal phalanx of right third toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32654"
+      ],
+      "sourceIds": [
+        "FJ3190"
+      ],
+      "fmaId": "FMA32654",
+      "sourceTriangles": 260,
+      "triangles": 260
+    },
+    {
+      "id": "bone-FMA32656",
+      "name": "Phalange distale — 4e orteil · côté droit",
+      "originalName": "distal phalanx of right fourth toe",
+      "latin": "distal phalanx of right fourth toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32656"
+      ],
+      "sourceIds": [
+        "FJ3191"
+      ],
+      "fmaId": "FMA32656",
+      "sourceTriangles": 244,
+      "triangles": 244
+    },
+    {
+      "id": "bone-FMA32650",
+      "name": "Phalange distale — gros orteil · côté droit",
+      "originalName": "distal phalanx of right big toe",
+      "latin": "distal phalanx of right big toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32650"
+      ],
+      "sourceIds": [
+        "FJ3192"
+      ],
+      "fmaId": "FMA32650",
+      "sourceTriangles": 440,
+      "triangles": 440
+    },
+    {
+      "id": "bone-FMA24460",
+      "name": "Phalange distale — index · côté droit",
+      "originalName": "distal phalanx of right index finger",
+      "latin": "distal phalanx of right index finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24460"
+      ],
+      "sourceIds": [
+        "FJ3193"
+      ],
+      "fmaId": "FMA24460",
+      "sourceTriangles": 210,
+      "triangles": 210
+    },
+    {
+      "id": "bone-FMA24463",
+      "name": "Phalange distale — auriculaire · côté droit",
+      "originalName": "distal phalanx of right little finger",
+      "latin": "distal phalanx of right little finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24463"
+      ],
+      "sourceIds": [
+        "FJ3194"
+      ],
+      "fmaId": "FMA24463",
+      "sourceTriangles": 188,
+      "triangles": 188
+    },
+    {
+      "id": "bone-FMA32658",
+      "name": "Phalange distale — petit orteil · côté droit",
+      "originalName": "distal phalanx of right little toe",
+      "latin": "distal phalanx of right little toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32658"
+      ],
+      "sourceIds": [
+        "FJ3195"
+      ],
+      "fmaId": "FMA32658",
+      "sourceTriangles": 210,
+      "triangles": 210
+    },
+    {
+      "id": "bone-FMA24461",
+      "name": "Phalange distale — majeur · côté droit",
+      "originalName": "distal phalanx of right middle finger",
+      "latin": "distal phalanx of right middle finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24461"
+      ],
+      "sourceIds": [
+        "FJ3196"
+      ],
+      "fmaId": "FMA24461",
+      "sourceTriangles": 174,
+      "triangles": 174
+    },
+    {
+      "id": "bone-FMA24462",
+      "name": "Phalange distale — annulaire · côté droit",
+      "originalName": "distal phalanx of right ring finger",
+      "latin": "distal phalanx of right ring finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24462"
+      ],
+      "sourceIds": [
+        "FJ3197"
+      ],
+      "fmaId": "FMA24462",
+      "sourceTriangles": 112,
+      "triangles": 112
+    },
+    {
+      "id": "bone-FMA24459",
+      "name": "Phalange distale — pouce · côté droit",
+      "originalName": "distal phalanx of right thumb",
+      "latin": "distal phalanx of right thumb",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24459"
+      ],
+      "sourceIds": [
+        "FJ3198"
+      ],
+      "fmaId": "FMA24459",
+      "sourceTriangles": 240,
+      "triangles": 240
+    },
+    {
+      "id": "bone-FMA52740",
+      "name": "Ethmoïde",
+      "originalName": "ethmoid",
+      "latin": "ethmoid",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA52740"
+      ],
+      "sourceIds": [
+        "FJ3199"
+      ],
+      "fmaId": "FMA52740",
+      "sourceTriangles": 22276,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA52734",
+      "name": "Os frontal",
+      "originalName": "frontal bone",
+      "latin": "frontal bone",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA52734"
+      ],
+      "sourceIds": [
+        "FJ3200"
+      ],
+      "fmaId": "FMA52734",
+      "sourceTriangles": 14510,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA8472",
+      "name": "Côte 10 · côté gauche",
+      "originalName": "left tenth rib",
+      "latin": "left tenth rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8472"
+      ],
+      "sourceIds": [
+        "FJ3225"
+      ],
+      "fmaId": "FMA8472",
+      "sourceTriangles": 6826,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA8532",
+      "name": "Côte 11 · côté gauche",
+      "originalName": "left eleventh rib",
+      "latin": "left eleventh rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8532"
+      ],
+      "sourceIds": [
+        "FJ3226"
+      ],
+      "fmaId": "FMA8532",
+      "sourceTriangles": 4866,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA8534",
+      "name": "Côte 12 · côté gauche",
+      "originalName": "left twelfth rib",
+      "latin": "left twelfth rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8534"
+      ],
+      "sourceIds": [
+        "FJ3227"
+      ],
+      "fmaId": "FMA8534",
+      "sourceTriangles": 2818,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA7987",
+      "name": "Côte 1 · côté gauche",
+      "originalName": "left first rib",
+      "latin": "left first rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA7987"
+      ],
+      "sourceIds": [
+        "FJ3228"
+      ],
+      "fmaId": "FMA7987",
+      "sourceTriangles": 3276,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA8012",
+      "name": "Côte 2 · côté gauche",
+      "originalName": "left second rib",
+      "latin": "left second rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8012"
+      ],
+      "sourceIds": [
+        "FJ3229"
+      ],
+      "fmaId": "FMA8012",
+      "sourceTriangles": 5594,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA8039",
+      "name": "Côte 3 · côté gauche",
+      "originalName": "left third rib",
+      "latin": "left third rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8039"
+      ],
+      "sourceIds": [
+        "FJ3230"
+      ],
+      "fmaId": "FMA8039",
+      "sourceTriangles": 7254,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA8148",
+      "name": "Côte 4 · côté gauche",
+      "originalName": "left fourth rib",
+      "latin": "left fourth rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8148"
+      ],
+      "sourceIds": [
+        "FJ3231"
+      ],
+      "fmaId": "FMA8148",
+      "sourceTriangles": 8850,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA8093",
+      "name": "Côte 5 · côté gauche",
+      "originalName": "left fifth rib",
+      "latin": "left fifth rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8093"
+      ],
+      "sourceIds": [
+        "FJ3232"
+      ],
+      "fmaId": "FMA8093",
+      "sourceTriangles": 9710,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA8202",
+      "name": "Côte 6 · côté gauche",
+      "originalName": "left sixth rib",
+      "latin": "left sixth rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8202"
+      ],
+      "sourceIds": [
+        "FJ3233"
+      ],
+      "fmaId": "FMA8202",
+      "sourceTriangles": 10264,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA8256",
+      "name": "Côte 7 · côté gauche",
+      "originalName": "left seventh rib",
+      "latin": "left seventh rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8256"
+      ],
+      "sourceIds": [
+        "FJ3234"
+      ],
+      "fmaId": "FMA8256",
+      "sourceTriangles": 10032,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA8310",
+      "name": "Côte 8 · côté gauche",
+      "originalName": "left eighth rib",
+      "latin": "left eighth rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8310"
+      ],
+      "sourceIds": [
+        "FJ3235"
+      ],
+      "fmaId": "FMA8310",
+      "sourceTriangles": 8336,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA8391",
+      "name": "Côte 9 · côté gauche",
+      "originalName": "left ninth rib",
+      "latin": "left ninth rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8391"
+      ],
+      "sourceIds": [
+        "FJ3236"
+      ],
+      "fmaId": "FMA8391",
+      "sourceTriangles": 7576,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA13323",
+      "name": "Clavicule · côté gauche",
+      "originalName": "left clavicle",
+      "latin": "left clavicle",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA13323"
+      ],
+      "sourceIds": [
+        "FJ3237"
+      ],
+      "fmaId": "FMA13323",
+      "sourceTriangles": 1176,
+      "triangles": 1176
+    },
+    {
+      "id": "bone-FMA24465",
+      "name": "Métacarpien 1 · côté gauche",
+      "originalName": "left first metacarpal bone",
+      "latin": "left first metacarpal bone",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24465"
+      ],
+      "sourceIds": [
+        "FJ3240"
+      ],
+      "fmaId": "FMA24465",
+      "sourceTriangles": 578,
+      "triangles": 578
+    },
+    {
+      "id": "bone-FMA24508",
+      "name": "Métatarsien 1 · côté gauche",
+      "originalName": "left first metatarsal bone",
+      "latin": "left first metatarsal bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24508"
+      ],
+      "sourceIds": [
+        "FJ3241"
+      ],
+      "fmaId": "FMA24508",
+      "sourceTriangles": 1172,
+      "triangles": 1172
+    },
+    {
+      "id": "bone-FMA24467",
+      "name": "Métacarpien 2 · côté gauche",
+      "originalName": "left second metacarpal bone",
+      "latin": "left second metacarpal bone",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24467"
+      ],
+      "sourceIds": [
+        "FJ3243"
+      ],
+      "fmaId": "FMA24467",
+      "sourceTriangles": 774,
+      "triangles": 774
+    },
+    {
+      "id": "bone-FMA24510",
+      "name": "Métatarsien 2 · côté gauche",
+      "originalName": "left second metatarsal bone",
+      "latin": "left second metatarsal bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24510"
+      ],
+      "sourceIds": [
+        "FJ3244"
+      ],
+      "fmaId": "FMA24510",
+      "sourceTriangles": 774,
+      "triangles": 774
+    },
+    {
+      "id": "bone-FMA24469",
+      "name": "Métacarpien 3 · côté gauche",
+      "originalName": "left third metacarpal bone",
+      "latin": "left third metacarpal bone",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24469"
+      ],
+      "sourceIds": [
+        "FJ3246"
+      ],
+      "fmaId": "FMA24469",
+      "sourceTriangles": 708,
+      "triangles": 708
+    },
+    {
+      "id": "bone-FMA24512",
+      "name": "Métatarsien 3 · côté gauche",
+      "originalName": "left third metatarsal bone",
+      "latin": "left third metatarsal bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24512"
+      ],
+      "sourceIds": [
+        "FJ3247"
+      ],
+      "fmaId": "FMA24512",
+      "sourceTriangles": 742,
+      "triangles": 742
+    },
+    {
+      "id": "bone-FMA24471",
+      "name": "Métacarpien 4 · côté gauche",
+      "originalName": "left fourth metacarpal bone",
+      "latin": "left fourth metacarpal bone",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24471"
+      ],
+      "sourceIds": [
+        "FJ3249"
+      ],
+      "fmaId": "FMA24471",
+      "sourceTriangles": 528,
+      "triangles": 528
+    },
+    {
+      "id": "bone-FMA24514",
+      "name": "Métatarsien 4 · côté gauche",
+      "originalName": "left fourth metatarsal bone",
+      "latin": "left fourth metatarsal bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24514"
+      ],
+      "sourceIds": [
+        "FJ3250"
+      ],
+      "fmaId": "FMA24514",
+      "sourceTriangles": 772,
+      "triangles": 772
+    },
+    {
+      "id": "bone-FMA24473",
+      "name": "Métacarpien 5 · côté gauche",
+      "originalName": "left fifth metacarpal bone",
+      "latin": "left fifth metacarpal bone",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24473"
+      ],
+      "sourceIds": [
+        "FJ3252"
+      ],
+      "fmaId": "FMA24473",
+      "sourceTriangles": 500,
+      "triangles": 500
+    },
+    {
+      "id": "bone-FMA24516",
+      "name": "Métatarsien 5 · côté gauche",
+      "originalName": "left fifth metatarsal bone",
+      "latin": "left fifth metatarsal bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24516"
+      ],
+      "sourceIds": [
+        "FJ3253"
+      ],
+      "fmaId": "FMA24516",
+      "sourceTriangles": 864,
+      "triangles": 864
+    },
+    {
+      "id": "bone-FMA24498",
+      "name": "Calcanéus · côté gauche",
+      "originalName": "left calcaneus",
+      "latin": "left calcaneus",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24498"
+      ],
+      "sourceIds": [
+        "FJ3256"
+      ],
+      "fmaId": "FMA24498",
+      "sourceTriangles": 1288,
+      "triangles": 1288
+    },
+    {
+      "id": "bone-FMA24447",
+      "name": "Grand os (capitatum) · côté gauche",
+      "originalName": "left capitate",
+      "latin": "left capitate",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24447"
+      ],
+      "sourceIds": [
+        "FJ3257"
+      ],
+      "fmaId": "FMA24447",
+      "sourceTriangles": 402,
+      "triangles": 402
+    },
+    {
+      "id": "bone-FMA24529",
+      "name": "Os cuboïde · côté gauche",
+      "originalName": "left cuboid bone",
+      "latin": "left cuboid bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24529"
+      ],
+      "sourceIds": [
+        "FJ3258"
+      ],
+      "fmaId": "FMA24529",
+      "sourceTriangles": 886,
+      "triangles": 886
+    },
+    {
+      "id": "bone-FMA24475",
+      "name": "Fémur · côté gauche",
+      "originalName": "left femur",
+      "latin": "left femur",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24475"
+      ],
+      "sourceIds": [
+        "FJ3259"
+      ],
+      "fmaId": "FMA24475",
+      "sourceTriangles": 3204,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA24481",
+      "name": "Fibula · côté gauche",
+      "originalName": "left fibula",
+      "latin": "left fibula",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24481"
+      ],
+      "sourceIds": [
+        "FJ3260"
+      ],
+      "fmaId": "FMA24481",
+      "sourceTriangles": 1124,
+      "triangles": 1124
+    },
+    {
+      "id": "bone-FMA24449",
+      "name": "Os crochu (hamatum) · côté gauche",
+      "originalName": "left hamate",
+      "latin": "left hamate",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24449"
+      ],
+      "sourceIds": [
+        "FJ3261"
+      ],
+      "fmaId": "FMA24449",
+      "sourceTriangles": 452,
+      "triangles": 452
+    },
+    {
+      "id": "bone-FMA23131",
+      "name": "Humérus · côté gauche",
+      "originalName": "left humerus",
+      "latin": "left humerus",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23131"
+      ],
+      "sourceIds": [
+        "FJ3262"
+      ],
+      "fmaId": "FMA23131",
+      "sourceTriangles": 3844,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA54738",
+      "name": "Cornet nasal inférieur · côté gauche",
+      "originalName": "left inferior nasal concha",
+      "latin": "left inferior nasal concha",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA54738"
+      ],
+      "sourceIds": [
+        "FJ3263"
+      ],
+      "fmaId": "FMA54738",
+      "sourceTriangles": 738,
+      "triangles": 738
+    },
+    {
+      "id": "bone-FMA24524",
+      "name": "Os cunéiforme intermédiaire · côté gauche",
+      "originalName": "left intermediate cuneiform bone",
+      "latin": "left intermediate cuneiform bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24524"
+      ],
+      "sourceIds": [
+        "FJ3264"
+      ],
+      "fmaId": "FMA24524",
+      "sourceTriangles": 466,
+      "triangles": 466
+    },
+    {
+      "id": "bone-FMA53646",
+      "name": "Os lacrymal · côté gauche",
+      "originalName": "left lacrimal bone",
+      "latin": "left lacrimal bone",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA53646"
+      ],
+      "sourceIds": [
+        "FJ3265"
+      ],
+      "fmaId": "FMA53646",
+      "sourceTriangles": 640,
+      "triangles": 640
+    },
+    {
+      "id": "bone-FMA45098",
+      "name": "Os sésamoïde du pied · côté gauche",
+      "originalName": "sesamoid bone of left foot",
+      "latin": "sesamoid bone of left foot",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA45098"
+      ],
+      "sourceIds": [
+        "FJ3266",
+        "FJ3270"
+      ],
+      "fmaId": "FMA45098",
+      "sourceTriangles": 244,
+      "triangles": 244
+    },
+    {
+      "id": "bone-FMA24526",
+      "name": "Os cunéiforme latéral · côté gauche",
+      "originalName": "left lateral cuneiform bone",
+      "latin": "left lateral cuneiform bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24526"
+      ],
+      "sourceIds": [
+        "FJ3267"
+      ],
+      "fmaId": "FMA24526",
+      "sourceTriangles": 680,
+      "triangles": 680
+    },
+    {
+      "id": "bone-FMA24438",
+      "name": "Os lunatum · côté gauche",
+      "originalName": "left lunate",
+      "latin": "left lunate",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24438"
+      ],
+      "sourceIds": [
+        "FJ3268"
+      ],
+      "fmaId": "FMA24438",
+      "sourceTriangles": 314,
+      "triangles": 314
+    },
+    {
+      "id": "bone-FMA53650",
+      "name": "Maxillaire · côté gauche",
+      "originalName": "left maxilla",
+      "latin": "left maxilla",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA53650"
+      ],
+      "sourceIds": [
+        "FJ3269"
+      ],
+      "fmaId": "FMA53650",
+      "sourceTriangles": 5198,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA24522",
+      "name": "Os cunéiforme médial · côté gauche",
+      "originalName": "left medial cuneiform bone",
+      "latin": "left medial cuneiform bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24522"
+      ],
+      "sourceIds": [
+        "FJ3271"
+      ],
+      "fmaId": "FMA24522",
+      "sourceTriangles": 996,
+      "triangles": 996
+    },
+    {
+      "id": "bone-FMA53648",
+      "name": "Os nasal · côté gauche",
+      "originalName": "left nasal bone",
+      "latin": "left nasal bone",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA53648"
+      ],
+      "sourceIds": [
+        "FJ3272"
+      ],
+      "fmaId": "FMA53648",
+      "sourceTriangles": 438,
+      "triangles": 438
+    },
+    {
+      "id": "bone-FMA53656",
+      "name": "Os palatin · côté gauche",
+      "originalName": "left palatine bone",
+      "latin": "left palatine bone",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA53656"
+      ],
+      "sourceIds": [
+        "FJ3273"
+      ],
+      "fmaId": "FMA53656",
+      "sourceTriangles": 1938,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA52789",
+      "name": "Os pariétal · côté gauche",
+      "originalName": "left parietal bone",
+      "latin": "left parietal bone",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA52789"
+      ],
+      "sourceIds": [
+        "FJ3274"
+      ],
+      "fmaId": "FMA52789",
+      "sourceTriangles": 13210,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA24487",
+      "name": "Patella (rotule) · côté gauche",
+      "originalName": "left patella",
+      "latin": "left patella",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24487"
+      ],
+      "sourceIds": [
+        "FJ3275"
+      ],
+      "fmaId": "FMA24487",
+      "sourceTriangles": 310,
+      "triangles": 310
+    },
+    {
+      "id": "bone-FMA24442",
+      "name": "Os pisiforme · côté gauche",
+      "originalName": "left pisiform",
+      "latin": "left pisiform",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24442"
+      ],
+      "sourceIds": [
+        "FJ3276"
+      ],
+      "fmaId": "FMA24442",
+      "sourceTriangles": 210,
+      "triangles": 210
+    },
+    {
+      "id": "bone-FMA23465",
+      "name": "Radius · côté gauche",
+      "originalName": "left radius",
+      "latin": "left radius",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23465"
+      ],
+      "sourceIds": [
+        "FJ3277"
+      ],
+      "fmaId": "FMA23465",
+      "sourceTriangles": 632,
+      "triangles": 632
+    },
+    {
+      "id": "bone-FMA24436",
+      "name": "Scaphoïde · côté gauche",
+      "originalName": "left scaphoid",
+      "latin": "left scaphoid",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24436"
+      ],
+      "sourceIds": [
+        "FJ3278"
+      ],
+      "fmaId": "FMA24436",
+      "sourceTriangles": 312,
+      "triangles": 312
+    },
+    {
+      "id": "bone-FMA13396",
+      "name": "Scapula (omoplate) · côté gauche",
+      "originalName": "left scapula",
+      "latin": "left scapula",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA13396"
+      ],
+      "sourceIds": [
+        "FJ3279"
+      ],
+      "fmaId": "FMA13396",
+      "sourceTriangles": 28106,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA24483",
+      "name": "Talus · côté gauche",
+      "originalName": "left talus",
+      "latin": "left talus",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24483"
+      ],
+      "sourceIds": [
+        "FJ3280"
+      ],
+      "fmaId": "FMA24483",
+      "sourceTriangles": 1356,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA52739",
+      "name": "Os temporal · côté gauche",
+      "originalName": "left temporal bone",
+      "latin": "left temporal bone",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA52739"
+      ],
+      "sourceIds": [
+        "FJ3281"
+      ],
+      "fmaId": "FMA52739",
+      "sourceTriangles": 4936,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA24478",
+      "name": "Tibia · côté gauche",
+      "originalName": "left tibia",
+      "latin": "left tibia",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24478"
+      ],
+      "sourceIds": [
+        "FJ3282"
+      ],
+      "fmaId": "FMA24478",
+      "sourceTriangles": 1692,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA24444",
+      "name": "Os trapèze · côté gauche",
+      "originalName": "left trapezium",
+      "latin": "left trapezium",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24444"
+      ],
+      "sourceIds": [
+        "FJ3283"
+      ],
+      "fmaId": "FMA24444",
+      "sourceTriangles": 356,
+      "triangles": 356
+    },
+    {
+      "id": "bone-FMA24445",
+      "name": "Os trapézoïde · côté gauche",
+      "originalName": "left trapezoid",
+      "latin": "left trapezoid",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24445"
+      ],
+      "sourceIds": [
+        "FJ3284"
+      ],
+      "fmaId": "FMA24445",
+      "sourceTriangles": 398,
+      "triangles": 398
+    },
+    {
+      "id": "bone-FMA24440",
+      "name": "Os triquétrum · côté gauche",
+      "originalName": "left triquetral",
+      "latin": "left triquetral",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24440"
+      ],
+      "sourceIds": [
+        "FJ3285"
+      ],
+      "fmaId": "FMA24440",
+      "sourceTriangles": 304,
+      "triangles": 304
+    },
+    {
+      "id": "bone-FMA23468",
+      "name": "Ulna · côté gauche",
+      "originalName": "left ulna",
+      "latin": "left ulna",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23468"
+      ],
+      "sourceIds": [
+        "FJ3286"
+      ],
+      "fmaId": "FMA23468",
+      "sourceTriangles": 824,
+      "triangles": 824
+    },
+    {
+      "id": "bone-FMA52893",
+      "name": "Os zygomatique · côté gauche",
+      "originalName": "left zygomatic bone",
+      "latin": "left zygomatic bone",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA52893"
+      ],
+      "sourceIds": [
+        "FJ3287"
+      ],
+      "fmaId": "FMA52893",
+      "sourceTriangles": 1434,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA16587",
+      "name": "Os coxal · côté gauche",
+      "originalName": "left hip bone",
+      "latin": "left hip bone",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA16587"
+      ],
+      "sourceIds": [
+        "FJ3288"
+      ],
+      "fmaId": "FMA16587",
+      "sourceTriangles": 2332,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA52748",
+      "name": "Mandibule",
+      "originalName": "mandible",
+      "latin": "mandible",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA52748"
+      ],
+      "sourceIds": [
+        "FJ3289"
+      ],
+      "fmaId": "FMA52748",
+      "sourceTriangles": 5576,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA23942",
+      "name": "Phalange moyenne — annulaire · côté gauche",
+      "originalName": "middle phalanx of left ring finger",
+      "latin": "middle phalanx of left ring finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23942"
+      ],
+      "sourceIds": [
+        "FJ3291"
+      ],
+      "fmaId": "FMA23942",
+      "sourceTriangles": 340,
+      "triangles": 340
+    },
+    {
+      "id": "bone-FMA24457",
+      "name": "Phalange moyenne — annulaire · côté droit",
+      "originalName": "middle phalanx of right ring finger",
+      "latin": "middle phalanx of right ring finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24457"
+      ],
+      "sourceIds": [
+        "FJ3292"
+      ],
+      "fmaId": "FMA24457",
+      "sourceTriangles": 316,
+      "triangles": 316
+    },
+    {
+      "id": "bone-FMA32643",
+      "name": "Phalange moyenne — 2e orteil · côté gauche",
+      "originalName": "middle phalanx of left second toe",
+      "latin": "middle phalanx of left second toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32643"
+      ],
+      "sourceIds": [
+        "FJ3293"
+      ],
+      "fmaId": "FMA32643",
+      "sourceTriangles": 324,
+      "triangles": 324
+    },
+    {
+      "id": "bone-FMA32645",
+      "name": "Phalange moyenne — 3e orteil · côté gauche",
+      "originalName": "middle phalanx of left third toe",
+      "latin": "middle phalanx of left third toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32645"
+      ],
+      "sourceIds": [
+        "FJ3294"
+      ],
+      "fmaId": "FMA32645",
+      "sourceTriangles": 294,
+      "triangles": 294
+    },
+    {
+      "id": "bone-FMA32647",
+      "name": "Phalange moyenne — 4e orteil · côté gauche",
+      "originalName": "middle phalanx of left fourth toe",
+      "latin": "middle phalanx of left fourth toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32647"
+      ],
+      "sourceIds": [
+        "FJ3295"
+      ],
+      "fmaId": "FMA32647",
+      "sourceTriangles": 284,
+      "triangles": 284
+    },
+    {
+      "id": "bone-FMA23938",
+      "name": "Phalange moyenne — index · côté gauche",
+      "originalName": "middle phalanx of left index finger",
+      "latin": "middle phalanx of left index finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23938"
+      ],
+      "sourceIds": [
+        "FJ3296"
+      ],
+      "fmaId": "FMA23938",
+      "sourceTriangles": 306,
+      "triangles": 306
+    },
+    {
+      "id": "bone-FMA23944",
+      "name": "Phalange moyenne — auriculaire · côté gauche",
+      "originalName": "middle phalanx of left little finger",
+      "latin": "middle phalanx of left little finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23944"
+      ],
+      "sourceIds": [
+        "FJ3297"
+      ],
+      "fmaId": "FMA23944",
+      "sourceTriangles": 254,
+      "triangles": 254
+    },
+    {
+      "id": "bone-FMA230988",
+      "name": "Phalange moyenne — petit orteil · côté gauche",
+      "originalName": "middle phalanx of left little toe",
+      "latin": "middle phalanx of left little toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA230988"
+      ],
+      "sourceIds": [
+        "FJ3298"
+      ],
+      "fmaId": "FMA230988",
+      "sourceTriangles": 226,
+      "triangles": 226
+    },
+    {
+      "id": "bone-FMA23940",
+      "name": "Phalange moyenne — majeur · côté gauche",
+      "originalName": "middle phalanx of left middle finger",
+      "latin": "middle phalanx of left middle finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23940"
+      ],
+      "sourceIds": [
+        "FJ3299"
+      ],
+      "fmaId": "FMA23940",
+      "sourceTriangles": 384,
+      "triangles": 384
+    },
+    {
+      "id": "bone-FMA32642",
+      "name": "Phalange moyenne — 2e orteil · côté droit",
+      "originalName": "middle phalanx of right second toe",
+      "latin": "middle phalanx of right second toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32642"
+      ],
+      "sourceIds": [
+        "FJ3300"
+      ],
+      "fmaId": "FMA32642",
+      "sourceTriangles": 264,
+      "triangles": 264
+    },
+    {
+      "id": "bone-FMA32644",
+      "name": "Phalange moyenne — 3e orteil · côté droit",
+      "originalName": "middle phalanx of right third toe",
+      "latin": "middle phalanx of right third toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32644"
+      ],
+      "sourceIds": [
+        "FJ3301"
+      ],
+      "fmaId": "FMA32644",
+      "sourceTriangles": 292,
+      "triangles": 292
+    },
+    {
+      "id": "bone-FMA32646",
+      "name": "Phalange moyenne — 4e orteil · côté droit",
+      "originalName": "middle phalanx of right fourth toe",
+      "latin": "middle phalanx of right fourth toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32646"
+      ],
+      "sourceIds": [
+        "FJ3302"
+      ],
+      "fmaId": "FMA32646",
+      "sourceTriangles": 350,
+      "triangles": 350
+    },
+    {
+      "id": "bone-FMA24455",
+      "name": "Phalange moyenne — index · côté droit",
+      "originalName": "middle phalanx of right index finger",
+      "latin": "middle phalanx of right index finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24455"
+      ],
+      "sourceIds": [
+        "FJ3303"
+      ],
+      "fmaId": "FMA24455",
+      "sourceTriangles": 264,
+      "triangles": 264
+    },
+    {
+      "id": "bone-FMA24458",
+      "name": "Phalange moyenne — auriculaire · côté droit",
+      "originalName": "middle phalanx of right little finger",
+      "latin": "middle phalanx of right little finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24458"
+      ],
+      "sourceIds": [
+        "FJ3304"
+      ],
+      "fmaId": "FMA24458",
+      "sourceTriangles": 208,
+      "triangles": 208
+    },
+    {
+      "id": "bone-FMA230986",
+      "name": "Phalange moyenne — petit orteil · côté droit",
+      "originalName": "middle phalanx of right little toe",
+      "latin": "middle phalanx of right little toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA230986"
+      ],
+      "sourceIds": [
+        "FJ3305"
+      ],
+      "fmaId": "FMA230986",
+      "sourceTriangles": 136,
+      "triangles": 136
+    },
+    {
+      "id": "bone-FMA24456",
+      "name": "Phalange moyenne — majeur · côté droit",
+      "originalName": "middle phalanx of right middle finger",
+      "latin": "middle phalanx of right middle finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24456"
+      ],
+      "sourceIds": [
+        "FJ3306"
+      ],
+      "fmaId": "FMA24456",
+      "sourceTriangles": 342,
+      "triangles": 342
+    },
+    {
+      "id": "bone-FMA24501",
+      "name": "Os naviculaire du pied · côté gauche",
+      "originalName": "navicular bone of left foot",
+      "latin": "navicular bone of left foot",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24501"
+      ],
+      "sourceIds": [
+        "FJ3307"
+      ],
+      "fmaId": "FMA24501",
+      "sourceTriangles": 744,
+      "triangles": 744
+    },
+    {
+      "id": "bone-FMA24500",
+      "name": "Os naviculaire du pied · côté droit",
+      "originalName": "navicular bone of right foot",
+      "latin": "navicular bone of right foot",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24500"
+      ],
+      "sourceIds": [
+        "FJ3308"
+      ],
+      "fmaId": "FMA24500",
+      "sourceTriangles": 716,
+      "triangles": 716
+    },
+    {
+      "id": "bone-FMA52735",
+      "name": "Os occipital",
+      "originalName": "occipital bone",
+      "latin": "occipital bone",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA52735"
+      ],
+      "sourceIds": [
+        "FJ3309"
+      ],
+      "fmaId": "FMA52735",
+      "sourceTriangles": 12450,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA43253",
+      "name": "Phalange proximale — gros orteil · côté droit",
+      "originalName": "proximal phalanx of right big toe",
+      "latin": "proximal phalanx of right big toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA43253"
+      ],
+      "sourceIds": [
+        "FJ3310"
+      ],
+      "fmaId": "FMA43253",
+      "sourceTriangles": 486,
+      "triangles": 486
+    },
+    {
+      "id": "bone-FMA32637",
+      "name": "Phalange proximale — 3e orteil · côté gauche",
+      "originalName": "proximal phalanx of left third toe",
+      "latin": "proximal phalanx of left third toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32637"
+      ],
+      "sourceIds": [
+        "FJ3311"
+      ],
+      "fmaId": "FMA32637",
+      "sourceTriangles": 408,
+      "triangles": 408
+    },
+    {
+      "id": "bone-FMA32639",
+      "name": "Phalange proximale — 4e orteil · côté gauche",
+      "originalName": "proximal phalanx of left fourth toe",
+      "latin": "proximal phalanx of left fourth toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32639"
+      ],
+      "sourceIds": [
+        "FJ3312"
+      ],
+      "fmaId": "FMA32639",
+      "sourceTriangles": 438,
+      "triangles": 438
+    },
+    {
+      "id": "bone-FMA71915",
+      "name": "Phalange proximale — index · côté gauche",
+      "originalName": "proximal phalanx of left index finger",
+      "latin": "proximal phalanx of left index finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA71915"
+      ],
+      "sourceIds": [
+        "FJ3313"
+      ],
+      "fmaId": "FMA71915",
+      "sourceTriangles": 392,
+      "triangles": 392
+    },
+    {
+      "id": "bone-FMA66791",
+      "name": "Phalange proximale — auriculaire · côté gauche",
+      "originalName": "proximal phalanx of left little finger",
+      "latin": "proximal phalanx of left little finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA66791"
+      ],
+      "sourceIds": [
+        "FJ3314"
+      ],
+      "fmaId": "FMA66791",
+      "sourceTriangles": 274,
+      "triangles": 274
+    },
+    {
+      "id": "bone-FMA32641",
+      "name": "Phalange proximale — petit orteil · côté gauche",
+      "originalName": "proximal phalanx of left little toe",
+      "latin": "proximal phalanx of left little toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32641"
+      ],
+      "sourceIds": [
+        "FJ3315"
+      ],
+      "fmaId": "FMA32641",
+      "sourceTriangles": 396,
+      "triangles": 396
+    },
+    {
+      "id": "bone-FMA71908",
+      "name": "Phalange proximale — majeur · côté gauche",
+      "originalName": "proximal phalanx of left middle finger",
+      "latin": "proximal phalanx of left middle finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA71908"
+      ],
+      "sourceIds": [
+        "FJ3316"
+      ],
+      "fmaId": "FMA71908",
+      "sourceTriangles": 460,
+      "triangles": 460
+    },
+    {
+      "id": "bone-FMA71916",
+      "name": "Phalange proximale — annulaire · côté gauche",
+      "originalName": "proximal phalanx of left ring finger",
+      "latin": "proximal phalanx of left ring finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA71916"
+      ],
+      "sourceIds": [
+        "FJ3317"
+      ],
+      "fmaId": "FMA71916",
+      "sourceTriangles": 376,
+      "triangles": 376
+    },
+    {
+      "id": "bone-FMA65470",
+      "name": "Phalange proximale — pouce · côté gauche",
+      "originalName": "proximal phalanx of left thumb",
+      "latin": "proximal phalanx of left thumb",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA65470"
+      ],
+      "sourceIds": [
+        "FJ3318"
+      ],
+      "fmaId": "FMA65470",
+      "sourceTriangles": 346,
+      "triangles": 346
+    },
+    {
+      "id": "bone-FMA32634",
+      "name": "Phalange proximale — 2e orteil · côté droit",
+      "originalName": "proximal phalanx of right second toe",
+      "latin": "proximal phalanx of right second toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32634"
+      ],
+      "sourceIds": [
+        "FJ3319"
+      ],
+      "fmaId": "FMA32634",
+      "sourceTriangles": 414,
+      "triangles": 414
+    },
+    {
+      "id": "bone-FMA32636",
+      "name": "Phalange proximale — 3e orteil · côté droit",
+      "originalName": "proximal phalanx of right third toe",
+      "latin": "proximal phalanx of right third toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32636"
+      ],
+      "sourceIds": [
+        "FJ3320"
+      ],
+      "fmaId": "FMA32636",
+      "sourceTriangles": 422,
+      "triangles": 422
+    },
+    {
+      "id": "bone-FMA32638",
+      "name": "Phalange proximale — 4e orteil · côté droit",
+      "originalName": "proximal phalanx of right fourth toe",
+      "latin": "proximal phalanx of right fourth toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32638"
+      ],
+      "sourceIds": [
+        "FJ3321"
+      ],
+      "fmaId": "FMA32638",
+      "sourceTriangles": 438,
+      "triangles": 438
+    },
+    {
+      "id": "bone-FMA24451",
+      "name": "Phalange proximale — index · côté droit",
+      "originalName": "proximal phalanx of right index finger",
+      "latin": "proximal phalanx of right index finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24451"
+      ],
+      "sourceIds": [
+        "FJ3322"
+      ],
+      "fmaId": "FMA24451",
+      "sourceTriangles": 386,
+      "triangles": 386
+    },
+    {
+      "id": "bone-FMA24454",
+      "name": "Phalange proximale — auriculaire · côté droit",
+      "originalName": "proximal phalanx of right little finger",
+      "latin": "proximal phalanx of right little finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24454"
+      ],
+      "sourceIds": [
+        "FJ3323"
+      ],
+      "fmaId": "FMA24454",
+      "sourceTriangles": 314,
+      "triangles": 314
+    },
+    {
+      "id": "bone-FMA32640",
+      "name": "Phalange proximale — petit orteil · côté droit",
+      "originalName": "proximal phalanx of right little toe",
+      "latin": "proximal phalanx of right little toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32640"
+      ],
+      "sourceIds": [
+        "FJ3324"
+      ],
+      "fmaId": "FMA32640",
+      "sourceTriangles": 406,
+      "triangles": 406
+    },
+    {
+      "id": "bone-FMA24452",
+      "name": "Phalange proximale — majeur · côté droit",
+      "originalName": "proximal phalanx of right middle finger",
+      "latin": "proximal phalanx of right middle finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24452"
+      ],
+      "sourceIds": [
+        "FJ3325"
+      ],
+      "fmaId": "FMA24452",
+      "sourceTriangles": 458,
+      "triangles": 458
+    },
+    {
+      "id": "bone-FMA24453",
+      "name": "Phalange proximale — annulaire · côté droit",
+      "originalName": "proximal phalanx of right ring finger",
+      "latin": "proximal phalanx of right ring finger",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24453"
+      ],
+      "sourceIds": [
+        "FJ3326"
+      ],
+      "fmaId": "FMA24453",
+      "sourceTriangles": 376,
+      "triangles": 376
+    },
+    {
+      "id": "bone-FMA24450",
+      "name": "Phalange proximale — pouce · côté droit",
+      "originalName": "proximal phalanx of right thumb",
+      "latin": "proximal phalanx of right thumb",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24450"
+      ],
+      "sourceIds": [
+        "FJ3327"
+      ],
+      "fmaId": "FMA24450",
+      "sourceTriangles": 318,
+      "triangles": 318
+    },
+    {
+      "id": "bone-FMA32635",
+      "name": "Phalange proximale — 2e orteil · côté gauche",
+      "originalName": "proximal phalanx of left second toe",
+      "latin": "proximal phalanx of left second toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA32635"
+      ],
+      "sourceIds": [
+        "FJ3328"
+      ],
+      "fmaId": "FMA32635",
+      "sourceTriangles": 380,
+      "triangles": 380
+    },
+    {
+      "id": "bone-FMA43254",
+      "name": "Phalange proximale — gros orteil · côté gauche",
+      "originalName": "proximal phalanx of left big toe",
+      "latin": "proximal phalanx of left big toe",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA43254"
+      ],
+      "sourceIds": [
+        "FJ3329"
+      ],
+      "fmaId": "FMA43254",
+      "sourceTriangles": 516,
+      "triangles": 516
+    },
+    {
+      "id": "bone-FMA8445",
+      "name": "Côte 10 · côté droit",
+      "originalName": "right tenth rib",
+      "latin": "right tenth rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8445"
+      ],
+      "sourceIds": [
+        "FJ3330"
+      ],
+      "fmaId": "FMA8445",
+      "sourceTriangles": 6820,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA8531",
+      "name": "Côte 11 · côté droit",
+      "originalName": "right eleventh rib",
+      "latin": "right eleventh rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8531"
+      ],
+      "sourceIds": [
+        "FJ3331"
+      ],
+      "fmaId": "FMA8531",
+      "sourceTriangles": 4866,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA8533",
+      "name": "Côte 12 · côté droit",
+      "originalName": "right twelfth rib",
+      "latin": "right twelfth rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8533"
+      ],
+      "sourceIds": [
+        "FJ3332"
+      ],
+      "fmaId": "FMA8533",
+      "sourceTriangles": 2818,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA7857",
+      "name": "Côte 1 · côté droit",
+      "originalName": "right first rib",
+      "latin": "right first rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA7857"
+      ],
+      "sourceIds": [
+        "FJ3334"
+      ],
+      "fmaId": "FMA7857",
+      "sourceTriangles": 3276,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA7882",
+      "name": "Côte 2 · côté droit",
+      "originalName": "right second rib",
+      "latin": "right second rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA7882"
+      ],
+      "sourceIds": [
+        "FJ3336"
+      ],
+      "fmaId": "FMA7882",
+      "sourceTriangles": 5594,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA7909",
+      "name": "Côte 3 · côté droit",
+      "originalName": "right third rib",
+      "latin": "right third rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA7909"
+      ],
+      "sourceIds": [
+        "FJ3338"
+      ],
+      "fmaId": "FMA7909",
+      "sourceTriangles": 7254,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA7957",
+      "name": "Côte 4 · côté droit",
+      "originalName": "right fourth rib",
+      "latin": "right fourth rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA7957"
+      ],
+      "sourceIds": [
+        "FJ3340"
+      ],
+      "fmaId": "FMA7957",
+      "sourceTriangles": 8832,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA8066",
+      "name": "Côte 5 · côté droit",
+      "originalName": "right fifth rib",
+      "latin": "right fifth rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8066"
+      ],
+      "sourceIds": [
+        "FJ3342"
+      ],
+      "fmaId": "FMA8066",
+      "sourceTriangles": 9710,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA8175",
+      "name": "Côte 6 · côté droit",
+      "originalName": "right sixth rib",
+      "latin": "right sixth rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8175"
+      ],
+      "sourceIds": [
+        "FJ3344"
+      ],
+      "fmaId": "FMA8175",
+      "sourceTriangles": 10246,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA8229",
+      "name": "Côte 7 · côté droit",
+      "originalName": "right seventh rib",
+      "latin": "right seventh rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8229"
+      ],
+      "sourceIds": [
+        "FJ3346"
+      ],
+      "fmaId": "FMA8229",
+      "sourceTriangles": 10032,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA8283",
+      "name": "Côte 8 · côté droit",
+      "originalName": "right eighth rib",
+      "latin": "right eighth rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8283"
+      ],
+      "sourceIds": [
+        "FJ3347"
+      ],
+      "fmaId": "FMA8283",
+      "sourceTriangles": 8336,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA8364",
+      "name": "Côte 9 · côté droit",
+      "originalName": "right ninth rib",
+      "latin": "right ninth rib",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA8364"
+      ],
+      "sourceIds": [
+        "FJ3348"
+      ],
+      "fmaId": "FMA8364",
+      "sourceTriangles": 7576,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA23464",
+      "name": "Radius · côté droit",
+      "originalName": "right radius",
+      "latin": "right radius",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23464"
+      ],
+      "sourceIds": [
+        "FJ3349"
+      ],
+      "fmaId": "FMA23464",
+      "sourceTriangles": 672,
+      "triangles": 672
+    },
+    {
+      "id": "bone-FMA24464",
+      "name": "Métacarpien 1 · côté droit",
+      "originalName": "right first metacarpal bone",
+      "latin": "right first metacarpal bone",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24464"
+      ],
+      "sourceIds": [
+        "FJ3350"
+      ],
+      "fmaId": "FMA24464",
+      "sourceTriangles": 566,
+      "triangles": 566
+    },
+    {
+      "id": "bone-FMA24507",
+      "name": "Métatarsien 1 · côté droit",
+      "originalName": "right first metatarsal bone",
+      "latin": "right first metatarsal bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24507"
+      ],
+      "sourceIds": [
+        "FJ3351"
+      ],
+      "fmaId": "FMA24507",
+      "sourceTriangles": 1122,
+      "triangles": 1122
+    },
+    {
+      "id": "bone-FMA24466",
+      "name": "Métacarpien 2 · côté droit",
+      "originalName": "right second metacarpal bone",
+      "latin": "right second metacarpal bone",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24466"
+      ],
+      "sourceIds": [
+        "FJ3352"
+      ],
+      "fmaId": "FMA24466",
+      "sourceTriangles": 748,
+      "triangles": 748
+    },
+    {
+      "id": "bone-FMA24509",
+      "name": "Métatarsien 2 · côté droit",
+      "originalName": "right second metatarsal bone",
+      "latin": "right second metatarsal bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24509"
+      ],
+      "sourceIds": [
+        "FJ3353"
+      ],
+      "fmaId": "FMA24509",
+      "sourceTriangles": 752,
+      "triangles": 752
+    },
+    {
+      "id": "bone-FMA24468",
+      "name": "Métacarpien 3 · côté droit",
+      "originalName": "right third metacarpal bone",
+      "latin": "right third metacarpal bone",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24468"
+      ],
+      "sourceIds": [
+        "FJ3354"
+      ],
+      "fmaId": "FMA24468",
+      "sourceTriangles": 702,
+      "triangles": 702
+    },
+    {
+      "id": "bone-FMA24511",
+      "name": "Métatarsien 3 · côté droit",
+      "originalName": "right third metatarsal bone",
+      "latin": "right third metatarsal bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24511"
+      ],
+      "sourceIds": [
+        "FJ3355"
+      ],
+      "fmaId": "FMA24511",
+      "sourceTriangles": 700,
+      "triangles": 700
+    },
+    {
+      "id": "bone-FMA24470",
+      "name": "Métacarpien 4 · côté droit",
+      "originalName": "right fourth metacarpal bone",
+      "latin": "right fourth metacarpal bone",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24470"
+      ],
+      "sourceIds": [
+        "FJ3356"
+      ],
+      "fmaId": "FMA24470",
+      "sourceTriangles": 536,
+      "triangles": 536
+    },
+    {
+      "id": "bone-FMA24513",
+      "name": "Métatarsien 4 · côté droit",
+      "originalName": "right fourth metatarsal bone",
+      "latin": "right fourth metatarsal bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24513"
+      ],
+      "sourceIds": [
+        "FJ3357"
+      ],
+      "fmaId": "FMA24513",
+      "sourceTriangles": 674,
+      "triangles": 674
+    },
+    {
+      "id": "bone-FMA24472",
+      "name": "Métacarpien 5 · côté droit",
+      "originalName": "right fifth metacarpal bone",
+      "latin": "right fifth metacarpal bone",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24472"
+      ],
+      "sourceIds": [
+        "FJ3358"
+      ],
+      "fmaId": "FMA24472",
+      "sourceTriangles": 506,
+      "triangles": 506
+    },
+    {
+      "id": "bone-FMA24515",
+      "name": "Métatarsien 5 · côté droit",
+      "originalName": "right fifth metatarsal bone",
+      "latin": "right fifth metatarsal bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24515"
+      ],
+      "sourceIds": [
+        "FJ3359"
+      ],
+      "fmaId": "FMA24515",
+      "sourceTriangles": 794,
+      "triangles": 794
+    },
+    {
+      "id": "bone-FMA24497",
+      "name": "Calcanéus · côté droit",
+      "originalName": "right calcaneus",
+      "latin": "right calcaneus",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24497"
+      ],
+      "sourceIds": [
+        "FJ3360"
+      ],
+      "fmaId": "FMA24497",
+      "sourceTriangles": 1262,
+      "triangles": 1262
+    },
+    {
+      "id": "bone-FMA24446",
+      "name": "Grand os (capitatum) · côté droit",
+      "originalName": "right capitate",
+      "latin": "right capitate",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24446"
+      ],
+      "sourceIds": [
+        "FJ3361"
+      ],
+      "fmaId": "FMA24446",
+      "sourceTriangles": 428,
+      "triangles": 428
+    },
+    {
+      "id": "bone-FMA13322",
+      "name": "Clavicule · côté droit",
+      "originalName": "right clavicle",
+      "latin": "right clavicle",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA13322"
+      ],
+      "sourceIds": [
+        "FJ3362"
+      ],
+      "fmaId": "FMA13322",
+      "sourceTriangles": 1146,
+      "triangles": 1146
+    },
+    {
+      "id": "bone-FMA24528",
+      "name": "Os cuboïde · côté droit",
+      "originalName": "right cuboid bone",
+      "latin": "right cuboid bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24528"
+      ],
+      "sourceIds": [
+        "FJ3364"
+      ],
+      "fmaId": "FMA24528",
+      "sourceTriangles": 932,
+      "triangles": 932
+    },
+    {
+      "id": "bone-FMA24474",
+      "name": "Fémur · côté droit",
+      "originalName": "right femur",
+      "latin": "right femur",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24474"
+      ],
+      "sourceIds": [
+        "FJ3365"
+      ],
+      "fmaId": "FMA24474",
+      "sourceTriangles": 3102,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA24480",
+      "name": "Fibula · côté droit",
+      "originalName": "right fibula",
+      "latin": "right fibula",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24480"
+      ],
+      "sourceIds": [
+        "FJ3366"
+      ],
+      "fmaId": "FMA24480",
+      "sourceTriangles": 1142,
+      "triangles": 1142
+    },
+    {
+      "id": "bone-FMA24448",
+      "name": "Os crochu (hamatum) · côté droit",
+      "originalName": "right hamate",
+      "latin": "right hamate",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24448"
+      ],
+      "sourceIds": [
+        "FJ3367"
+      ],
+      "fmaId": "FMA24448",
+      "sourceTriangles": 522,
+      "triangles": 522
+    },
+    {
+      "id": "bone-FMA23130",
+      "name": "Humérus · côté droit",
+      "originalName": "right humerus",
+      "latin": "right humerus",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23130"
+      ],
+      "sourceIds": [
+        "FJ3368"
+      ],
+      "fmaId": "FMA23130",
+      "sourceTriangles": 3784,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA54737",
+      "name": "Cornet nasal inférieur · côté droit",
+      "originalName": "right inferior nasal concha",
+      "latin": "right inferior nasal concha",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA54737"
+      ],
+      "sourceIds": [
+        "FJ3369"
+      ],
+      "fmaId": "FMA54737",
+      "sourceTriangles": 714,
+      "triangles": 714
+    },
+    {
+      "id": "bone-FMA24523",
+      "name": "Os cunéiforme intermédiaire · côté droit",
+      "originalName": "right intermediate cuneiform bone",
+      "latin": "right intermediate cuneiform bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24523"
+      ],
+      "sourceIds": [
+        "FJ3370"
+      ],
+      "fmaId": "FMA24523",
+      "sourceTriangles": 450,
+      "triangles": 450
+    },
+    {
+      "id": "bone-FMA53645",
+      "name": "Os lacrymal · côté droit",
+      "originalName": "right lacrimal bone",
+      "latin": "right lacrimal bone",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA53645"
+      ],
+      "sourceIds": [
+        "FJ3371"
+      ],
+      "fmaId": "FMA53645",
+      "sourceTriangles": 702,
+      "triangles": 702
+    },
+    {
+      "id": "bone-FMA45097",
+      "name": "Os sésamoïde du pied · côté droit",
+      "originalName": "sesamoid bone of right foot",
+      "latin": "sesamoid bone of right foot",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA45097"
+      ],
+      "sourceIds": [
+        "FJ3372",
+        "FJ3376"
+      ],
+      "fmaId": "FMA45097",
+      "sourceTriangles": 238,
+      "triangles": 238
+    },
+    {
+      "id": "bone-FMA24525",
+      "name": "Os cunéiforme latéral · côté droit",
+      "originalName": "right lateral cuneiform bone",
+      "latin": "right lateral cuneiform bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24525"
+      ],
+      "sourceIds": [
+        "FJ3373"
+      ],
+      "fmaId": "FMA24525",
+      "sourceTriangles": 626,
+      "triangles": 626
+    },
+    {
+      "id": "bone-FMA24437",
+      "name": "Os lunatum · côté droit",
+      "originalName": "right lunate",
+      "latin": "right lunate",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24437"
+      ],
+      "sourceIds": [
+        "FJ3374"
+      ],
+      "fmaId": "FMA24437",
+      "sourceTriangles": 332,
+      "triangles": 332
+    },
+    {
+      "id": "bone-FMA53649",
+      "name": "Maxillaire · côté droit",
+      "originalName": "right maxilla",
+      "latin": "right maxilla",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA53649"
+      ],
+      "sourceIds": [
+        "FJ3375"
+      ],
+      "fmaId": "FMA53649",
+      "sourceTriangles": 5324,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA24521",
+      "name": "Os cunéiforme médial · côté droit",
+      "originalName": "right medial cuneiform bone",
+      "latin": "right medial cuneiform bone",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24521"
+      ],
+      "sourceIds": [
+        "FJ3377"
+      ],
+      "fmaId": "FMA24521",
+      "sourceTriangles": 952,
+      "triangles": 952
+    },
+    {
+      "id": "bone-FMA53647",
+      "name": "Os nasal · côté droit",
+      "originalName": "right nasal bone",
+      "latin": "right nasal bone",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA53647"
+      ],
+      "sourceIds": [
+        "FJ3378"
+      ],
+      "fmaId": "FMA53647",
+      "sourceTriangles": 416,
+      "triangles": 416
+    },
+    {
+      "id": "bone-FMA53655",
+      "name": "Os palatin · côté droit",
+      "originalName": "right palatine bone",
+      "latin": "right palatine bone",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA53655"
+      ],
+      "sourceIds": [
+        "FJ3379"
+      ],
+      "fmaId": "FMA53655",
+      "sourceTriangles": 1736,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA52788",
+      "name": "Os pariétal · côté droit",
+      "originalName": "right parietal bone",
+      "latin": "right parietal bone",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA52788"
+      ],
+      "sourceIds": [
+        "FJ3380"
+      ],
+      "fmaId": "FMA52788",
+      "sourceTriangles": 13002,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA24486",
+      "name": "Patella (rotule) · côté droit",
+      "originalName": "right patella",
+      "latin": "right patella",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24486"
+      ],
+      "sourceIds": [
+        "FJ3381"
+      ],
+      "fmaId": "FMA24486",
+      "sourceTriangles": 306,
+      "triangles": 306
+    },
+    {
+      "id": "bone-FMA24441",
+      "name": "Os pisiforme · côté droit",
+      "originalName": "right pisiform",
+      "latin": "right pisiform",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24441"
+      ],
+      "sourceIds": [
+        "FJ3382"
+      ],
+      "fmaId": "FMA24441",
+      "sourceTriangles": 190,
+      "triangles": 190
+    },
+    {
+      "id": "bone-FMA24435",
+      "name": "Scaphoïde · côté droit",
+      "originalName": "right scaphoid",
+      "latin": "right scaphoid",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24435"
+      ],
+      "sourceIds": [
+        "FJ3383"
+      ],
+      "fmaId": "FMA24435",
+      "sourceTriangles": 322,
+      "triangles": 322
+    },
+    {
+      "id": "bone-FMA13395",
+      "name": "Scapula (omoplate) · côté droit",
+      "originalName": "right scapula",
+      "latin": "right scapula",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA13395"
+      ],
+      "sourceIds": [
+        "FJ3384"
+      ],
+      "fmaId": "FMA13395",
+      "sourceTriangles": 26172,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA24482",
+      "name": "Talus · côté droit",
+      "originalName": "right talus",
+      "latin": "right talus",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24482"
+      ],
+      "sourceIds": [
+        "FJ3385"
+      ],
+      "fmaId": "FMA24482",
+      "sourceTriangles": 1380,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA52738",
+      "name": "Os temporal · côté droit",
+      "originalName": "right temporal bone",
+      "latin": "right temporal bone",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA52738"
+      ],
+      "sourceIds": [
+        "FJ3386"
+      ],
+      "fmaId": "FMA52738",
+      "sourceTriangles": 4928,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA24477",
+      "name": "Tibia · côté droit",
+      "originalName": "right tibia",
+      "latin": "right tibia",
+      "system": "skeletal",
+      "region": "leg",
+      "meshNames": [
+        "bone-FMA24477"
+      ],
+      "sourceIds": [
+        "FJ3387"
+      ],
+      "fmaId": "FMA24477",
+      "sourceTriangles": 1664,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA24443",
+      "name": "Os trapèze · côté droit",
+      "originalName": "right trapezium",
+      "latin": "right trapezium",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24443"
+      ],
+      "sourceIds": [
+        "FJ3388"
+      ],
+      "fmaId": "FMA24443",
+      "sourceTriangles": 434,
+      "triangles": 434
+    },
+    {
+      "id": "bone-FMA23725",
+      "name": "Os trapézoïde · côté droit",
+      "originalName": "right trapezoid",
+      "latin": "right trapezoid",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23725"
+      ],
+      "sourceIds": [
+        "FJ3389"
+      ],
+      "fmaId": "FMA23725",
+      "sourceTriangles": 360,
+      "triangles": 360
+    },
+    {
+      "id": "bone-FMA24439",
+      "name": "Os triquétrum · côté droit",
+      "originalName": "right triquetral",
+      "latin": "right triquetral",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA24439"
+      ],
+      "sourceIds": [
+        "FJ3390"
+      ],
+      "fmaId": "FMA24439",
+      "sourceTriangles": 170,
+      "triangles": 170
+    },
+    {
+      "id": "bone-FMA23467",
+      "name": "Ulna · côté droit",
+      "originalName": "right ulna",
+      "latin": "right ulna",
+      "system": "skeletal",
+      "region": "arm",
+      "meshNames": [
+        "bone-FMA23467"
+      ],
+      "sourceIds": [
+        "FJ3391"
+      ],
+      "fmaId": "FMA23467",
+      "sourceTriangles": 834,
+      "triangles": 834
+    },
+    {
+      "id": "bone-FMA52892",
+      "name": "Os zygomatique · côté droit",
+      "originalName": "right zygomatic bone",
+      "latin": "right zygomatic bone",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA52892"
+      ],
+      "sourceIds": [
+        "FJ3392"
+      ],
+      "fmaId": "FMA52892",
+      "sourceTriangles": 1556,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA16202",
+      "name": "Sacrum",
+      "originalName": "sacrum",
+      "latin": "sacrum",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA16202"
+      ],
+      "sourceIds": [
+        "FJ3393"
+      ],
+      "fmaId": "FMA16202",
+      "sourceTriangles": 9922,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA52736",
+      "name": "Os sphénoïde",
+      "originalName": "sphenoid bone",
+      "latin": "sphenoid bone",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA52736"
+      ],
+      "sourceIds": [
+        "FJ3394"
+      ],
+      "fmaId": "FMA52736",
+      "sourceTriangles": 8154,
+      "triangles": 1300
+    },
+    {
+      "id": "bone-FMA9710",
+      "name": "Vomer",
+      "originalName": "vomer",
+      "latin": "vomer",
+      "system": "skeletal",
+      "region": "head",
+      "meshNames": [
+        "bone-FMA9710"
+      ],
+      "sourceIds": [
+        "FJ3395"
+      ],
+      "fmaId": "FMA9710",
+      "sourceTriangles": 7218,
+      "triangles": 1299
+    },
+    {
+      "id": "bone-FMA7485",
+      "name": "Sternum",
+      "originalName": "sternum",
+      "latin": "Sternum",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "bone-FMA7485"
+      ],
+      "sourceIds": [
+        "FJ3153",
+        "FJ3178",
+        "FJ3290"
+      ],
+      "fmaId": "FMA7485",
+      "sourceTriangles": 8114,
+      "triangles": 1299
+    },
+    {
+      "id": "support-FMA25571",
+      "name": "intervertebral symphysis of axis",
+      "originalName": "intervertebral symphysis of axis",
+      "latin": "intervertebral symphysis of axis",
+      "system": "skeletal",
+      "region": "neck",
+      "meshNames": [
+        "support-FMA25571"
+      ],
+      "sourceIds": [
+        "FJ3202"
+      ],
+      "fmaId": "FMA25571",
+      "sourceTriangles": 3712,
+      "triangles": 1300
+    },
+    {
+      "id": "support-FMA13501",
+      "name": "Disque intervertébral — Vertèbre thoracique T4",
+      "originalName": "intervertebral disk of fourth thoracic vertebra",
+      "latin": "intervertebral disk of fourth thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA13501"
+      ],
+      "sourceIds": [
+        "FJ3203"
+      ],
+      "fmaId": "FMA13501",
+      "sourceTriangles": 1560,
+      "triangles": 1299
+    },
+    {
+      "id": "support-FMA13502",
+      "name": "Disque intervertébral — Vertèbre thoracique T5",
+      "originalName": "intervertebral disk of fifth thoracic vertebra",
+      "latin": "intervertebral disk of fifth thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA13502"
+      ],
+      "sourceIds": [
+        "FJ3204"
+      ],
+      "fmaId": "FMA13502",
+      "sourceTriangles": 1836,
+      "triangles": 1299
+    },
+    {
+      "id": "support-FMA13503",
+      "name": "Disque intervertébral — Vertèbre thoracique T6",
+      "originalName": "intervertebral disk of sixth thoracic vertebra",
+      "latin": "intervertebral disk of sixth thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA13503"
+      ],
+      "sourceIds": [
+        "FJ3205"
+      ],
+      "fmaId": "FMA13503",
+      "sourceTriangles": 2564,
+      "triangles": 1299
+    },
+    {
+      "id": "support-FMA13504",
+      "name": "Disque intervertébral — Vertèbre thoracique T7",
+      "originalName": "intervertebral disk of seventh thoracic vertebra",
+      "latin": "intervertebral disk of seventh thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA13504"
+      ],
+      "sourceIds": [
+        "FJ3206"
+      ],
+      "fmaId": "FMA13504",
+      "sourceTriangles": 2630,
+      "triangles": 1299
+    },
+    {
+      "id": "support-FMA13505",
+      "name": "Disque intervertébral — Vertèbre thoracique T8",
+      "originalName": "intervertebral disk of eighth thoracic vertebra",
+      "latin": "intervertebral disk of eighth thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA13505"
+      ],
+      "sourceIds": [
+        "FJ3207"
+      ],
+      "fmaId": "FMA13505",
+      "sourceTriangles": 2894,
+      "triangles": 1300
+    },
+    {
+      "id": "support-FMA13506",
+      "name": "Disque intervertébral — Vertèbre thoracique T9",
+      "originalName": "intervertebral disk of ninth thoracic vertebra",
+      "latin": "intervertebral disk of ninth thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA13506"
+      ],
+      "sourceIds": [
+        "FJ3208"
+      ],
+      "fmaId": "FMA13506",
+      "sourceTriangles": 2940,
+      "triangles": 1300
+    },
+    {
+      "id": "support-FMA13507",
+      "name": "Disque intervertébral — Vertèbre thoracique T10",
+      "originalName": "intervertebral disk of tenth thoracic vertebra",
+      "latin": "intervertebral disk of tenth thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA13507"
+      ],
+      "sourceIds": [
+        "FJ3209"
+      ],
+      "fmaId": "FMA13507",
+      "sourceTriangles": 3102,
+      "triangles": 1300
+    },
+    {
+      "id": "support-FMA13508",
+      "name": "Disque intervertébral — Vertèbre thoracique T11",
+      "originalName": "intervertebral disk of eleventh thoracic vertebra",
+      "latin": "intervertebral disk of eleventh thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA13508"
+      ],
+      "sourceIds": [
+        "FJ3210"
+      ],
+      "fmaId": "FMA13508",
+      "sourceTriangles": 3336,
+      "triangles": 1299
+    },
+    {
+      "id": "support-FMA25511",
+      "name": "intervertebral symphysis",
+      "originalName": "intervertebral symphysis",
+      "latin": "intervertebral symphysis",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA25511"
+      ],
+      "sourceIds": [
+        "FJ3211"
+      ],
+      "fmaId": "FMA25511",
+      "sourceTriangles": 3476,
+      "triangles": 1300
+    },
+    {
+      "id": "support-FMA16033",
+      "name": "Disque intervertébral — Vertèbre lombaire L1",
+      "originalName": "intervertebral disk of first lumbar vertebra",
+      "latin": "intervertebral disk of first lumbar vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA16033"
+      ],
+      "sourceIds": [
+        "FJ3212"
+      ],
+      "fmaId": "FMA16033",
+      "sourceTriangles": 3498,
+      "triangles": 1300
+    },
+    {
+      "id": "support-FMA13896",
+      "name": "Disque intervertébral — Vertèbre cervicale C3",
+      "originalName": "intervertebral disk of third cervical vertebra",
+      "latin": "intervertebral disk of third cervical vertebra",
+      "system": "skeletal",
+      "region": "neck",
+      "meshNames": [
+        "support-FMA13896"
+      ],
+      "sourceIds": [
+        "FJ3213"
+      ],
+      "fmaId": "FMA13896",
+      "sourceTriangles": 770,
+      "triangles": 770
+    },
+    {
+      "id": "support-FMA16034",
+      "name": "Disque intervertébral — Vertèbre lombaire L2",
+      "originalName": "intervertebral disk of second lumbar vertebra",
+      "latin": "intervertebral disk of second lumbar vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA16034"
+      ],
+      "sourceIds": [
+        "FJ3214"
+      ],
+      "fmaId": "FMA16034",
+      "sourceTriangles": 3406,
+      "triangles": 1300
+    },
+    {
+      "id": "support-FMA16035",
+      "name": "Disque intervertébral — Vertèbre lombaire L3",
+      "originalName": "intervertebral disk of third lumbar vertebra",
+      "latin": "intervertebral disk of third lumbar vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA16035"
+      ],
+      "sourceIds": [
+        "FJ3215"
+      ],
+      "fmaId": "FMA16035",
+      "sourceTriangles": 3454,
+      "triangles": 1300
+    },
+    {
+      "id": "support-FMA16036",
+      "name": "Disque intervertébral — Vertèbre lombaire L4",
+      "originalName": "intervertebral disk of fourth lumbar vertebra",
+      "latin": "intervertebral disk of fourth lumbar vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA16036"
+      ],
+      "sourceIds": [
+        "FJ3216"
+      ],
+      "fmaId": "FMA16036",
+      "sourceTriangles": 3512,
+      "triangles": 1300
+    },
+    {
+      "id": "support-FMA16037",
+      "name": "Disque intervertébral — Vertèbre lombaire L5",
+      "originalName": "intervertebral disk of fifth lumbar vertebra",
+      "latin": "intervertebral disk of fifth lumbar vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA16037"
+      ],
+      "sourceIds": [
+        "FJ3217"
+      ],
+      "fmaId": "FMA16037",
+      "sourceTriangles": 3498,
+      "triangles": 1300
+    },
+    {
+      "id": "support-FMA13897",
+      "name": "Disque intervertébral — Vertèbre cervicale C4",
+      "originalName": "intervertebral disk of fourth cervical vertebra",
+      "latin": "intervertebral disk of fourth cervical vertebra",
+      "system": "skeletal",
+      "region": "neck",
+      "meshNames": [
+        "support-FMA13897"
+      ],
+      "sourceIds": [
+        "FJ3218"
+      ],
+      "fmaId": "FMA13897",
+      "sourceTriangles": 926,
+      "triangles": 926
+    },
+    {
+      "id": "support-FMA13898",
+      "name": "Disque intervertébral — Vertèbre cervicale C5",
+      "originalName": "intervertebral disk of fifth cervical vertebra",
+      "latin": "intervertebral disk of fifth cervical vertebra",
+      "system": "skeletal",
+      "region": "neck",
+      "meshNames": [
+        "support-FMA13898"
+      ],
+      "sourceIds": [
+        "FJ3219"
+      ],
+      "fmaId": "FMA13898",
+      "sourceTriangles": 956,
+      "triangles": 956
+    },
+    {
+      "id": "support-FMA13899",
+      "name": "Disque intervertébral — Vertèbre cervicale C6",
+      "originalName": "intervertebral disk of sixth cervical vertebra",
+      "latin": "intervertebral disk of sixth cervical vertebra",
+      "system": "skeletal",
+      "region": "neck",
+      "meshNames": [
+        "support-FMA13899"
+      ],
+      "sourceIds": [
+        "FJ3220"
+      ],
+      "fmaId": "FMA13899",
+      "sourceTriangles": 892,
+      "triangles": 892
+    },
+    {
+      "id": "support-FMA13900",
+      "name": "Disque intervertébral — Vertèbre cervicale C7",
+      "originalName": "intervertebral disk of seventh cervical vertebra",
+      "latin": "intervertebral disk of seventh cervical vertebra",
+      "system": "skeletal",
+      "region": "neck",
+      "meshNames": [
+        "support-FMA13900"
+      ],
+      "sourceIds": [
+        "FJ3221"
+      ],
+      "fmaId": "FMA13900",
+      "sourceTriangles": 1092,
+      "triangles": 1092
+    },
+    {
+      "id": "support-FMA10458",
+      "name": "Disque intervertébral — Vertèbre thoracique T1",
+      "originalName": "intervertebral disk of first thoracic vertebra",
+      "latin": "intervertebral disk of first thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA10458"
+      ],
+      "sourceIds": [
+        "FJ3222"
+      ],
+      "fmaId": "FMA10458",
+      "sourceTriangles": 1232,
+      "triangles": 1232
+    },
+    {
+      "id": "support-FMA13495",
+      "name": "Disque intervertébral — Vertèbre thoracique T2",
+      "originalName": "intervertebral disk of second thoracic vertebra",
+      "latin": "intervertebral disk of second thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA13495"
+      ],
+      "sourceIds": [
+        "FJ3223"
+      ],
+      "fmaId": "FMA13495",
+      "sourceTriangles": 1374,
+      "triangles": 1299
+    },
+    {
+      "id": "support-FMA13500",
+      "name": "Disque intervertébral — Vertèbre thoracique T3",
+      "originalName": "intervertebral disk of third thoracic vertebra",
+      "latin": "intervertebral disk of third thoracic vertebra",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA13500"
+      ],
+      "sourceIds": [
+        "FJ3224"
+      ],
+      "fmaId": "FMA13500",
+      "sourceTriangles": 1474,
+      "triangles": 1299
+    },
+    {
+      "id": "support-FMA8005",
+      "name": "Cartilage costal 1 · côté gauche",
+      "originalName": "left first costal cartilage",
+      "latin": "left first costal cartilage",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA8005"
+      ],
+      "sourceIds": [
+        "FJ3239"
+      ],
+      "fmaId": "FMA8005",
+      "sourceTriangles": 642,
+      "triangles": 642
+    },
+    {
+      "id": "support-FMA8031",
+      "name": "Cartilage costal 2 · côté gauche",
+      "originalName": "left second costal cartilage",
+      "latin": "left second costal cartilage",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA8031"
+      ],
+      "sourceIds": [
+        "FJ3242"
+      ],
+      "fmaId": "FMA8031",
+      "sourceTriangles": 588,
+      "triangles": 588
+    },
+    {
+      "id": "support-FMA8058",
+      "name": "Cartilage costal 3 · côté gauche",
+      "originalName": "left third costal cartilage",
+      "latin": "left third costal cartilage",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA8058"
+      ],
+      "sourceIds": [
+        "FJ3245"
+      ],
+      "fmaId": "FMA8058",
+      "sourceTriangles": 604,
+      "triangles": 604
+    },
+    {
+      "id": "support-FMA8167",
+      "name": "Cartilage costal 4 · côté gauche",
+      "originalName": "left fourth costal cartilage",
+      "latin": "left fourth costal cartilage",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA8167"
+      ],
+      "sourceIds": [
+        "FJ3248"
+      ],
+      "fmaId": "FMA8167",
+      "sourceTriangles": 658,
+      "triangles": 658
+    },
+    {
+      "id": "support-FMA8112",
+      "name": "Cartilage costal 5 · côté gauche",
+      "originalName": "left fifth costal cartilage",
+      "latin": "left fifth costal cartilage",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA8112"
+      ],
+      "sourceIds": [
+        "FJ3251"
+      ],
+      "fmaId": "FMA8112",
+      "sourceTriangles": 1086,
+      "triangles": 1086
+    },
+    {
+      "id": "support-FMA8221",
+      "name": "Cartilage costal 6 · côté gauche",
+      "originalName": "left sixth costal cartilage",
+      "latin": "left sixth costal cartilage",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA8221"
+      ],
+      "sourceIds": [
+        "FJ3254"
+      ],
+      "fmaId": "FMA8221",
+      "sourceTriangles": 1498,
+      "triangles": 1300
+    },
+    {
+      "id": "support-FMA8275",
+      "name": "Cartilage costal 7 · côté gauche",
+      "originalName": "left seventh costal cartilage",
+      "latin": "left seventh costal cartilage",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA8275"
+      ],
+      "sourceIds": [
+        "FJ3255"
+      ],
+      "fmaId": "FMA8275",
+      "sourceTriangles": 2314,
+      "triangles": 1300
+    },
+    {
+      "id": "support-FMA7875",
+      "name": "Cartilage costal 1 · côté droit",
+      "originalName": "right first costal cartilage",
+      "latin": "right first costal cartilage",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA7875"
+      ],
+      "sourceIds": [
+        "FJ3333"
+      ],
+      "fmaId": "FMA7875",
+      "sourceTriangles": 676,
+      "triangles": 676
+    },
+    {
+      "id": "support-FMA7886",
+      "name": "Cartilage costal 2 · côté droit",
+      "originalName": "right second costal cartilage",
+      "latin": "right second costal cartilage",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA7886"
+      ],
+      "sourceIds": [
+        "FJ3335"
+      ],
+      "fmaId": "FMA7886",
+      "sourceTriangles": 658,
+      "triangles": 658
+    },
+    {
+      "id": "support-FMA7913",
+      "name": "Cartilage costal 3 · côté droit",
+      "originalName": "right third costal cartilage",
+      "latin": "right third costal cartilage",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA7913"
+      ],
+      "sourceIds": [
+        "FJ3337"
+      ],
+      "fmaId": "FMA7913",
+      "sourceTriangles": 652,
+      "triangles": 652
+    },
+    {
+      "id": "support-FMA7976",
+      "name": "Cartilage costal 4 · côté droit",
+      "originalName": "right fourth costal cartilage",
+      "latin": "right fourth costal cartilage",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA7976"
+      ],
+      "sourceIds": [
+        "FJ3339"
+      ],
+      "fmaId": "FMA7976",
+      "sourceTriangles": 694,
+      "triangles": 694
+    },
+    {
+      "id": "support-FMA8070",
+      "name": "Cartilage costal 5 · côté droit",
+      "originalName": "right fifth costal cartilage",
+      "latin": "right fifth costal cartilage",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA8070"
+      ],
+      "sourceIds": [
+        "FJ3341"
+      ],
+      "fmaId": "FMA8070",
+      "sourceTriangles": 1168,
+      "triangles": 1168
+    },
+    {
+      "id": "support-FMA8194",
+      "name": "Cartilage costal 6 · côté droit",
+      "originalName": "right sixth costal cartilage",
+      "latin": "right sixth costal cartilage",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA8194"
+      ],
+      "sourceIds": [
+        "FJ3343"
+      ],
+      "fmaId": "FMA8194",
+      "sourceTriangles": 1546,
+      "triangles": 1300
+    },
+    {
+      "id": "support-FMA8248",
+      "name": "Cartilage costal 7 · côté droit",
+      "originalName": "right seventh costal cartilage",
+      "latin": "right seventh costal cartilage",
+      "system": "skeletal",
+      "region": "torso",
+      "meshNames": [
+        "support-FMA8248"
+      ],
+      "sourceIds": [
+        "FJ3345"
+      ],
+      "fmaId": "FMA8248",
+      "sourceTriangles": 2450,
+      "triangles": 1299
+    }
+  ],
+  "triangles": 203078,
+  "bytes": 1600872,
+  "compression": "EXT_meshopt_compression; positions sur 14 bits"
+}

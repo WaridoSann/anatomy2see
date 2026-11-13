@@ -1,0 +1,6815 @@
+{
+  "source": "BodyParts3D v4.0 — Database Center for Life Science",
+  "license": "CC-BY-4.0",
+  "licenseURL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+  "sourceElements": 425,
+  "limitations": "398 structures musculaires provenant de 425 éléments du jeu BodyParts3D. Certains muscles humains ne sont pas présents dans cette source, notamment droit de l’abdomen, grand dorsal, masséter et temporal. Les chefs, faisceaux et ensembles gardent leur nomenclature propre.",
+  "coordinates": {
+    "sourceCenter": [
+      0.023406982421875,
+      -109.03314971923828,
+      782.8699340820312
+    ],
+    "scale": 0.00105462085236557,
+    "up": "+Y",
+    "front": "+Z"
+  },
+  "structures": [
+    {
+      "id": "muscle-FMA37745",
+      "name": "1er interosseux plantaire — droit",
+      "englishName": "first plantar interosseous of right foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37745"
+      ],
+      "sourceIds": [
+        "FJ1384"
+      ],
+      "fmaId": "FMA37745",
+      "sourceTriangles": 674,
+      "triangles": 674
+    },
+    {
+      "id": "muscle-FMA37746",
+      "name": "1er interosseux plantaire — gauche",
+      "englishName": "first plantar interosseous of left foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37746"
+      ],
+      "sourceIds": [
+        "FJ1384M"
+      ],
+      "fmaId": "FMA37746",
+      "sourceTriangles": 674,
+      "triangles": 674
+    },
+    {
+      "id": "muscle-FMA37717",
+      "name": "1er lombrical — droit",
+      "englishName": "first lumbrical of right foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37717"
+      ],
+      "sourceIds": [
+        "FJ1383"
+      ],
+      "fmaId": "FMA37717",
+      "sourceTriangles": 646,
+      "triangles": 646
+    },
+    {
+      "id": "muscle-FMA37718",
+      "name": "1er lombrical — gauche",
+      "englishName": "first lumbrical of left foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37718"
+      ],
+      "sourceIds": [
+        "FJ1383M"
+      ],
+      "fmaId": "FMA37718",
+      "sourceTriangles": 646,
+      "triangles": 646
+    },
+    {
+      "id": "muscle-FMA37743",
+      "name": "2e interosseux plantaire — droit",
+      "englishName": "second plantar interosseous of right foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37743"
+      ],
+      "sourceIds": [
+        "FJ1386"
+      ],
+      "fmaId": "FMA37743",
+      "sourceTriangles": 632,
+      "triangles": 632
+    },
+    {
+      "id": "muscle-FMA37744",
+      "name": "2e interosseux plantaire — gauche",
+      "englishName": "second plantar interosseous of left foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37744"
+      ],
+      "sourceIds": [
+        "FJ1386M"
+      ],
+      "fmaId": "FMA37744",
+      "sourceTriangles": 632,
+      "triangles": 632
+    },
+    {
+      "id": "muscle-FMA37719",
+      "name": "2e lombrical — droit",
+      "englishName": "second lumbrical of right foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37719"
+      ],
+      "sourceIds": [
+        "FJ1385"
+      ],
+      "fmaId": "FMA37719",
+      "sourceTriangles": 266,
+      "triangles": 266
+    },
+    {
+      "id": "muscle-FMA37720",
+      "name": "2e lombrical — gauche",
+      "englishName": "second lumbrical of left foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37720"
+      ],
+      "sourceIds": [
+        "FJ1385M"
+      ],
+      "fmaId": "FMA37720",
+      "sourceTriangles": 266,
+      "triangles": 266
+    },
+    {
+      "id": "muscle-FMA37741",
+      "name": "3e interosseux plantaire — droit",
+      "englishName": "third plantar interosseous of right foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37741"
+      ],
+      "sourceIds": [
+        "FJ1388"
+      ],
+      "fmaId": "FMA37741",
+      "sourceTriangles": 772,
+      "triangles": 772
+    },
+    {
+      "id": "muscle-FMA37742",
+      "name": "3e interosseux plantaire — gauche",
+      "englishName": "third plantar interosseous of left foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37742"
+      ],
+      "sourceIds": [
+        "FJ1388M"
+      ],
+      "fmaId": "FMA37742",
+      "sourceTriangles": 772,
+      "triangles": 772
+    },
+    {
+      "id": "muscle-FMA37485",
+      "name": "3e lombrical — droit",
+      "englishName": "third lumbrical of right foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37485"
+      ],
+      "sourceIds": [
+        "FJ1387"
+      ],
+      "fmaId": "FMA37485",
+      "sourceTriangles": 368,
+      "triangles": 368
+    },
+    {
+      "id": "muscle-FMA37486",
+      "name": "3e lombrical — gauche",
+      "englishName": "third lumbrical of left foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37486"
+      ],
+      "sourceIds": [
+        "FJ1387M"
+      ],
+      "fmaId": "FMA37486",
+      "sourceTriangles": 368,
+      "triangles": 368
+    },
+    {
+      "id": "muscle-FMA37483",
+      "name": "4e lombrical — droit",
+      "englishName": "fourth lumbrical of right foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37483"
+      ],
+      "sourceIds": [
+        "FJ1389"
+      ],
+      "fmaId": "FMA37483",
+      "sourceTriangles": 328,
+      "triangles": 328
+    },
+    {
+      "id": "muscle-FMA37484",
+      "name": "4e lombrical — gauche",
+      "englishName": "fourth lumbrical of left foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37484"
+      ],
+      "sourceIds": [
+        "FJ1389M"
+      ],
+      "fmaId": "FMA37484",
+      "sourceTriangles": 328,
+      "triangles": 328
+    },
+    {
+      "id": "muscle-FMA37459",
+      "name": "Abducteur de l’hallux — droit",
+      "englishName": "right abductor hallucis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37459"
+      ],
+      "sourceIds": [
+        "FJ1400"
+      ],
+      "fmaId": "FMA37459",
+      "sourceTriangles": 1068,
+      "triangles": 1068
+    },
+    {
+      "id": "muscle-FMA37460",
+      "name": "Abducteur de l’hallux — gauche",
+      "englishName": "left abductor hallucis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37460"
+      ],
+      "sourceIds": [
+        "FJ1400M"
+      ],
+      "fmaId": "FMA37460",
+      "sourceTriangles": 1068,
+      "triangles": 1068
+    },
+    {
+      "id": "muscle-FMA37463",
+      "name": "Abducteur du petit doigt — droit",
+      "englishName": "abductor digiti minimi of right foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37463"
+      ],
+      "sourceIds": [
+        "FJ1390"
+      ],
+      "fmaId": "FMA37463",
+      "sourceTriangles": 1276,
+      "triangles": 1276
+    },
+    {
+      "id": "muscle-FMA37396",
+      "name": "Abducteur du petit doigt — droit",
+      "englishName": "abductor digiti minimi of right hand",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37396"
+      ],
+      "sourceIds": [
+        "FJ1466"
+      ],
+      "fmaId": "FMA37396",
+      "sourceTriangles": 508,
+      "triangles": 508
+    },
+    {
+      "id": "muscle-FMA37464",
+      "name": "Abducteur du petit doigt — gauche",
+      "englishName": "abductor digiti minimi of left foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37464"
+      ],
+      "sourceIds": [
+        "FJ1390M"
+      ],
+      "fmaId": "FMA37464",
+      "sourceTriangles": 1276,
+      "triangles": 1276
+    },
+    {
+      "id": "muscle-FMA37397",
+      "name": "Abducteur du petit doigt — gauche",
+      "englishName": "abductor digiti minimi of left hand",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37397"
+      ],
+      "sourceIds": [
+        "FJ1466M"
+      ],
+      "fmaId": "FMA37397",
+      "sourceTriangles": 508,
+      "triangles": 508
+    },
+    {
+      "id": "muscle-FMA37705",
+      "name": "Anconé — droit",
+      "englishName": "right anconeus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37705"
+      ],
+      "sourceIds": [
+        "FJ1485"
+      ],
+      "fmaId": "FMA37705",
+      "sourceTriangles": 1278,
+      "triangles": 1278
+    },
+    {
+      "id": "muscle-FMA37706",
+      "name": "Anconé — gauche",
+      "englishName": "left anconeus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37706"
+      ],
+      "sourceIds": [
+        "FJ1485M"
+      ],
+      "fmaId": "FMA37706",
+      "sourceTriangles": 1278,
+      "triangles": 1278
+    },
+    {
+      "id": "muscle-FMA46604",
+      "name": "Ary-épiglottique — droit",
+      "englishName": "right aryepiglotticus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46604"
+      ],
+      "sourceIds": [
+        "FJ2791"
+      ],
+      "fmaId": "FMA46604",
+      "sourceTriangles": 4366,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46605",
+      "name": "Ary-épiglottique — gauche",
+      "englishName": "left aryepiglotticus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46605"
+      ],
+      "sourceIds": [
+        "FJ2774"
+      ],
+      "fmaId": "FMA46605",
+      "sourceTriangles": 4510,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46584",
+      "name": "Aryténoïdien oblique — droit",
+      "englishName": "right oblique arytenoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46584"
+      ],
+      "sourceIds": [
+        "FJ2798"
+      ],
+      "fmaId": "FMA46584",
+      "sourceTriangles": 6084,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46585",
+      "name": "Aryténoïdien oblique — gauche",
+      "englishName": "left oblique arytenoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46585"
+      ],
+      "sourceIds": [
+        "FJ2780"
+      ],
+      "fmaId": "FMA46585",
+      "sourceTriangles": 6304,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46582",
+      "name": "Aryténoïdien transverse",
+      "englishName": "transverse arytenoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46582"
+      ],
+      "sourceIds": [
+        "FJ2809"
+      ],
+      "fmaId": "FMA46582",
+      "sourceTriangles": 6580,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA37668",
+      "name": "Brachial — droit",
+      "englishName": "right brachialis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37668"
+      ],
+      "sourceIds": [
+        "FJ1486"
+      ],
+      "fmaId": "FMA37668",
+      "sourceTriangles": 1746,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA37669",
+      "name": "Brachial — gauche",
+      "englishName": "left brachialis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37669"
+      ],
+      "sourceIds": [
+        "FJ1486M"
+      ],
+      "fmaId": "FMA37669",
+      "sourceTriangles": 1746,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38486",
+      "name": "Brachio-radial — droit",
+      "englishName": "right brachioradialis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38486"
+      ],
+      "sourceIds": [
+        "FJ1487"
+      ],
+      "fmaId": "FMA38486",
+      "sourceTriangles": 4874,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38487",
+      "name": "Brachio-radial — gauche",
+      "englishName": "left brachioradialis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38487"
+      ],
+      "sourceIds": [
+        "FJ1487M"
+      ],
+      "fmaId": "FMA38487",
+      "sourceTriangles": 4874,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22338",
+      "name": "Carré fémoral — droit",
+      "englishName": "right quadratus femoris",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22338"
+      ],
+      "sourceIds": [
+        "FJ1432"
+      ],
+      "fmaId": "FMA22338",
+      "sourceTriangles": 1196,
+      "triangles": 1196
+    },
+    {
+      "id": "muscle-FMA22339",
+      "name": "Carré fémoral — gauche",
+      "englishName": "left quadratus femoris",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22339"
+      ],
+      "sourceIds": [
+        "FJ1432M"
+      ],
+      "fmaId": "FMA22339",
+      "sourceTriangles": 1196,
+      "triangles": 1196
+    },
+    {
+      "id": "muscle-FMA37465",
+      "name": "Carré plantaire — droit",
+      "englishName": "right flexor accessorius",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37465"
+      ],
+      "sourceIds": [
+        "FJ1412"
+      ],
+      "fmaId": "FMA37465",
+      "sourceTriangles": 842,
+      "triangles": 842
+    },
+    {
+      "id": "muscle-FMA37466",
+      "name": "Carré plantaire — gauche",
+      "englishName": "left flexor accessorius",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37466"
+      ],
+      "sourceIds": [
+        "FJ1412M"
+      ],
+      "fmaId": "FMA37466",
+      "sourceTriangles": 842,
+      "triangles": 842
+    },
+    {
+      "id": "muscle-FMA38454",
+      "name": "Carré pronateur — droit",
+      "englishName": "right pronator quadratus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38454"
+      ],
+      "sourceIds": [
+        "FJ1503"
+      ],
+      "fmaId": "FMA38454",
+      "sourceTriangles": 1838,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38455",
+      "name": "Carré pronateur — gauche",
+      "englishName": "left pronator quadratus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38455"
+      ],
+      "sourceIds": [
+        "FJ1503M"
+      ],
+      "fmaId": "FMA38455",
+      "sourceTriangles": 1838,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA37684",
+      "name": "Chef court · Biceps brachial — droit",
+      "englishName": "short head of right biceps brachii",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37684"
+      ],
+      "sourceIds": [
+        "FJ1512"
+      ],
+      "fmaId": "FMA37684",
+      "sourceTriangles": 1856,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA37685",
+      "name": "Chef court · Biceps brachial — gauche",
+      "englishName": "short head of left biceps brachii",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37685"
+      ],
+      "sourceIds": [
+        "FJ1512M"
+      ],
+      "fmaId": "FMA37685",
+      "sourceTriangles": 1856,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA45891",
+      "name": "Chef court · Biceps fémoral — droit",
+      "englishName": "short head of right biceps femoris",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA45891"
+      ],
+      "sourceIds": [
+        "FJ1444"
+      ],
+      "fmaId": "FMA45891",
+      "sourceTriangles": 1728,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA45892",
+      "name": "Chef court · Biceps fémoral — gauche",
+      "englishName": "short head of left biceps femoris",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA45892"
+      ],
+      "sourceIds": [
+        "FJ1444M"
+      ],
+      "fmaId": "FMA45892",
+      "sourceTriangles": 1728,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA38617",
+      "name": "Chef huméral · Fléchisseur ulnaire du carpe — droit",
+      "englishName": "humeral head of right flexor carpi ulnaris",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38617"
+      ],
+      "sourceIds": [
+        "FJ1473"
+      ],
+      "fmaId": "FMA38617",
+      "sourceTriangles": 2656,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38618",
+      "name": "Chef huméral · Fléchisseur ulnaire du carpe — gauche",
+      "englishName": "humeral head of left flexor carpi ulnaris",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38618"
+      ],
+      "sourceIds": [
+        "FJ1473M"
+      ],
+      "fmaId": "FMA38618",
+      "sourceTriangles": 2656,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38560",
+      "name": "Chef huméral · Rond pronateur — droit",
+      "englishName": "humeral head of right pronator teres",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38560"
+      ],
+      "sourceIds": [
+        "FJ1474"
+      ],
+      "fmaId": "FMA38560",
+      "sourceTriangles": 1846,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38561",
+      "name": "Chef huméral · Rond pronateur — gauche",
+      "englishName": "humeral head of left pronator teres",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38561"
+      ],
+      "sourceIds": [
+        "FJ1474M"
+      ],
+      "fmaId": "FMA38561",
+      "sourceTriangles": 1846,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA45973",
+      "name": "Chef latéral · Court fléchisseur de l’hallux — droit",
+      "englishName": "lateral head of right flexor hallucis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA45973"
+      ],
+      "sourceIds": [
+        "FJ1393"
+      ],
+      "fmaId": "FMA45973",
+      "sourceTriangles": 1742,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA45974",
+      "name": "Chef latéral · Court fléchisseur de l’hallux — gauche",
+      "englishName": "lateral head of left flexor hallucis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA45974"
+      ],
+      "sourceIds": [
+        "FJ1393M"
+      ],
+      "fmaId": "FMA45974",
+      "sourceTriangles": 1742,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA45960",
+      "name": "Chef latéral · Gastrocnémien — droit",
+      "englishName": "lateral head of right gastrocnemius",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA45960"
+      ],
+      "sourceIds": [
+        "FJ1394"
+      ],
+      "fmaId": "FMA45960",
+      "sourceTriangles": 3052,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA45961",
+      "name": "Chef latéral · Gastrocnémien — gauche",
+      "englishName": "lateral head of left gastrocnemius",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA45961"
+      ],
+      "sourceIds": [
+        "FJ1394M"
+      ],
+      "fmaId": "FMA45961",
+      "sourceTriangles": 3052,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA37697",
+      "name": "Chef latéral · Triceps brachial — droit",
+      "englishName": "lateral head of right triceps brachii",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37697"
+      ],
+      "sourceIds": [
+        "FJ1477"
+      ],
+      "fmaId": "FMA37697",
+      "sourceTriangles": 2606,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA37698",
+      "name": "Chef latéral · Triceps brachial — gauche",
+      "englishName": "lateral head of left triceps brachii",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37698"
+      ],
+      "sourceIds": [
+        "FJ1477M"
+      ],
+      "fmaId": "FMA37698",
+      "sourceTriangles": 2606,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA37686",
+      "name": "Chef long · Biceps brachial — droit",
+      "englishName": "long head of right biceps brachii",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37686"
+      ],
+      "sourceIds": [
+        "FJ1478"
+      ],
+      "fmaId": "FMA37686",
+      "sourceTriangles": 1426,
+      "triangles": 1426
+    },
+    {
+      "id": "muscle-FMA37687",
+      "name": "Chef long · Biceps brachial — gauche",
+      "englishName": "long head of left biceps brachii",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37687"
+      ],
+      "sourceIds": [
+        "FJ1478M"
+      ],
+      "fmaId": "FMA37687",
+      "sourceTriangles": 1426,
+      "triangles": 1426
+    },
+    {
+      "id": "muscle-FMA45888",
+      "name": "Chef long · Biceps fémoral — droit",
+      "englishName": "long head of right biceps femoris",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA45888"
+      ],
+      "sourceIds": [
+        "FJ1395"
+      ],
+      "fmaId": "FMA45888",
+      "sourceTriangles": 5110,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA45889",
+      "name": "Chef long · Biceps fémoral — gauche",
+      "englishName": "long head of left biceps femoris",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA45889"
+      ],
+      "sourceIds": [
+        "FJ1395M"
+      ],
+      "fmaId": "FMA45889",
+      "sourceTriangles": 5110,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA37699",
+      "name": "Chef long · Triceps brachial — droit",
+      "englishName": "long head of right triceps brachii",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37699"
+      ],
+      "sourceIds": [
+        "FJ1479"
+      ],
+      "fmaId": "FMA37699",
+      "sourceTriangles": 1588,
+      "triangles": 1588
+    },
+    {
+      "id": "muscle-FMA37700",
+      "name": "Chef long · Triceps brachial — gauche",
+      "englishName": "long head of left triceps brachii",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37700"
+      ],
+      "sourceIds": [
+        "FJ1479M"
+      ],
+      "fmaId": "FMA37700",
+      "sourceTriangles": 1588,
+      "triangles": 1588
+    },
+    {
+      "id": "muscle-FMA45971",
+      "name": "Chef médial · Court fléchisseur de l’hallux — droit",
+      "englishName": "medial head of right flexor hallucis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA45971"
+      ],
+      "sourceIds": [
+        "FJ1396"
+      ],
+      "fmaId": "FMA45971",
+      "sourceTriangles": 992,
+      "triangles": 992
+    },
+    {
+      "id": "muscle-FMA45972",
+      "name": "Chef médial · Court fléchisseur de l’hallux — gauche",
+      "englishName": "medial head of left flexor hallucis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA45972"
+      ],
+      "sourceIds": [
+        "FJ1396M"
+      ],
+      "fmaId": "FMA45972",
+      "sourceTriangles": 992,
+      "triangles": 992
+    },
+    {
+      "id": "muscle-FMA45957",
+      "name": "Chef médial · Gastrocnémien — droit",
+      "englishName": "medial head of right gastrocnemius",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA45957"
+      ],
+      "sourceIds": [
+        "FJ1397"
+      ],
+      "fmaId": "FMA45957",
+      "sourceTriangles": 3842,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA45958",
+      "name": "Chef médial · Gastrocnémien — gauche",
+      "englishName": "medial head of left gastrocnemius",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA45958"
+      ],
+      "sourceIds": [
+        "FJ1397M"
+      ],
+      "fmaId": "FMA45958",
+      "sourceTriangles": 3842,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA37695",
+      "name": "Chef médial · Triceps brachial — droit",
+      "englishName": "medial head of right triceps brachii",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37695"
+      ],
+      "sourceIds": [
+        "FJ1480"
+      ],
+      "fmaId": "FMA37695",
+      "sourceTriangles": 832,
+      "triangles": 832
+    },
+    {
+      "id": "muscle-FMA37696",
+      "name": "Chef médial · Triceps brachial — gauche",
+      "englishName": "medial head of left triceps brachii",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37696"
+      ],
+      "sourceIds": [
+        "FJ1480M"
+      ],
+      "fmaId": "FMA37696",
+      "sourceTriangles": 832,
+      "triangles": 832
+    },
+    {
+      "id": "muscle-FMA46018",
+      "name": "Chef oblique · Adducteur de l’hallux — droit",
+      "englishName": "oblique head of right adductor hallucis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA46018"
+      ],
+      "sourceIds": [
+        "FJ1398"
+      ],
+      "fmaId": "FMA46018",
+      "sourceTriangles": 1054,
+      "triangles": 1054
+    },
+    {
+      "id": "muscle-FMA46019",
+      "name": "Chef oblique · Adducteur de l’hallux — gauche",
+      "englishName": "oblique head of left adductor hallucis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA46019"
+      ],
+      "sourceIds": [
+        "FJ1398M"
+      ],
+      "fmaId": "FMA46019",
+      "sourceTriangles": 1054,
+      "triangles": 1054
+    },
+    {
+      "id": "muscle-FMA46121",
+      "name": "Chef oblique · Adducteur du pouce — droit",
+      "englishName": "oblique head of right adductor pollicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA46121"
+      ],
+      "sourceIds": [
+        "FJ1481"
+      ],
+      "fmaId": "FMA46121",
+      "sourceTriangles": 658,
+      "triangles": 658
+    },
+    {
+      "id": "muscle-FMA46122",
+      "name": "Chef oblique · Adducteur du pouce — gauche",
+      "englishName": "oblique head of left adductor pollicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA46122"
+      ],
+      "sourceIds": [
+        "FJ1481M"
+      ],
+      "fmaId": "FMA46122",
+      "sourceTriangles": 658,
+      "triangles": 658
+    },
+    {
+      "id": "muscle-FMA65198",
+      "name": "Chef superficiel · Court fléchisseur du pouce — droit",
+      "englishName": "superficial head of right flexor pollicis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA65198"
+      ],
+      "sourceIds": [
+        "FJ1514"
+      ],
+      "fmaId": "FMA65198",
+      "sourceTriangles": 726,
+      "triangles": 726
+    },
+    {
+      "id": "muscle-FMA65199",
+      "name": "Chef superficiel · Court fléchisseur du pouce — gauche",
+      "englishName": "superficial head of left flexor pollicis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA65199"
+      ],
+      "sourceIds": [
+        "FJ1514M"
+      ],
+      "fmaId": "FMA65199",
+      "sourceTriangles": 726,
+      "triangles": 726
+    },
+    {
+      "id": "muscle-FMA46020",
+      "name": "Chef transverse · Adducteur de l’hallux — droit",
+      "englishName": "transverse head of right adductor hallucis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA46020"
+      ],
+      "sourceIds": [
+        "FJ1445"
+      ],
+      "fmaId": "FMA46020",
+      "sourceTriangles": 818,
+      "triangles": 818
+    },
+    {
+      "id": "muscle-FMA46021",
+      "name": "Chef transverse · Adducteur de l’hallux — gauche",
+      "englishName": "transverse head of left adductor hallucis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA46021"
+      ],
+      "sourceIds": [
+        "FJ1445M"
+      ],
+      "fmaId": "FMA46021",
+      "sourceTriangles": 818,
+      "triangles": 818
+    },
+    {
+      "id": "muscle-FMA46123",
+      "name": "Chef transverse · Adducteur du pouce — droit",
+      "englishName": "transverse head of right adductor pollicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA46123"
+      ],
+      "sourceIds": [
+        "FJ1515"
+      ],
+      "fmaId": "FMA46123",
+      "sourceTriangles": 754,
+      "triangles": 754
+    },
+    {
+      "id": "muscle-FMA46124",
+      "name": "Chef transverse · Adducteur du pouce — gauche",
+      "englishName": "transverse head of left adductor pollicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA46124"
+      ],
+      "sourceIds": [
+        "FJ1515M"
+      ],
+      "fmaId": "FMA46124",
+      "sourceTriangles": 754,
+      "triangles": 754
+    },
+    {
+      "id": "muscle-FMA38619",
+      "name": "Chef ulnaire · Fléchisseur ulnaire du carpe — droit",
+      "englishName": "ulnar head of right flexor carpi ulnaris",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38619"
+      ],
+      "sourceIds": [
+        "FJ1518"
+      ],
+      "fmaId": "FMA38619",
+      "sourceTriangles": 1538,
+      "triangles": 1538
+    },
+    {
+      "id": "muscle-FMA38620",
+      "name": "Chef ulnaire · Fléchisseur ulnaire du carpe — gauche",
+      "englishName": "ulnar head of left flexor carpi ulnaris",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38620"
+      ],
+      "sourceIds": [
+        "FJ1518M"
+      ],
+      "fmaId": "FMA38620",
+      "sourceTriangles": 1538,
+      "triangles": 1538
+    },
+    {
+      "id": "muscle-FMA38562",
+      "name": "Chef ulnaire · Rond pronateur — droit",
+      "englishName": "ulnar head of right pronator teres",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38562"
+      ],
+      "sourceIds": [
+        "FJ1516"
+      ],
+      "fmaId": "FMA38562",
+      "sourceTriangles": 1040,
+      "triangles": 1040
+    },
+    {
+      "id": "muscle-FMA38563",
+      "name": "Chef ulnaire · Rond pronateur — gauche",
+      "englishName": "ulnar head of left pronator teres",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38563"
+      ],
+      "sourceIds": [
+        "FJ1516M"
+      ],
+      "fmaId": "FMA38563",
+      "sourceTriangles": 1040,
+      "triangles": 1040
+    },
+    {
+      "id": "muscle-FMA46443",
+      "name": "Coccygien — droit",
+      "englishName": "right coccygeus",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA46443"
+      ],
+      "sourceIds": [
+        "FJ2547"
+      ],
+      "fmaId": "FMA46443",
+      "sourceTriangles": 2086,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46444",
+      "name": "Coccygien — gauche",
+      "englishName": "left coccygeus",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA46444"
+      ],
+      "sourceIds": [
+        "FJ1449M",
+        "FJ2542"
+      ],
+      "fmaId": "FMA46444",
+      "sourceTriangles": 4170,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46635",
+      "name": "Constricteur inférieur du pharynx — droit",
+      "englishName": "right inferior pharyngeal constrictor",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46635"
+      ],
+      "sourceIds": [
+        "FJ2752"
+      ],
+      "fmaId": "FMA46635",
+      "sourceTriangles": 7448,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46636",
+      "name": "Constricteur inférieur du pharynx — gauche",
+      "englishName": "left inferior pharyngeal constrictor",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46636"
+      ],
+      "sourceIds": [
+        "FJ2740"
+      ],
+      "fmaId": "FMA46636",
+      "sourceTriangles": 7422,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46633",
+      "name": "Constricteur moyen du pharynx — droit",
+      "englishName": "right middle pharyngeal constrictor",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46633"
+      ],
+      "sourceIds": [
+        "FJ2742"
+      ],
+      "fmaId": "FMA46633",
+      "sourceTriangles": 5904,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46634",
+      "name": "Constricteur moyen du pharynx — gauche",
+      "englishName": "left middle pharyngeal constrictor",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46634"
+      ],
+      "sourceIds": [
+        "FJ2754"
+      ],
+      "fmaId": "FMA46634",
+      "sourceTriangles": 5912,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46631",
+      "name": "Constricteur supérieur du pharynx — droit",
+      "englishName": "right superior pharyngeal constrictor",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46631"
+      ],
+      "sourceIds": [
+        "FJ2759"
+      ],
+      "fmaId": "FMA46631",
+      "sourceTriangles": 10702,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46632",
+      "name": "Constricteur supérieur du pharynx — gauche",
+      "englishName": "left superior pharyngeal constrictor",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46632"
+      ],
+      "sourceIds": [
+        "FJ2747"
+      ],
+      "fmaId": "FMA46632",
+      "sourceTriangles": 10702,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA37665",
+      "name": "Coraco-brachial — droit",
+      "englishName": "right coracobrachialis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37665"
+      ],
+      "sourceIds": [
+        "FJ1488"
+      ],
+      "fmaId": "FMA37665",
+      "sourceTriangles": 444,
+      "triangles": 444
+    },
+    {
+      "id": "muscle-FMA37666",
+      "name": "Coraco-brachial — gauche",
+      "englishName": "left coracobrachialis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37666"
+      ],
+      "sourceIds": [
+        "FJ1488M"
+      ],
+      "fmaId": "FMA37666",
+      "sourceTriangles": 444,
+      "triangles": 444
+    },
+    {
+      "id": "muscle-FMA37386",
+      "name": "Court abducteur du pouce — droit",
+      "englishName": "right abductor pollicis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37386"
+      ],
+      "sourceIds": [
+        "FJ1483"
+      ],
+      "fmaId": "FMA37386",
+      "sourceTriangles": 744,
+      "triangles": 744
+    },
+    {
+      "id": "muscle-FMA37387",
+      "name": "Court abducteur du pouce — gauche",
+      "englishName": "left abductor pollicis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37387"
+      ],
+      "sourceIds": [
+        "FJ1483M"
+      ],
+      "fmaId": "FMA37387",
+      "sourceTriangles": 744,
+      "triangles": 744
+    },
+    {
+      "id": "muscle-FMA22452",
+      "name": "Court adducteur — droit",
+      "englishName": "right adductor brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22452"
+      ],
+      "sourceIds": [
+        "FJ1401"
+      ],
+      "fmaId": "FMA22452",
+      "sourceTriangles": 1464,
+      "triangles": 1464
+    },
+    {
+      "id": "muscle-FMA22454",
+      "name": "Court adducteur — gauche",
+      "englishName": "left adductor brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22454"
+      ],
+      "sourceIds": [
+        "FJ1401M"
+      ],
+      "fmaId": "FMA22454",
+      "sourceTriangles": 1464,
+      "triangles": 1464
+    },
+    {
+      "id": "muscle-FMA51144",
+      "name": "Court extenseur de l’hallux — droit",
+      "englishName": "right extensor hallucis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA51144"
+      ],
+      "sourceIds": [
+        "FJ1407"
+      ],
+      "fmaId": "FMA51144",
+      "sourceTriangles": 1230,
+      "triangles": 1230
+    },
+    {
+      "id": "muscle-FMA51145",
+      "name": "Court extenseur de l’hallux — gauche",
+      "englishName": "left extensor hallucis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA51145"
+      ],
+      "sourceIds": [
+        "FJ1407M"
+      ],
+      "fmaId": "FMA51145",
+      "sourceTriangles": 1230,
+      "triangles": 1230
+    },
+    {
+      "id": "muscle-FMA38519",
+      "name": "Court extenseur du pouce — droit",
+      "englishName": "right extensor pollicis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38519"
+      ],
+      "sourceIds": [
+        "FJ1494"
+      ],
+      "fmaId": "FMA38519",
+      "sourceTriangles": 998,
+      "triangles": 998
+    },
+    {
+      "id": "muscle-FMA38520",
+      "name": "Court extenseur du pouce — gauche",
+      "englishName": "left extensor pollicis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38520"
+      ],
+      "sourceIds": [
+        "FJ1494M"
+      ],
+      "fmaId": "FMA38520",
+      "sourceTriangles": 998,
+      "triangles": 998
+    },
+    {
+      "id": "muscle-FMA38498",
+      "name": "Court extenseur radial du carpe — droit",
+      "englishName": "right extensor carpi radialis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38498"
+      ],
+      "sourceIds": [
+        "FJ1489"
+      ],
+      "fmaId": "FMA38498",
+      "sourceTriangles": 2098,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA38499",
+      "name": "Court extenseur radial du carpe — gauche",
+      "englishName": "left extensor carpi radialis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38499"
+      ],
+      "sourceIds": [
+        "FJ1489M"
+      ],
+      "fmaId": "FMA38499",
+      "sourceTriangles": 2098,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22554",
+      "name": "Court fibulaire — droit",
+      "englishName": "right fibularis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22554"
+      ],
+      "sourceIds": [
+        "FJ1409"
+      ],
+      "fmaId": "FMA22554",
+      "sourceTriangles": 1766,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22555",
+      "name": "Court fibulaire — gauche",
+      "englishName": "left fibularis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22555"
+      ],
+      "sourceIds": [
+        "FJ1409M"
+      ],
+      "fmaId": "FMA22555",
+      "sourceTriangles": 1766,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA37461",
+      "name": "Court fléchisseur des orteils — droit",
+      "englishName": "right flexor digitorum brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37461"
+      ],
+      "sourceIds": [
+        "FJ1413"
+      ],
+      "fmaId": "FMA37461",
+      "sourceTriangles": 2436,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA37462",
+      "name": "Court fléchisseur des orteils — gauche",
+      "englishName": "left flexor digitorum brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37462"
+      ],
+      "sourceIds": [
+        "FJ1413M"
+      ],
+      "fmaId": "FMA37462",
+      "sourceTriangles": 2436,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA37471",
+      "name": "Court fléchisseur du petit doigt — droit",
+      "englishName": "flexor digiti minimi brevis of right foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37471"
+      ],
+      "sourceIds": [
+        "FJ1391"
+      ],
+      "fmaId": "FMA37471",
+      "sourceTriangles": 786,
+      "triangles": 786
+    },
+    {
+      "id": "muscle-FMA37398",
+      "name": "Court fléchisseur du petit doigt — droit",
+      "englishName": "flexor digiti minimi brevis of right hand",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37398"
+      ],
+      "sourceIds": [
+        "FJ1470"
+      ],
+      "fmaId": "FMA37398",
+      "sourceTriangles": 328,
+      "triangles": 328
+    },
+    {
+      "id": "muscle-FMA37472",
+      "name": "Court fléchisseur du petit doigt — gauche",
+      "englishName": "flexor digiti minimi brevis of left foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA37472"
+      ],
+      "sourceIds": [
+        "FJ1391M"
+      ],
+      "fmaId": "FMA37472",
+      "sourceTriangles": 786,
+      "triangles": 786
+    },
+    {
+      "id": "muscle-FMA37399",
+      "name": "Court fléchisseur du petit doigt — gauche",
+      "englishName": "flexor digiti minimi brevis of left hand",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37399"
+      ],
+      "sourceIds": [
+        "FJ1470M"
+      ],
+      "fmaId": "FMA37399",
+      "sourceTriangles": 328,
+      "triangles": 328
+    },
+    {
+      "id": "muscle-FMA37388",
+      "name": "Court fléchisseur du pouce — droit",
+      "englishName": "right flexor pollicis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37388"
+      ],
+      "sourceIds": [
+        "FJ1469M"
+      ],
+      "fmaId": "FMA37388",
+      "sourceTriangles": 714,
+      "triangles": 714
+    },
+    {
+      "id": "muscle-FMA37389",
+      "name": "Court fléchisseur du pouce — gauche",
+      "englishName": "left flexor pollicis brevis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37389"
+      ],
+      "sourceIds": [
+        "FJ1469"
+      ],
+      "fmaId": "FMA37389",
+      "sourceTriangles": 714,
+      "triangles": 714
+    },
+    {
+      "id": "muscle-FMA46580",
+      "name": "Crico-aryténoïdien latéral — droit",
+      "englishName": "right lateral crico-arytenoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46580"
+      ],
+      "sourceIds": [
+        "FJ2796"
+      ],
+      "fmaId": "FMA46580",
+      "sourceTriangles": 6198,
+      "triangles": 1598
+    },
+    {
+      "id": "muscle-FMA46581",
+      "name": "Crico-aryténoïdien latéral — gauche",
+      "englishName": "left lateral crico-arytenoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46581"
+      ],
+      "sourceIds": [
+        "FJ2778"
+      ],
+      "fmaId": "FMA46581",
+      "sourceTriangles": 6214,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46577",
+      "name": "Crico-aryténoïdien postérieur — droit",
+      "englishName": "right posterior crico-arytenoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46577"
+      ],
+      "sourceIds": [
+        "FJ2800"
+      ],
+      "fmaId": "FMA46577",
+      "sourceTriangles": 4812,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46578",
+      "name": "Crico-aryténoïdien postérieur — gauche",
+      "englishName": "left posterior crico-arytenoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46578"
+      ],
+      "sourceIds": [
+        "FJ2782"
+      ],
+      "fmaId": "FMA46578",
+      "sourceTriangles": 4842,
+      "triangles": 1598
+    },
+    {
+      "id": "muscle-FMA13398",
+      "name": "Dentelé antérieur — droit",
+      "englishName": "right serratus anterior",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13398"
+      ],
+      "sourceIds": [
+        "FJ1459"
+      ],
+      "fmaId": "FMA13398",
+      "sourceTriangles": 49212,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13399",
+      "name": "Dentelé antérieur — gauche",
+      "englishName": "left serratus anterior",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13399"
+      ],
+      "sourceIds": [
+        "FJ1459M"
+      ],
+      "fmaId": "FMA13399",
+      "sourceTriangles": 49212,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13405",
+      "name": "Dentelé postérieur inférieur — droit",
+      "englishName": "right serratus posterior inferior",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13405"
+      ],
+      "sourceIds": [
+        "FJ1541"
+      ],
+      "fmaId": "FMA13405",
+      "sourceTriangles": 13164,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA13406",
+      "name": "Dentelé postérieur inférieur — gauche",
+      "englishName": "left serratus posterior inferior",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13406"
+      ],
+      "sourceIds": [
+        "FJ1541M"
+      ],
+      "fmaId": "FMA13406",
+      "sourceTriangles": 13164,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13403",
+      "name": "Dentelé postérieur supérieur — droit",
+      "englishName": "right serratus posterior superior",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13403"
+      ],
+      "sourceIds": [
+        "FJ1542"
+      ],
+      "fmaId": "FMA13403",
+      "sourceTriangles": 9066,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13404",
+      "name": "Dentelé postérieur supérieur — gauche",
+      "englishName": "left serratus posterior superior",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13404"
+      ],
+      "sourceIds": [
+        "FJ1542M"
+      ],
+      "fmaId": "FMA13404",
+      "sourceTriangles": 9066,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13295",
+      "name": "Diaphragme",
+      "englishName": "diaphragm",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13295"
+      ],
+      "sourceIds": [
+        "FJ3131"
+      ],
+      "fmaId": "FMA13295",
+      "sourceTriangles": 68522,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46292",
+      "name": "Digastrique — droit",
+      "englishName": "right digastric",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA46292"
+      ],
+      "sourceIds": [
+        "FJ1556",
+        "FJ1579"
+      ],
+      "fmaId": "FMA46292",
+      "sourceTriangles": 2952,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46293",
+      "name": "Digastrique — gauche",
+      "englishName": "left digastric",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA46293"
+      ],
+      "sourceIds": [
+        "FJ1555",
+        "FJ1560",
+        "FJ1578"
+      ],
+      "fmaId": "FMA46293",
+      "sourceTriangles": 3284,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46313",
+      "name": "Droit antérieur de la tête — droit",
+      "englishName": "right rectus capitis anterior",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA46313"
+      ],
+      "sourceIds": [
+        "FJ1588"
+      ],
+      "fmaId": "FMA46313",
+      "sourceTriangles": 804,
+      "triangles": 804
+    },
+    {
+      "id": "muscle-FMA46314",
+      "name": "Droit antérieur de la tête — gauche",
+      "englishName": "left rectus capitis anterior",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA46314"
+      ],
+      "sourceIds": [
+        "FJ1566"
+      ],
+      "fmaId": "FMA46314",
+      "sourceTriangles": 816,
+      "triangles": 816
+    },
+    {
+      "id": "muscle-FMA38928",
+      "name": "Droit fémoral — droit",
+      "englishName": "right rectus femoris",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA38928"
+      ],
+      "sourceIds": [
+        "FJ1433"
+      ],
+      "fmaId": "FMA38928",
+      "sourceTriangles": 5688,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38929",
+      "name": "Droit fémoral — gauche",
+      "englishName": "left rectus femoris",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA38929"
+      ],
+      "sourceIds": [
+        "FJ1433M"
+      ],
+      "fmaId": "FMA38929",
+      "sourceTriangles": 5688,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA49046",
+      "name": "Droit inférieur de l’œil — droit",
+      "englishName": "right inferior rectus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA49046"
+      ],
+      "sourceIds": [
+        "FJ1346"
+      ],
+      "fmaId": "FMA49046",
+      "sourceTriangles": 3542,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA49047",
+      "name": "Droit inférieur de l’œil — gauche",
+      "englishName": "left inferior rectus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA49047"
+      ],
+      "sourceIds": [
+        "FJ1295"
+      ],
+      "fmaId": "FMA49047",
+      "sourceTriangles": 3560,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46317",
+      "name": "Droit latéral de la tête — droit",
+      "englishName": "right rectus capitis lateralis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA46317"
+      ],
+      "sourceIds": [
+        "FJ1591"
+      ],
+      "fmaId": "FMA46317",
+      "sourceTriangles": 674,
+      "triangles": 674
+    },
+    {
+      "id": "muscle-FMA46318",
+      "name": "Droit latéral de la tête — gauche",
+      "englishName": "left rectus capitis lateralis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA46318"
+      ],
+      "sourceIds": [
+        "FJ1569"
+      ],
+      "fmaId": "FMA46318",
+      "sourceTriangles": 720,
+      "triangles": 720
+    },
+    {
+      "id": "muscle-FMA49054",
+      "name": "Droit latéral de l’œil — droit",
+      "englishName": "right lateral rectus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA49054"
+      ],
+      "sourceIds": [
+        "FJ1355"
+      ],
+      "fmaId": "FMA49054",
+      "sourceTriangles": 3276,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA49055",
+      "name": "Droit latéral de l’œil — gauche",
+      "englishName": "left lateral rectus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA49055"
+      ],
+      "sourceIds": [
+        "FJ1304"
+      ],
+      "fmaId": "FMA49055",
+      "sourceTriangles": 3316,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA49056",
+      "name": "Droit médial de l’œil — droit",
+      "englishName": "right medial rectus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA49056"
+      ],
+      "sourceIds": [
+        "FJ1359"
+      ],
+      "fmaId": "FMA49056",
+      "sourceTriangles": 2548,
+      "triangles": 1598
+    },
+    {
+      "id": "muscle-FMA49057",
+      "name": "Droit médial de l’œil — gauche",
+      "englishName": "left medial rectus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA49057"
+      ],
+      "sourceIds": [
+        "FJ1308"
+      ],
+      "fmaId": "FMA49057",
+      "sourceTriangles": 2576,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA49044",
+      "name": "Droit supérieur de l’œil — droit",
+      "englishName": "right superior rectus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA49044"
+      ],
+      "sourceIds": [
+        "FJ1374"
+      ],
+      "fmaId": "FMA49044",
+      "sourceTriangles": 2812,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA49045",
+      "name": "Droit supérieur de l’œil — gauche",
+      "englishName": "left superior rectus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA49045"
+      ],
+      "sourceIds": [
+        "FJ1323"
+      ],
+      "fmaId": "FMA49045",
+      "sourceTriangles": 2836,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA38525",
+      "name": "Extenseur de l’index — droit",
+      "englishName": "right extensor indicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38525"
+      ],
+      "sourceIds": [
+        "FJ1493"
+      ],
+      "fmaId": "FMA38525",
+      "sourceTriangles": 720,
+      "triangles": 720
+    },
+    {
+      "id": "muscle-FMA38526",
+      "name": "Extenseur de l’index — gauche",
+      "englishName": "left extensor indicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38526"
+      ],
+      "sourceIds": [
+        "FJ1493M"
+      ],
+      "fmaId": "FMA38526",
+      "sourceTriangles": 720,
+      "triangles": 720
+    },
+    {
+      "id": "muscle-FMA38501",
+      "name": "Extenseur des doigts — droit",
+      "englishName": "right extensor digitorum",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38501"
+      ],
+      "sourceIds": [
+        "FJ1492"
+      ],
+      "fmaId": "FMA38501",
+      "sourceTriangles": 4294,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38502",
+      "name": "Extenseur des doigts — gauche",
+      "englishName": "left extensor digitorum",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38502"
+      ],
+      "sourceIds": [
+        "FJ1492M"
+      ],
+      "fmaId": "FMA38502",
+      "sourceTriangles": 4294,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38504",
+      "name": "Extenseur du petit doigt — droit",
+      "englishName": "right extensor digiti minimi",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38504"
+      ],
+      "sourceIds": [
+        "FJ1491"
+      ],
+      "fmaId": "FMA38504",
+      "sourceTriangles": 1434,
+      "triangles": 1434
+    },
+    {
+      "id": "muscle-FMA38505",
+      "name": "Extenseur du petit doigt — gauche",
+      "englishName": "left extensor digiti minimi",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38505"
+      ],
+      "sourceIds": [
+        "FJ1491M"
+      ],
+      "fmaId": "FMA38505",
+      "sourceTriangles": 1434,
+      "triangles": 1434
+    },
+    {
+      "id": "muscle-FMA38507",
+      "name": "Extenseur ulnaire du carpe — droit",
+      "englishName": "right extensor carpi ulnaris",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38507"
+      ],
+      "sourceIds": [
+        "FJ1472",
+        "FJ1517"
+      ],
+      "fmaId": "FMA38507",
+      "sourceTriangles": 3394,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38508",
+      "name": "Extenseur ulnaire du carpe — gauche",
+      "englishName": "left extensor carpi ulnaris",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38508"
+      ],
+      "sourceIds": [
+        "FJ1472M",
+        "FJ1517M"
+      ],
+      "fmaId": "FMA38508",
+      "sourceTriangles": 3394,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA45874",
+      "name": "Faisceau abdominal · Grand pectoral — droit",
+      "englishName": "abdominal part of right pectoralis major",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA45874"
+      ],
+      "sourceIds": [
+        "FJ1446"
+      ],
+      "fmaId": "FMA45874",
+      "sourceTriangles": 1536,
+      "triangles": 1536
+    },
+    {
+      "id": "muscle-FMA45875",
+      "name": "Faisceau abdominal · Grand pectoral — gauche",
+      "englishName": "abdominal part of left pectoralis major",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA45875"
+      ],
+      "sourceIds": [
+        "FJ1446M"
+      ],
+      "fmaId": "FMA45875",
+      "sourceTriangles": 1536,
+      "triangles": 1536
+    },
+    {
+      "id": "muscle-FMA34682",
+      "name": "Faisceau acromial · Deltoïde — droit",
+      "englishName": "acromial part of right deltoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA34682"
+      ],
+      "sourceIds": [
+        "FJ1467"
+      ],
+      "fmaId": "FMA34682",
+      "sourceTriangles": 1300,
+      "triangles": 1300
+    },
+    {
+      "id": "muscle-FMA34683",
+      "name": "Faisceau acromial · Deltoïde — gauche",
+      "englishName": "acromial part of left deltoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA34683"
+      ],
+      "sourceIds": [
+        "FJ1467M"
+      ],
+      "fmaId": "FMA34683",
+      "sourceTriangles": 1300,
+      "triangles": 1300
+    },
+    {
+      "id": "muscle-FMA34680",
+      "name": "Faisceau claviculaire · Deltoïde — droit",
+      "englishName": "clavicular part of right deltoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA34680"
+      ],
+      "sourceIds": [
+        "FJ1468"
+      ],
+      "fmaId": "FMA34680",
+      "sourceTriangles": 2206,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA34681",
+      "name": "Faisceau claviculaire · Deltoïde — gauche",
+      "englishName": "clavicular part of left deltoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA34681"
+      ],
+      "sourceIds": [
+        "FJ1468M"
+      ],
+      "fmaId": "FMA34681",
+      "sourceTriangles": 2206,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA34690",
+      "name": "Faisceau claviculaire · Grand pectoral — droit",
+      "englishName": "clavicular part of right pectoralis major",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA34690"
+      ],
+      "sourceIds": [
+        "FJ1447"
+      ],
+      "fmaId": "FMA34690",
+      "sourceTriangles": 1846,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA34691",
+      "name": "Faisceau claviculaire · Grand pectoral — gauche",
+      "englishName": "clavicular part of left pectoralis major",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA34691"
+      ],
+      "sourceIds": [
+        "FJ1447M"
+      ],
+      "fmaId": "FMA34691",
+      "sourceTriangles": 1846,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA34684",
+      "name": "Faisceau spinal · Deltoïde — droit",
+      "englishName": "spinal part of right deltoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA34684"
+      ],
+      "sourceIds": [
+        "FJ1513"
+      ],
+      "fmaId": "FMA34684",
+      "sourceTriangles": 1900,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA34685",
+      "name": "Faisceau spinal · Deltoïde — gauche",
+      "englishName": "spinal part of left deltoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA34685"
+      ],
+      "sourceIds": [
+        "FJ1513M"
+      ],
+      "fmaId": "FMA34685",
+      "sourceTriangles": 1900,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA79979",
+      "name": "Faisceau sterno-costal · Grand pectoral — droit",
+      "englishName": "sternocostal part of right pectoralis major",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA79979"
+      ],
+      "sourceIds": [
+        "FJ1464"
+      ],
+      "fmaId": "FMA79979",
+      "sourceTriangles": 7114,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA79980",
+      "name": "Faisceau sterno-costal · Grand pectoral — gauche",
+      "englishName": "sternocostal part of left pectoralis major",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA79980"
+      ],
+      "sourceIds": [
+        "FJ1464M"
+      ],
+      "fmaId": "FMA79980",
+      "sourceTriangles": 7114,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38479",
+      "name": "Fléchisseur profond des doigts — droit",
+      "englishName": "right flexor digitorum profundus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38479"
+      ],
+      "sourceIds": [
+        "FJ1497"
+      ],
+      "fmaId": "FMA38479",
+      "sourceTriangles": 4838,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38480",
+      "name": "Fléchisseur profond des doigts — gauche",
+      "englishName": "left flexor digitorum profundus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38480"
+      ],
+      "sourceIds": [
+        "FJ1497M"
+      ],
+      "fmaId": "FMA38480",
+      "sourceTriangles": 4838,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38460",
+      "name": "Fléchisseur radial du carpe — droit",
+      "englishName": "right flexor carpi radialis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38460"
+      ],
+      "sourceIds": [
+        "FJ1496"
+      ],
+      "fmaId": "FMA38460",
+      "sourceTriangles": 1148,
+      "triangles": 1148
+    },
+    {
+      "id": "muscle-FMA38461",
+      "name": "Fléchisseur radial du carpe — gauche",
+      "englishName": "left flexor carpi radialis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38461"
+      ],
+      "sourceIds": [
+        "FJ1496M"
+      ],
+      "fmaId": "FMA38461",
+      "sourceTriangles": 1148,
+      "triangles": 1148
+    },
+    {
+      "id": "muscle-FMA38470",
+      "name": "Fléchisseur superficiel des doigts — droit",
+      "englishName": "right flexor digitorum superficialis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38470"
+      ],
+      "sourceIds": [
+        "FJ1475",
+        "FJ1499"
+      ],
+      "fmaId": "FMA38470",
+      "sourceTriangles": 9564,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38471",
+      "name": "Fléchisseur superficiel des doigts — gauche",
+      "englishName": "left flexor digitorum superficialis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38471"
+      ],
+      "sourceIds": [
+        "FJ1475M",
+        "FJ1499M"
+      ],
+      "fmaId": "FMA38471",
+      "sourceTriangles": 9564,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA43883",
+      "name": "Gracile — droit",
+      "englishName": "right gracilis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA43883"
+      ],
+      "sourceIds": [
+        "FJ1421"
+      ],
+      "fmaId": "FMA43883",
+      "sourceTriangles": 3172,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA43884",
+      "name": "Gracile — gauche",
+      "englishName": "left gracilis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA43884"
+      ],
+      "sourceIds": [
+        "FJ1421M"
+      ],
+      "fmaId": "FMA43884",
+      "sourceTriangles": 3172,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22459",
+      "name": "Grand adducteur — droit",
+      "englishName": "right adductor magnus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22459"
+      ],
+      "sourceIds": [
+        "FJ1403"
+      ],
+      "fmaId": "FMA22459",
+      "sourceTriangles": 5972,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22460",
+      "name": "Grand adducteur — gauche",
+      "englishName": "left adductor magnus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22460"
+      ],
+      "sourceIds": [
+        "FJ1403M"
+      ],
+      "fmaId": "FMA22460",
+      "sourceTriangles": 5972,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA32530",
+      "name": "Grand droit postérieur de la tête — droit",
+      "englishName": "right rectus capitis posterior major",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA32530"
+      ],
+      "sourceIds": [
+        "FJ1589"
+      ],
+      "fmaId": "FMA32530",
+      "sourceTriangles": 1572,
+      "triangles": 1572
+    },
+    {
+      "id": "muscle-FMA32531",
+      "name": "Grand droit postérieur de la tête — gauche",
+      "englishName": "left rectus capitis posterior major",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA32531"
+      ],
+      "sourceIds": [
+        "FJ1567"
+      ],
+      "fmaId": "FMA32531",
+      "sourceTriangles": 1566,
+      "triangles": 1566
+    },
+    {
+      "id": "muscle-FMA22328",
+      "name": "Grand fessier — droit",
+      "englishName": "right gluteus maximus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22328"
+      ],
+      "sourceIds": [
+        "FJ1418"
+      ],
+      "fmaId": "FMA22328",
+      "sourceTriangles": 2376,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22329",
+      "name": "Grand fessier — gauche",
+      "englishName": "left gluteus maximus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22329"
+      ],
+      "sourceIds": [
+        "FJ1418M"
+      ],
+      "fmaId": "FMA22329",
+      "sourceTriangles": 2376,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22342",
+      "name": "Grand psoas — droit",
+      "englishName": "right psoas major",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22342"
+      ],
+      "sourceIds": [
+        "FJ1431"
+      ],
+      "fmaId": "FMA22342",
+      "sourceTriangles": 4900,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22343",
+      "name": "Grand psoas — gauche",
+      "englishName": "left psoas major",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22343"
+      ],
+      "sourceIds": [
+        "FJ1431M"
+      ],
+      "fmaId": "FMA22343",
+      "sourceTriangles": 4900,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA13381",
+      "name": "Grand rhomboïde — droit",
+      "englishName": "right rhomboid major",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13381"
+      ],
+      "sourceIds": [
+        "FJ1536"
+      ],
+      "fmaId": "FMA13381",
+      "sourceTriangles": 7202,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13382",
+      "name": "Grand rhomboïde — gauche",
+      "englishName": "left rhomboid major",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13382"
+      ],
+      "sourceIds": [
+        "FJ1536M"
+      ],
+      "fmaId": "FMA13382",
+      "sourceTriangles": 7202,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA32551",
+      "name": "Grand rond — droit",
+      "englishName": "right teres major",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA32551"
+      ],
+      "sourceIds": [
+        "FJ1507"
+      ],
+      "fmaId": "FMA32551",
+      "sourceTriangles": 1042,
+      "triangles": 1042
+    },
+    {
+      "id": "muscle-FMA32552",
+      "name": "Grand rond — gauche",
+      "englishName": "left teres major",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA32552"
+      ],
+      "sourceIds": [
+        "FJ1507M"
+      ],
+      "fmaId": "FMA32552",
+      "sourceTriangles": 1042,
+      "triangles": 1042
+    },
+    {
+      "id": "muscle-FMA46698",
+      "name": "Génio-glosse — droit",
+      "englishName": "right genioglossus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46698"
+      ],
+      "sourceIds": [
+        "FJ2750"
+      ],
+      "fmaId": "FMA46698",
+      "sourceTriangles": 7594,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46702",
+      "name": "Génio-glosse — gauche",
+      "englishName": "left genioglossus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46702"
+      ],
+      "sourceIds": [
+        "FJ2738"
+      ],
+      "fmaId": "FMA46702",
+      "sourceTriangles": 8214,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46326",
+      "name": "Génio-hyoïdien — droit",
+      "englishName": "right geniohyoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA46326"
+      ],
+      "sourceIds": [
+        "FJ1580"
+      ],
+      "fmaId": "FMA46326",
+      "sourceTriangles": 728,
+      "triangles": 728
+    },
+    {
+      "id": "muscle-FMA46327",
+      "name": "Génio-hyoïdien — gauche",
+      "englishName": "left geniohyoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA46327"
+      ],
+      "sourceIds": [
+        "FJ1559"
+      ],
+      "fmaId": "FMA46327",
+      "sourceTriangles": 732,
+      "triangles": 732
+    },
+    {
+      "id": "muscle-FMA46703",
+      "name": "Hyo-glosse — droit",
+      "englishName": "right hyoglossus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46703"
+      ],
+      "sourceIds": [
+        "FJ2751"
+      ],
+      "fmaId": "FMA46703",
+      "sourceTriangles": 2874,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46704",
+      "name": "Hyo-glosse — gauche",
+      "englishName": "left hyoglossus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46704"
+      ],
+      "sourceIds": [
+        "FJ2739"
+      ],
+      "fmaId": "FMA46704",
+      "sourceTriangles": 2888,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22322",
+      "name": "Iliaque — droit",
+      "englishName": "right iliacus",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22322"
+      ],
+      "sourceIds": [
+        "FJ1422"
+      ],
+      "fmaId": "FMA22322",
+      "sourceTriangles": 2862,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22323",
+      "name": "Iliaque — gauche",
+      "englishName": "left iliacus",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22323"
+      ],
+      "sourceIds": [
+        "FJ1422M"
+      ],
+      "fmaId": "FMA22323",
+      "sourceTriangles": 2862,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA45858",
+      "name": "Ilio-coccygien — droit",
+      "englishName": "right iliococcygeus",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA45858"
+      ],
+      "sourceIds": [
+        "FJ2549"
+      ],
+      "fmaId": "FMA45858",
+      "sourceTriangles": 3864,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA45859",
+      "name": "Ilio-coccygien — gauche",
+      "englishName": "left iliococcygeus",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA45859"
+      ],
+      "sourceIds": [
+        "FJ1453M",
+        "FJ2544"
+      ],
+      "fmaId": "FMA45859",
+      "sourceTriangles": 7708,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22740",
+      "name": "Ilio-costal des lombes — droit",
+      "englishName": "right iliocostalis lumborum",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22740"
+      ],
+      "sourceIds": [
+        "FJ1527"
+      ],
+      "fmaId": "FMA22740",
+      "sourceTriangles": 15872,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22741",
+      "name": "Ilio-costal des lombes — gauche",
+      "englishName": "left iliocostalis lumborum",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22741"
+      ],
+      "sourceIds": [
+        "FJ1527M"
+      ],
+      "fmaId": "FMA22741",
+      "sourceTriangles": 15872,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22744",
+      "name": "Ilio-costal du cou — droit",
+      "englishName": "right iliocostalis cervicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA22744"
+      ],
+      "sourceIds": [
+        "FJ1526"
+      ],
+      "fmaId": "FMA22744",
+      "sourceTriangles": 3072,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22745",
+      "name": "Ilio-costal du cou — gauche",
+      "englishName": "left iliocostalis cervicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA22745"
+      ],
+      "sourceIds": [
+        "FJ1526M"
+      ],
+      "fmaId": "FMA22745",
+      "sourceTriangles": 3072,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22742",
+      "name": "Ilio-costal du thorax — droit",
+      "englishName": "right iliocostalis thoracis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22742"
+      ],
+      "sourceIds": [
+        "FJ1528"
+      ],
+      "fmaId": "FMA22742",
+      "sourceTriangles": 8386,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22743",
+      "name": "Ilio-costal du thorax — gauche",
+      "englishName": "left iliocostalis thoracis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22743"
+      ],
+      "sourceIds": [
+        "FJ1528M"
+      ],
+      "fmaId": "FMA22743",
+      "sourceTriangles": 8386,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA32547",
+      "name": "Infra-épineux — droit",
+      "englishName": "right infraspinatus muscle",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA32547"
+      ],
+      "sourceIds": [
+        "FJ1500"
+      ],
+      "fmaId": "FMA32547",
+      "sourceTriangles": 866,
+      "triangles": 866
+    },
+    {
+      "id": "muscle-FMA32548",
+      "name": "Infra-épineux — gauche",
+      "englishName": "left infraspinatus muscle",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA32548"
+      ],
+      "sourceIds": [
+        "FJ1500M"
+      ],
+      "fmaId": "FMA32548",
+      "sourceTriangles": 866,
+      "triangles": 866
+    },
+    {
+      "id": "muscle-FMA9756",
+      "name": "Intercostaux externes",
+      "englishName": "external intercostal muscle",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA9756"
+      ],
+      "sourceIds": [
+        "FJ1451",
+        "FJ1451M"
+      ],
+      "fmaId": "FMA9756",
+      "sourceTriangles": 197856,
+      "triangles": 6735
+    },
+    {
+      "id": "muscle-FMA9757",
+      "name": "Intercostaux internes",
+      "englishName": "internal intercostal muscle",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA9757"
+      ],
+      "sourceIds": [
+        "FJ1455",
+        "FJ1455M"
+      ],
+      "fmaId": "FMA9757",
+      "sourceTriangles": 179676,
+      "triangles": 5590
+    },
+    {
+      "id": "muscle-FMA9758",
+      "name": "Intercostaux intimes",
+      "englishName": "innermost intercostal muscle",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA9758"
+      ],
+      "sourceIds": [
+        "FJ1454",
+        "FJ1454M"
+      ],
+      "fmaId": "FMA9758",
+      "sourceTriangles": 174436,
+      "triangles": 7090
+    },
+    {
+      "id": "muscle-FMA42404",
+      "name": "Interosseux dorsaux — droit",
+      "englishName": "set of dorsal interossei of right hand",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA42404"
+      ],
+      "sourceIds": [
+        "FJ1509"
+      ],
+      "fmaId": "FMA42404",
+      "sourceTriangles": 2618,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA42405",
+      "name": "Interosseux dorsaux — gauche",
+      "englishName": "set of dorsal interossei of left hand",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA42405"
+      ],
+      "sourceIds": [
+        "FJ1509M"
+      ],
+      "fmaId": "FMA42405",
+      "sourceTriangles": 2618,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA42402",
+      "name": "Interosseux palmaires — droit",
+      "englishName": "set of palmar interossei of right hand",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA42402"
+      ],
+      "sourceIds": [
+        "FJ1511"
+      ],
+      "fmaId": "FMA42402",
+      "sourceTriangles": 966,
+      "triangles": 966
+    },
+    {
+      "id": "muscle-FMA42403",
+      "name": "Interosseux palmaires — gauche",
+      "englishName": "set of palmar interossei of left hand",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA42403"
+      ],
+      "sourceIds": [
+        "FJ1511M"
+      ],
+      "fmaId": "FMA42403",
+      "sourceTriangles": 966,
+      "triangles": 966
+    },
+    {
+      "id": "muscle-FMA22850",
+      "name": "Intertransversaire lombaire latéral",
+      "englishName": "lateral lumbar intertransversarius",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22850"
+      ],
+      "sourceIds": [
+        "FJ1547",
+        "FJ1547M"
+      ],
+      "fmaId": "FMA22850",
+      "sourceTriangles": 2724,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22851",
+      "name": "Intertransversaire lombaire médial",
+      "englishName": "medial lumbar intertransversarius",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22851"
+      ],
+      "sourceIds": [
+        "FJ1548",
+        "FJ1548M"
+      ],
+      "fmaId": "FMA22851",
+      "sourceTriangles": 3472,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA71442",
+      "name": "Intertransversaires cervicaux antérieurs",
+      "englishName": "set of anterior cervical intertransversarii",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA71442"
+      ],
+      "sourceIds": [
+        "FJ1549",
+        "FJ1549M"
+      ],
+      "fmaId": "FMA71442",
+      "sourceTriangles": 2304,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA71443",
+      "name": "Intertransversaires cervicaux postérieurs",
+      "englishName": "set of posterior cervical intertransversarii",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA71443"
+      ],
+      "sourceIds": [
+        "FJ1553",
+        "FJ1553M"
+      ],
+      "fmaId": "FMA71443",
+      "sourceTriangles": 2180,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA71309",
+      "name": "Interépineux cervicaux",
+      "englishName": "set of interspinales cervicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA71309"
+      ],
+      "sourceIds": [
+        "FJ1552",
+        "FJ1552M"
+      ],
+      "fmaId": "FMA71309",
+      "sourceTriangles": 2420,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA71307",
+      "name": "Interépineux lombaires",
+      "englishName": "set of interspinales lumborum",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA71307"
+      ],
+      "sourceIds": [
+        "FJ1550",
+        "FJ1550M"
+      ],
+      "fmaId": "FMA71307",
+      "sourceTriangles": 1548,
+      "triangles": 1548
+    },
+    {
+      "id": "muscle-FMA22890",
+      "name": "Interépineux thoraciques — droit",
+      "englishName": "right interspinalis thoracis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22890"
+      ],
+      "sourceIds": [
+        "FJ1551"
+      ],
+      "fmaId": "FMA22890",
+      "sourceTriangles": 410,
+      "triangles": 410
+    },
+    {
+      "id": "muscle-FMA22891",
+      "name": "Interépineux thoraciques — gauche",
+      "englishName": "left interspinalis thoracis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22891"
+      ],
+      "sourceIds": [
+        "FJ1551M"
+      ],
+      "fmaId": "FMA22891",
+      "sourceTriangles": 410,
+      "triangles": 410
+    },
+    {
+      "id": "muscle-FMA22336",
+      "name": "Jumeau inférieur — droit",
+      "englishName": "right gemellus inferior",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22336"
+      ],
+      "sourceIds": [
+        "FJ1416"
+      ],
+      "fmaId": "FMA22336",
+      "sourceTriangles": 642,
+      "triangles": 642
+    },
+    {
+      "id": "muscle-FMA22337",
+      "name": "Jumeau inférieur — gauche",
+      "englishName": "left gemellus inferior",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22337"
+      ],
+      "sourceIds": [
+        "FJ1416M"
+      ],
+      "fmaId": "FMA22337",
+      "sourceTriangles": 642,
+      "triangles": 642
+    },
+    {
+      "id": "muscle-FMA22334",
+      "name": "Jumeau supérieur — droit",
+      "englishName": "right gemellus superior",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22334"
+      ],
+      "sourceIds": [
+        "FJ1417"
+      ],
+      "fmaId": "FMA22334",
+      "sourceTriangles": 402,
+      "triangles": 402
+    },
+    {
+      "id": "muscle-FMA22335",
+      "name": "Jumeau supérieur — gauche",
+      "englishName": "left gemellus superior",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22335"
+      ],
+      "sourceIds": [
+        "FJ1417M"
+      ],
+      "fmaId": "FMA22335",
+      "sourceTriangles": 402,
+      "triangles": 402
+    },
+    {
+      "id": "muscle-FMA42398",
+      "name": "Lombricaux — droit",
+      "englishName": "set of lumbricals of right hand",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA42398"
+      ],
+      "sourceIds": [
+        "FJ1510"
+      ],
+      "fmaId": "FMA42398",
+      "sourceTriangles": 2668,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA42399",
+      "name": "Lombricaux — gauche",
+      "englishName": "set of lumbricals of left hand",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA42399"
+      ],
+      "sourceIds": [
+        "FJ1510M"
+      ],
+      "fmaId": "FMA42399",
+      "sourceTriangles": 2668,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38516",
+      "name": "Long abducteur du pouce — droit",
+      "englishName": "right abductor pollicis longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38516"
+      ],
+      "sourceIds": [
+        "FJ1484"
+      ],
+      "fmaId": "FMA38516",
+      "sourceTriangles": 1874,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38517",
+      "name": "Long abducteur du pouce — gauche",
+      "englishName": "left abductor pollicis longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38517"
+      ],
+      "sourceIds": [
+        "FJ1484M"
+      ],
+      "fmaId": "FMA38517",
+      "sourceTriangles": 1874,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22456",
+      "name": "Long adducteur — droit",
+      "englishName": "right adductor longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22456"
+      ],
+      "sourceIds": [
+        "FJ1402"
+      ],
+      "fmaId": "FMA22456",
+      "sourceTriangles": 2616,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22457",
+      "name": "Long adducteur — gauche",
+      "englishName": "left adductor longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22457"
+      ],
+      "sourceIds": [
+        "FJ1402M"
+      ],
+      "fmaId": "FMA22457",
+      "sourceTriangles": 2616,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46309",
+      "name": "Long de la tête — droit",
+      "englishName": "right longus capitis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA46309"
+      ],
+      "sourceIds": [
+        "FJ1582"
+      ],
+      "fmaId": "FMA46309",
+      "sourceTriangles": 3956,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46310",
+      "name": "Long de la tête — gauche",
+      "englishName": "left longus capitis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA46310"
+      ],
+      "sourceIds": [
+        "FJ1561"
+      ],
+      "fmaId": "FMA46310",
+      "sourceTriangles": 3898,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22546",
+      "name": "Long extenseur de l’hallux — droit",
+      "englishName": "right extensor hallucis longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22546"
+      ],
+      "sourceIds": [
+        "FJ1408"
+      ],
+      "fmaId": "FMA22546",
+      "sourceTriangles": 1668,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22547",
+      "name": "Long extenseur de l’hallux — gauche",
+      "englishName": "left extensor hallucis longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22547"
+      ],
+      "sourceIds": [
+        "FJ1408M"
+      ],
+      "fmaId": "FMA22547",
+      "sourceTriangles": 1668,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22548",
+      "name": "Long extenseur des orteils — droit",
+      "englishName": "right extensor digitorum longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22548"
+      ],
+      "sourceIds": [
+        "FJ1406"
+      ],
+      "fmaId": "FMA22548",
+      "sourceTriangles": 4546,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22549",
+      "name": "Long extenseur des orteils — gauche",
+      "englishName": "left extensor digitorum longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22549"
+      ],
+      "sourceIds": [
+        "FJ1406M"
+      ],
+      "fmaId": "FMA22549",
+      "sourceTriangles": 4546,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38522",
+      "name": "Long extenseur du pouce — droit",
+      "englishName": "right extensor pollicis longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38522"
+      ],
+      "sourceIds": [
+        "FJ1495"
+      ],
+      "fmaId": "FMA38522",
+      "sourceTriangles": 1326,
+      "triangles": 1326
+    },
+    {
+      "id": "muscle-FMA38523",
+      "name": "Long extenseur du pouce — gauche",
+      "englishName": "left extensor pollicis longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38523"
+      ],
+      "sourceIds": [
+        "FJ1495M"
+      ],
+      "fmaId": "FMA38523",
+      "sourceTriangles": 1326,
+      "triangles": 1326
+    },
+    {
+      "id": "muscle-FMA38495",
+      "name": "Long extenseur radial du carpe — droit",
+      "englishName": "right extensor carpi radialis longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38495"
+      ],
+      "sourceIds": [
+        "FJ1490"
+      ],
+      "fmaId": "FMA38495",
+      "sourceTriangles": 2474,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38496",
+      "name": "Long extenseur radial du carpe — gauche",
+      "englishName": "left extensor carpi radialis longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38496"
+      ],
+      "sourceIds": [
+        "FJ1490M"
+      ],
+      "fmaId": "FMA38496",
+      "sourceTriangles": 2474,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22552",
+      "name": "Long fibulaire — droit",
+      "englishName": "right fibularis longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22552"
+      ],
+      "sourceIds": [
+        "FJ1410"
+      ],
+      "fmaId": "FMA22552",
+      "sourceTriangles": 3860,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22553",
+      "name": "Long fibulaire — gauche",
+      "englishName": "left fibularis longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22553"
+      ],
+      "sourceIds": [
+        "FJ1410M"
+      ],
+      "fmaId": "FMA22553",
+      "sourceTriangles": 3860,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA65014",
+      "name": "Long fléchisseur de l’hallux — droit",
+      "englishName": "right flexor hallucis longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA65014"
+      ],
+      "sourceIds": [
+        "FJ1415"
+      ],
+      "fmaId": "FMA65014",
+      "sourceTriangles": 2758,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA65015",
+      "name": "Long fléchisseur de l’hallux — gauche",
+      "englishName": "left flexor hallucis longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA65015"
+      ],
+      "sourceIds": [
+        "FJ1415M"
+      ],
+      "fmaId": "FMA65015",
+      "sourceTriangles": 2758,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA65016",
+      "name": "Long fléchisseur des orteils — droit",
+      "englishName": "right flexor digitorum longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA65016"
+      ],
+      "sourceIds": [
+        "FJ1414"
+      ],
+      "fmaId": "FMA65016",
+      "sourceTriangles": 4004,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA65017",
+      "name": "Long fléchisseur des orteils — gauche",
+      "englishName": "left flexor digitorum longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA65017"
+      ],
+      "sourceIds": [
+        "FJ1414M"
+      ],
+      "fmaId": "FMA65017",
+      "sourceTriangles": 4004,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA38482",
+      "name": "Long fléchisseur du pouce — droit",
+      "englishName": "right flexor pollicis longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38482"
+      ],
+      "sourceIds": [
+        "FJ1498"
+      ],
+      "fmaId": "FMA38482",
+      "sourceTriangles": 1442,
+      "triangles": 1442
+    },
+    {
+      "id": "muscle-FMA38484",
+      "name": "Long fléchisseur du pouce — gauche",
+      "englishName": "left flexor pollicis longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38484"
+      ],
+      "sourceIds": [
+        "FJ1498M"
+      ],
+      "fmaId": "FMA38484",
+      "sourceTriangles": 1442,
+      "triangles": 1442
+    },
+    {
+      "id": "muscle-FMA38463",
+      "name": "Long palmaire — droit",
+      "englishName": "right palmaris longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38463"
+      ],
+      "sourceIds": [
+        "FJ1502"
+      ],
+      "fmaId": "FMA38463",
+      "sourceTriangles": 4968,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38464",
+      "name": "Long palmaire — gauche",
+      "englishName": "left palmaris longus",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38464"
+      ],
+      "sourceIds": [
+        "FJ1502M"
+      ],
+      "fmaId": "FMA38464",
+      "sourceTriangles": 4968,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22754",
+      "name": "Longissimus de la tête — droit",
+      "englishName": "right longissimus capitis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA22754"
+      ],
+      "sourceIds": [
+        "FJ1533"
+      ],
+      "fmaId": "FMA22754",
+      "sourceTriangles": 2260,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22756",
+      "name": "Longissimus de la tête — gauche",
+      "englishName": "left longissimus capitis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA22756"
+      ],
+      "sourceIds": [
+        "FJ1533M"
+      ],
+      "fmaId": "FMA22756",
+      "sourceTriangles": 2260,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22757",
+      "name": "Longissimus du cou — droit",
+      "englishName": "right longissimus cervicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA22757"
+      ],
+      "sourceIds": [
+        "FJ1534"
+      ],
+      "fmaId": "FMA22757",
+      "sourceTriangles": 2816,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22758",
+      "name": "Longissimus du cou — gauche",
+      "englishName": "left longissimus cervicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA22758"
+      ],
+      "sourceIds": [
+        "FJ1534M"
+      ],
+      "fmaId": "FMA22758",
+      "sourceTriangles": 2816,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22751",
+      "name": "Longissimus du thorax — droit",
+      "englishName": "right longissimus thoracis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22751"
+      ],
+      "sourceIds": [
+        "FJ1535"
+      ],
+      "fmaId": "FMA22751",
+      "sourceTriangles": 15068,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22753",
+      "name": "Longissimus du thorax — gauche",
+      "englishName": "left longissimus thoracis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22753"
+      ],
+      "sourceIds": [
+        "FJ1535M"
+      ],
+      "fmaId": "FMA22753",
+      "sourceTriangles": 15068,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22330",
+      "name": "Moyen fessier — droit",
+      "englishName": "right gluteus medius",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22330"
+      ],
+      "sourceIds": [
+        "FJ1419"
+      ],
+      "fmaId": "FMA22330",
+      "sourceTriangles": 3356,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22331",
+      "name": "Moyen fessier — gauche",
+      "englishName": "left gluteus medius",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22331"
+      ],
+      "sourceIds": [
+        "FJ1419M"
+      ],
+      "fmaId": "FMA22331",
+      "sourceTriangles": 3356,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46733",
+      "name": "Muscle de la luette",
+      "englishName": "uvular muscle",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46733"
+      ],
+      "sourceIds": [
+        "FJ2762"
+      ],
+      "fmaId": "FMA46733",
+      "sourceTriangles": 1632,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46592",
+      "name": "Muscle vocal — droit",
+      "englishName": "right vocalis",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46592"
+      ],
+      "sourceIds": [
+        "FJ2806"
+      ],
+      "fmaId": "FMA46592",
+      "sourceTriangles": 1148,
+      "triangles": 1148
+    },
+    {
+      "id": "muscle-FMA46593",
+      "name": "Muscle vocal — gauche",
+      "englishName": "left vocalis",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46593"
+      ],
+      "sourceIds": [
+        "FJ2788"
+      ],
+      "fmaId": "FMA46593",
+      "sourceTriangles": 1152,
+      "triangles": 1152
+    },
+    {
+      "id": "muscle-FMA19728",
+      "name": "Muscles périnéaux superficiels",
+      "englishName": "superficial perineal muscle",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA19728"
+      ],
+      "sourceIds": [
+        "FJ1450",
+        "FJ1450M",
+        "FJ2543",
+        "FJ2548"
+      ],
+      "fmaId": "FMA19728",
+      "sourceTriangles": 1468,
+      "triangles": 1468
+    },
+    {
+      "id": "muscle-FMA46321",
+      "name": "Mylo-hyoïdien — droit",
+      "englishName": "right mylohyoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA46321"
+      ],
+      "sourceIds": [
+        "FJ1583"
+      ],
+      "fmaId": "FMA46321",
+      "sourceTriangles": 1956,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46322",
+      "name": "Mylo-hyoïdien — gauche",
+      "englishName": "left mylohyoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA46322"
+      ],
+      "sourceIds": [
+        "FJ1562"
+      ],
+      "fmaId": "FMA46322",
+      "sourceTriangles": 1938,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13336",
+      "name": "Oblique externe de l’abdomen — droit",
+      "englishName": "right external oblique",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13336"
+      ],
+      "sourceIds": [
+        "FJ1452"
+      ],
+      "fmaId": "FMA13336",
+      "sourceTriangles": 111826,
+      "triangles": 2029
+    },
+    {
+      "id": "muscle-FMA13337",
+      "name": "Oblique externe de l’abdomen — gauche",
+      "englishName": "left external oblique",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13337"
+      ],
+      "sourceIds": [
+        "FJ1452M"
+      ],
+      "fmaId": "FMA13337",
+      "sourceTriangles": 111826,
+      "triangles": 2001
+    },
+    {
+      "id": "muscle-FMA32536",
+      "name": "Oblique inférieur de la tête — droit",
+      "englishName": "right obliquus capitis inferior",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA32536"
+      ],
+      "sourceIds": [
+        "FJ1584"
+      ],
+      "fmaId": "FMA32536",
+      "sourceTriangles": 1032,
+      "triangles": 1032
+    },
+    {
+      "id": "muscle-FMA32537",
+      "name": "Oblique inférieur de la tête — gauche",
+      "englishName": "left obliquus capitis inferior",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA32537"
+      ],
+      "sourceIds": [
+        "FJ1563"
+      ],
+      "fmaId": "FMA32537",
+      "sourceTriangles": 1044,
+      "triangles": 1044
+    },
+    {
+      "id": "muscle-FMA49050",
+      "name": "Oblique inférieur de l’œil — droit",
+      "englishName": "right inferior oblique",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA49050"
+      ],
+      "sourceIds": [
+        "FJ1345"
+      ],
+      "fmaId": "FMA49050",
+      "sourceTriangles": 2342,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA49051",
+      "name": "Oblique inférieur de l’œil — gauche",
+      "englishName": "left inferior oblique",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA49051"
+      ],
+      "sourceIds": [
+        "FJ1294"
+      ],
+      "fmaId": "FMA49051",
+      "sourceTriangles": 2360,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA32534",
+      "name": "Oblique supérieur de la tête — droit",
+      "englishName": "right obliquus capitis superior",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA32534"
+      ],
+      "sourceIds": [
+        "FJ1585"
+      ],
+      "fmaId": "FMA32534",
+      "sourceTriangles": 1410,
+      "triangles": 1410
+    },
+    {
+      "id": "muscle-FMA32535",
+      "name": "Oblique supérieur de la tête — gauche",
+      "englishName": "left obliquus capitis superior",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA32535"
+      ],
+      "sourceIds": [
+        "FJ1564"
+      ],
+      "fmaId": "FMA32535",
+      "sourceTriangles": 1418,
+      "triangles": 1418
+    },
+    {
+      "id": "muscle-FMA49052",
+      "name": "Oblique supérieur de l’œil — droit",
+      "englishName": "right superior oblique",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA49052"
+      ],
+      "sourceIds": [
+        "FJ1373"
+      ],
+      "fmaId": "FMA49052",
+      "sourceTriangles": 3546,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA49053",
+      "name": "Oblique supérieur de l’œil — gauche",
+      "englishName": "left superior oblique",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA49053"
+      ],
+      "sourceIds": [
+        "FJ1322"
+      ],
+      "fmaId": "FMA49053",
+      "sourceTriangles": 3604,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22326",
+      "name": "Obturateur externe — droit",
+      "englishName": "right obturator externus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22326"
+      ],
+      "sourceIds": [
+        "FJ1425"
+      ],
+      "fmaId": "FMA22326",
+      "sourceTriangles": 784,
+      "triangles": 784
+    },
+    {
+      "id": "muscle-FMA22327",
+      "name": "Obturateur externe — gauche",
+      "englishName": "left obturator externus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22327"
+      ],
+      "sourceIds": [
+        "FJ1425M"
+      ],
+      "fmaId": "FMA22327",
+      "sourceTriangles": 784,
+      "triangles": 784
+    },
+    {
+      "id": "muscle-FMA22324",
+      "name": "Obturateur interne — droit",
+      "englishName": "right obturator internus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22324"
+      ],
+      "sourceIds": [
+        "FJ1426"
+      ],
+      "fmaId": "FMA22324",
+      "sourceTriangles": 2466,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22325",
+      "name": "Obturateur interne — gauche",
+      "englishName": "left obturator internus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22325"
+      ],
+      "sourceIds": [
+        "FJ1426M"
+      ],
+      "fmaId": "FMA22325",
+      "sourceTriangles": 2466,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13348",
+      "name": "Omo-hyoïdien — droit",
+      "englishName": "right omohyoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13348"
+      ],
+      "sourceIds": [
+        "FJ1586"
+      ],
+      "fmaId": "FMA13348",
+      "sourceTriangles": 5414,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13349",
+      "name": "Omo-hyoïdien — gauche",
+      "englishName": "left omohyoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13349"
+      ],
+      "sourceIds": [
+        "FJ1565"
+      ],
+      "fmaId": "FMA13349",
+      "sourceTriangles": 5358,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA86034",
+      "name": "Opposant du petit doigt — droit",
+      "englishName": "opponens digiti minimi of right foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA86034"
+      ],
+      "sourceIds": [
+        "FJ1399"
+      ],
+      "fmaId": "FMA86034",
+      "sourceTriangles": 200,
+      "triangles": 200
+    },
+    {
+      "id": "muscle-FMA37400",
+      "name": "Opposant du petit doigt — droit",
+      "englishName": "opponens digiti minimi of right hand",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37400"
+      ],
+      "sourceIds": [
+        "FJ1482"
+      ],
+      "fmaId": "FMA37400",
+      "sourceTriangles": 484,
+      "triangles": 484
+    },
+    {
+      "id": "muscle-FMA86035",
+      "name": "Opposant du petit doigt — gauche",
+      "englishName": "opponens digiti minimi of left foot",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA86035"
+      ],
+      "sourceIds": [
+        "FJ1399M"
+      ],
+      "fmaId": "FMA86035",
+      "sourceTriangles": 200,
+      "triangles": 200
+    },
+    {
+      "id": "muscle-FMA37401",
+      "name": "Opposant du petit doigt — gauche",
+      "englishName": "opponens digiti minimi of left hand",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37401"
+      ],
+      "sourceIds": [
+        "FJ1482M"
+      ],
+      "fmaId": "FMA37401",
+      "sourceTriangles": 484,
+      "triangles": 484
+    },
+    {
+      "id": "muscle-FMA37390",
+      "name": "Opposant du pouce — droit",
+      "englishName": "right opponens pollicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37390"
+      ],
+      "sourceIds": [
+        "FJ1501"
+      ],
+      "fmaId": "FMA37390",
+      "sourceTriangles": 956,
+      "triangles": 956
+    },
+    {
+      "id": "muscle-FMA37391",
+      "name": "Opposant du pouce — gauche",
+      "englishName": "left opponens pollicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA37391"
+      ],
+      "sourceIds": [
+        "FJ1501M"
+      ],
+      "fmaId": "FMA37391",
+      "sourceTriangles": 956,
+      "triangles": 956
+    },
+    {
+      "id": "muscle-FMA46671",
+      "name": "Palato-pharyngien — droit",
+      "englishName": "right palatopharyngeus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46671"
+      ],
+      "sourceIds": [
+        "FJ2755"
+      ],
+      "fmaId": "FMA46671",
+      "sourceTriangles": 41400,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46672",
+      "name": "Palato-pharyngien — gauche",
+      "englishName": "left palatopharyngeus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46672"
+      ],
+      "sourceIds": [
+        "FJ2743"
+      ],
+      "fmaId": "FMA46672",
+      "sourceTriangles": 41400,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA33581",
+      "name": "Partie ascendante · Trapèze — droit",
+      "englishName": "ascending part of right trapezius",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA33581"
+      ],
+      "sourceIds": [
+        "FJ1520"
+      ],
+      "fmaId": "FMA33581",
+      "sourceTriangles": 10530,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA33583",
+      "name": "Partie ascendante · Trapèze — gauche",
+      "englishName": "ascending part of left trapezius",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA33583"
+      ],
+      "sourceIds": [
+        "FJ1520M"
+      ],
+      "fmaId": "FMA33583",
+      "sourceTriangles": 10530,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA33586",
+      "name": "Partie descendante · Trapèze — droit",
+      "englishName": "descending part of right trapezius",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA33586"
+      ],
+      "sourceIds": [
+        "FJ1521"
+      ],
+      "fmaId": "FMA33586",
+      "sourceTriangles": 7108,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA33587",
+      "name": "Partie descendante · Trapèze — gauche",
+      "englishName": "descending part of left trapezius",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA33587"
+      ],
+      "sourceIds": [
+        "FJ1521M"
+      ],
+      "fmaId": "FMA33587",
+      "sourceTriangles": 7108,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46611",
+      "name": "Partie droite · Crico-thyroïdien — droit",
+      "englishName": "straight part of right cricothyroid",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46611"
+      ],
+      "sourceIds": [
+        "FJ2801"
+      ],
+      "fmaId": "FMA46611",
+      "sourceTriangles": 3232,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46612",
+      "name": "Partie droite · Crico-thyroïdien — gauche",
+      "englishName": "straight part of left cricothyroid",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46612"
+      ],
+      "sourceIds": [
+        "FJ2783"
+      ],
+      "fmaId": "FMA46612",
+      "sourceTriangles": 3270,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46288",
+      "name": "Partie oblique inférieure · Long du cou — gauche",
+      "englishName": "inferior oblique part of left longus colli",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA46288"
+      ],
+      "sourceIds": [
+        "FJ1557"
+      ],
+      "fmaId": "FMA46288",
+      "sourceTriangles": 1960,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46284",
+      "name": "Partie oblique supérieure · Long du cou — gauche",
+      "englishName": "superior oblique part of left longus colli",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA46284"
+      ],
+      "sourceIds": [
+        "FJ1600"
+      ],
+      "fmaId": "FMA46284",
+      "sourceTriangles": 2200,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46613",
+      "name": "Partie oblique · Crico-thyroïdien — droit",
+      "englishName": "oblique part of right cricothyroid",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46613"
+      ],
+      "sourceIds": [
+        "FJ2799"
+      ],
+      "fmaId": "FMA46613",
+      "sourceTriangles": 5566,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46614",
+      "name": "Partie oblique · Crico-thyroïdien — gauche",
+      "englishName": "oblique part of left cricothyroid",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46614"
+      ],
+      "sourceIds": [
+        "FJ2781"
+      ],
+      "fmaId": "FMA46614",
+      "sourceTriangles": 5580,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA33584",
+      "name": "Partie transverse · Trapèze — droit",
+      "englishName": "transverse part of right trapezius",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA33584"
+      ],
+      "sourceIds": [
+        "FJ1554"
+      ],
+      "fmaId": "FMA33584",
+      "sourceTriangles": 4460,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA33585",
+      "name": "Partie transverse · Trapèze — gauche",
+      "englishName": "transverse part of left trapezius",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA33585"
+      ],
+      "sourceIds": [
+        "FJ1554M"
+      ],
+      "fmaId": "FMA33585",
+      "sourceTriangles": 4460,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46286",
+      "name": "Partie verticale intermédiaire · Long du cou — gauche",
+      "englishName": "vertical intermediate part of left longus colli",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA46286"
+      ],
+      "sourceIds": [
+        "FJ1601"
+      ],
+      "fmaId": "FMA46286",
+      "sourceTriangles": 3002,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22450",
+      "name": "Pectiné — droit",
+      "englishName": "right pectineus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22450"
+      ],
+      "sourceIds": [
+        "FJ1427"
+      ],
+      "fmaId": "FMA22450",
+      "sourceTriangles": 1380,
+      "triangles": 1380
+    },
+    {
+      "id": "muscle-FMA22451",
+      "name": "Pectiné — gauche",
+      "englishName": "left pectineus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22451"
+      ],
+      "sourceIds": [
+        "FJ1427M"
+      ],
+      "fmaId": "FMA22451",
+      "sourceTriangles": 1380,
+      "triangles": 1380
+    },
+    {
+      "id": "muscle-FMA43886",
+      "name": "Petit adducteur — droit",
+      "englishName": "right adductor minimus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA43886"
+      ],
+      "sourceIds": [
+        "FJ1404"
+      ],
+      "fmaId": "FMA43886",
+      "sourceTriangles": 1958,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA43887",
+      "name": "Petit adducteur — gauche",
+      "englishName": "left adductor minimus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA43887"
+      ],
+      "sourceIds": [
+        "FJ1404M"
+      ],
+      "fmaId": "FMA43887",
+      "sourceTriangles": 1958,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA32532",
+      "name": "Petit droit postérieur de la tête — droit",
+      "englishName": "right rectus capitis posterior minor",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA32532"
+      ],
+      "sourceIds": [
+        "FJ1590"
+      ],
+      "fmaId": "FMA32532",
+      "sourceTriangles": 886,
+      "triangles": 886
+    },
+    {
+      "id": "muscle-FMA32533",
+      "name": "Petit droit postérieur de la tête — gauche",
+      "englishName": "left rectus capitis posterior minor",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA32533"
+      ],
+      "sourceIds": [
+        "FJ1568"
+      ],
+      "fmaId": "FMA32533",
+      "sourceTriangles": 860,
+      "triangles": 860
+    },
+    {
+      "id": "muscle-FMA22332",
+      "name": "Petit fessier — droit",
+      "englishName": "right gluteus minimus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22332"
+      ],
+      "sourceIds": [
+        "FJ1420"
+      ],
+      "fmaId": "FMA22332",
+      "sourceTriangles": 4208,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22333",
+      "name": "Petit fessier — gauche",
+      "englishName": "left gluteus minimus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22333"
+      ],
+      "sourceIds": [
+        "FJ1420M"
+      ],
+      "fmaId": "FMA22333",
+      "sourceTriangles": 4208,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13375",
+      "name": "Petit pectoral — droit",
+      "englishName": "right pectoralis minor",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13375"
+      ],
+      "sourceIds": [
+        "FJ1456"
+      ],
+      "fmaId": "FMA13375",
+      "sourceTriangles": 9468,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13376",
+      "name": "Petit pectoral — gauche",
+      "englishName": "left pectoralis minor",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13376"
+      ],
+      "sourceIds": [
+        "FJ1456M"
+      ],
+      "fmaId": "FMA13376",
+      "sourceTriangles": 9468,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA13383",
+      "name": "Petit rhomboïde — droit",
+      "englishName": "right rhomboid minor",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13383"
+      ],
+      "sourceIds": [
+        "FJ1537"
+      ],
+      "fmaId": "FMA13383",
+      "sourceTriangles": 2206,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13384",
+      "name": "Petit rhomboïde — gauche",
+      "englishName": "left rhomboid minor",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13384"
+      ],
+      "sourceIds": [
+        "FJ1537M"
+      ],
+      "fmaId": "FMA13384",
+      "sourceTriangles": 2206,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA32553",
+      "name": "Petit rond — droit",
+      "englishName": "right teres minor",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA32553"
+      ],
+      "sourceIds": [
+        "FJ1508"
+      ],
+      "fmaId": "FMA32553",
+      "sourceTriangles": 506,
+      "triangles": 506
+    },
+    {
+      "id": "muscle-FMA32554",
+      "name": "Petit rond — gauche",
+      "englishName": "left teres minor",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA32554"
+      ],
+      "sourceIds": [
+        "FJ1508M"
+      ],
+      "fmaId": "FMA32554",
+      "sourceTriangles": 506,
+      "triangles": 506
+    },
+    {
+      "id": "muscle-FMA22340",
+      "name": "Piriforme — droit",
+      "englishName": "right piriformis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22340"
+      ],
+      "sourceIds": [
+        "FJ1428"
+      ],
+      "fmaId": "FMA22340",
+      "sourceTriangles": 1092,
+      "triangles": 1092
+    },
+    {
+      "id": "muscle-FMA22341",
+      "name": "Piriforme — gauche",
+      "englishName": "left piriformis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22341"
+      ],
+      "sourceIds": [
+        "FJ1428M"
+      ],
+      "fmaId": "FMA22341",
+      "sourceTriangles": 1092,
+      "triangles": 1092
+    },
+    {
+      "id": "muscle-FMA22560",
+      "name": "Plantaire — droit",
+      "englishName": "right plantaris",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22560"
+      ],
+      "sourceIds": [
+        "FJ1429"
+      ],
+      "fmaId": "FMA22560",
+      "sourceTriangles": 2512,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22561",
+      "name": "Plantaire — gauche",
+      "englishName": "left plantaris",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22561"
+      ],
+      "sourceIds": [
+        "FJ1429M"
+      ],
+      "fmaId": "FMA22561",
+      "sourceTriangles": 2512,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA45739",
+      "name": "Platysma — droit",
+      "englishName": "right platysma",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA45739"
+      ],
+      "sourceIds": [
+        "FJ1587"
+      ],
+      "fmaId": "FMA45739",
+      "sourceTriangles": 13780,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA45740",
+      "name": "Platysma — gauche",
+      "englishName": "left platysma",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA45740"
+      ],
+      "sourceIds": [
+        "FJ1558"
+      ],
+      "fmaId": "FMA45740",
+      "sourceTriangles": 13396,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22591",
+      "name": "Poplité — droit",
+      "englishName": "right popliteus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22591"
+      ],
+      "sourceIds": [
+        "FJ1430"
+      ],
+      "fmaId": "FMA22591",
+      "sourceTriangles": 858,
+      "triangles": 858
+    },
+    {
+      "id": "muscle-FMA22592",
+      "name": "Poplité — gauche",
+      "englishName": "left popliteus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22592"
+      ],
+      "sourceIds": [
+        "FJ1430M"
+      ],
+      "fmaId": "FMA22592",
+      "sourceTriangles": 858,
+      "triangles": 858
+    },
+    {
+      "id": "muscle-FMA45854",
+      "name": "Pubo-coccygien — droit",
+      "englishName": "right pubococcygeus",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA45854"
+      ],
+      "sourceIds": [
+        "FJ2550"
+      ],
+      "fmaId": "FMA45854",
+      "sourceTriangles": 4616,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA45855",
+      "name": "Pubo-coccygien — gauche",
+      "englishName": "left pubococcygeus",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA45855"
+      ],
+      "sourceIds": [
+        "FJ1457M",
+        "FJ2545"
+      ],
+      "fmaId": "FMA45855",
+      "sourceTriangles": 9286,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA45856",
+      "name": "Pubo-rectal — droit",
+      "englishName": "right puborectalis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA45856"
+      ],
+      "sourceIds": [
+        "FJ2551"
+      ],
+      "fmaId": "FMA45856",
+      "sourceTriangles": 3638,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA45857",
+      "name": "Pubo-rectal — gauche",
+      "englishName": "left puborectalis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA45857"
+      ],
+      "sourceIds": [
+        "FJ1458M",
+        "FJ2546"
+      ],
+      "fmaId": "FMA45857",
+      "sourceTriangles": 7252,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA49048",
+      "name": "Releveur de la paupière supérieure — droit",
+      "englishName": "right levator palpebrae superioris",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA49048"
+      ],
+      "sourceIds": [
+        "FJ1357"
+      ],
+      "fmaId": "FMA49048",
+      "sourceTriangles": 4360,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA49049",
+      "name": "Releveur de la paupière supérieure — gauche",
+      "englishName": "left levator palpebrae superioris",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA49049"
+      ],
+      "sourceIds": [
+        "FJ1306"
+      ],
+      "fmaId": "FMA49049",
+      "sourceTriangles": 4360,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA81752",
+      "name": "Rotateurs cervicaux — droit",
+      "englishName": "right cervical rotator",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA81752"
+      ],
+      "sourceIds": [
+        "FJ1524"
+      ],
+      "fmaId": "FMA81752",
+      "sourceTriangles": 3534,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA81753",
+      "name": "Rotateurs cervicaux — gauche",
+      "englishName": "left cervical rotator",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA81753"
+      ],
+      "sourceIds": [
+        "FJ1524M"
+      ],
+      "fmaId": "FMA81753",
+      "sourceTriangles": 3534,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA23089",
+      "name": "Rotateurs lombaires — droit",
+      "englishName": "right lumbar rotator",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA23089"
+      ],
+      "sourceIds": [
+        "FJ1522"
+      ],
+      "fmaId": "FMA23089",
+      "sourceTriangles": 4742,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA23090",
+      "name": "Rotateurs lombaires — gauche",
+      "englishName": "left lumbar rotator",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA23090"
+      ],
+      "sourceIds": [
+        "FJ1522M"
+      ],
+      "fmaId": "FMA23090",
+      "sourceTriangles": 4742,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA23083",
+      "name": "Rotateurs thoraciques",
+      "englishName": "thoracic rotator",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA23083"
+      ],
+      "sourceIds": [
+        "FJ1525",
+        "FJ1525M"
+      ],
+      "fmaId": "FMA23083",
+      "sourceTriangles": 22124,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46669",
+      "name": "Salpingo-pharyngien — droit",
+      "englishName": "right salpingopharyngeus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46669"
+      ],
+      "sourceIds": [
+        "FJ2757"
+      ],
+      "fmaId": "FMA46669",
+      "sourceTriangles": 9152,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46670",
+      "name": "Salpingo-pharyngien — gauche",
+      "englishName": "left salpingopharyngeus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46670"
+      ],
+      "sourceIds": [
+        "FJ2745"
+      ],
+      "fmaId": "FMA46670",
+      "sourceTriangles": 9152,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22354",
+      "name": "Sartorius — droit",
+      "englishName": "right sartorius",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22354"
+      ],
+      "sourceIds": [
+        "FJ1434"
+      ],
+      "fmaId": "FMA22354",
+      "sourceTriangles": 3444,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22355",
+      "name": "Sartorius — gauche",
+      "englishName": "left sartorius",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22355"
+      ],
+      "sourceIds": [
+        "FJ1434M"
+      ],
+      "fmaId": "FMA22355",
+      "sourceTriangles": 3444,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13392",
+      "name": "Scalène antérieur — droit",
+      "englishName": "right scalenus anterior",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13392"
+      ],
+      "sourceIds": [
+        "FJ1592"
+      ],
+      "fmaId": "FMA13392",
+      "sourceTriangles": 2632,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA13393",
+      "name": "Scalène antérieur — gauche",
+      "englishName": "left scalenus anterior",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13393"
+      ],
+      "sourceIds": [
+        "FJ1570"
+      ],
+      "fmaId": "FMA13393",
+      "sourceTriangles": 2596,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13390",
+      "name": "Scalène moyen — droit",
+      "englishName": "right scalenus medius",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13390"
+      ],
+      "sourceIds": [
+        "FJ1593"
+      ],
+      "fmaId": "FMA13390",
+      "sourceTriangles": 4102,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13391",
+      "name": "Scalène moyen — gauche",
+      "englishName": "left scalenus medius",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13391"
+      ],
+      "sourceIds": [
+        "FJ1571"
+      ],
+      "fmaId": "FMA13391",
+      "sourceTriangles": 4074,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13388",
+      "name": "Scalène postérieur — droit",
+      "englishName": "right scalenus posterior",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13388"
+      ],
+      "sourceIds": [
+        "FJ1594"
+      ],
+      "fmaId": "FMA13388",
+      "sourceTriangles": 2778,
+      "triangles": 1598
+    },
+    {
+      "id": "muscle-FMA13389",
+      "name": "Scalène postérieur — gauche",
+      "englishName": "left scalenus posterior",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13389"
+      ],
+      "sourceIds": [
+        "FJ1572"
+      ],
+      "fmaId": "FMA13389",
+      "sourceTriangles": 2756,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22448",
+      "name": "Semi-membraneux — droit",
+      "englishName": "right semimembranosus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22448"
+      ],
+      "sourceIds": [
+        "FJ1435"
+      ],
+      "fmaId": "FMA22448",
+      "sourceTriangles": 4612,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22449",
+      "name": "Semi-membraneux — gauche",
+      "englishName": "left semimembranosus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22449"
+      ],
+      "sourceIds": [
+        "FJ1435M"
+      ],
+      "fmaId": "FMA22449",
+      "sourceTriangles": 4612,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22358",
+      "name": "Semi-tendineux — droit",
+      "englishName": "right semitendinosus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22358"
+      ],
+      "sourceIds": [
+        "FJ1436"
+      ],
+      "fmaId": "FMA22358",
+      "sourceTriangles": 2712,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22359",
+      "name": "Semi-tendineux — gauche",
+      "englishName": "left semitendinosus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22359"
+      ],
+      "sourceIds": [
+        "FJ1436M"
+      ],
+      "fmaId": "FMA22359",
+      "sourceTriangles": 2712,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22876",
+      "name": "Semi-épineux de la tête — droit",
+      "englishName": "right semispinalis capitis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA22876"
+      ],
+      "sourceIds": [
+        "FJ1538"
+      ],
+      "fmaId": "FMA22876",
+      "sourceTriangles": 1912,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22877",
+      "name": "Semi-épineux de la tête — gauche",
+      "englishName": "left semispinalis capitis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA22877"
+      ],
+      "sourceIds": [
+        "FJ1538M"
+      ],
+      "fmaId": "FMA22877",
+      "sourceTriangles": 1912,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22874",
+      "name": "Semi-épineux du cou — droit",
+      "englishName": "right semispinalis cervicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA22874"
+      ],
+      "sourceIds": [
+        "FJ1539"
+      ],
+      "fmaId": "FMA22874",
+      "sourceTriangles": 3406,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22875",
+      "name": "Semi-épineux du cou — gauche",
+      "englishName": "left semispinalis cervicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA22875"
+      ],
+      "sourceIds": [
+        "FJ1539M"
+      ],
+      "fmaId": "FMA22875",
+      "sourceTriangles": 3406,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22872",
+      "name": "Semi-épineux du thorax — droit",
+      "englishName": "right semispinalis thoracis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22872"
+      ],
+      "sourceIds": [
+        "FJ1540"
+      ],
+      "fmaId": "FMA22872",
+      "sourceTriangles": 5176,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22873",
+      "name": "Semi-épineux du thorax — gauche",
+      "englishName": "left semispinalis thoracis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22873"
+      ],
+      "sourceIds": [
+        "FJ1540M"
+      ],
+      "fmaId": "FMA22873",
+      "sourceTriangles": 5176,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22558",
+      "name": "Soléaire — droit",
+      "englishName": "right soleus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22558"
+      ],
+      "sourceIds": [
+        "FJ1437"
+      ],
+      "fmaId": "FMA22558",
+      "sourceTriangles": 4418,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22559",
+      "name": "Soléaire — gauche",
+      "englishName": "left soleus",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22559"
+      ],
+      "sourceIds": [
+        "FJ1437M"
+      ],
+      "fmaId": "FMA22559",
+      "sourceTriangles": 4418,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22728",
+      "name": "Splénius de la tête — droit",
+      "englishName": "right splenius capitis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA22728"
+      ],
+      "sourceIds": [
+        "FJ1545"
+      ],
+      "fmaId": "FMA22728",
+      "sourceTriangles": 7808,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22729",
+      "name": "Splénius de la tête — gauche",
+      "englishName": "left splenius capitis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA22729"
+      ],
+      "sourceIds": [
+        "FJ1545M"
+      ],
+      "fmaId": "FMA22729",
+      "sourceTriangles": 7808,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22726",
+      "name": "Splénius du cou — droit",
+      "englishName": "right splenius cervicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA22726"
+      ],
+      "sourceIds": [
+        "FJ1546"
+      ],
+      "fmaId": "FMA22726",
+      "sourceTriangles": 6256,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22727",
+      "name": "Splénius du cou — gauche",
+      "englishName": "left splenius cervicis",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA22727"
+      ],
+      "sourceIds": [
+        "FJ1546M"
+      ],
+      "fmaId": "FMA22727",
+      "sourceTriangles": 6256,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13408",
+      "name": "Sterno-cléido-mastoïdien — droit",
+      "englishName": "right sternocleidomastoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13408"
+      ],
+      "sourceIds": [
+        "FJ1595"
+      ],
+      "fmaId": "FMA13408",
+      "sourceTriangles": 10344,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13409",
+      "name": "Sterno-cléido-mastoïdien — gauche",
+      "englishName": "left sternocleidomastoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13409"
+      ],
+      "sourceIds": [
+        "FJ1573"
+      ],
+      "fmaId": "FMA13409",
+      "sourceTriangles": 10224,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13346",
+      "name": "Sterno-hyoïdien — droit",
+      "englishName": "right sternohyoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13346"
+      ],
+      "sourceIds": [
+        "FJ1596"
+      ],
+      "fmaId": "FMA13346",
+      "sourceTriangles": 3116,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13347",
+      "name": "Sterno-hyoïdien — gauche",
+      "englishName": "left sternohyoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13347"
+      ],
+      "sourceIds": [
+        "FJ1574"
+      ],
+      "fmaId": "FMA13347",
+      "sourceTriangles": 3078,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13350",
+      "name": "Sterno-thyroïdien — droit",
+      "englishName": "right sternothyroid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13350"
+      ],
+      "sourceIds": [
+        "FJ1597"
+      ],
+      "fmaId": "FMA13350",
+      "sourceTriangles": 2608,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA13351",
+      "name": "Sterno-thyroïdien — gauche",
+      "englishName": "left sternothyroid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13351"
+      ],
+      "sourceIds": [
+        "FJ1575"
+      ],
+      "fmaId": "FMA13351",
+      "sourceTriangles": 2590,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA45826",
+      "name": "Stylo-hyoïdien — droit",
+      "englishName": "right stylohyoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA45826"
+      ],
+      "sourceIds": [
+        "FJ1598"
+      ],
+      "fmaId": "FMA45826",
+      "sourceTriangles": 1236,
+      "triangles": 1236
+    },
+    {
+      "id": "muscle-FMA45827",
+      "name": "Stylo-hyoïdien — gauche",
+      "englishName": "left stylohyoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA45827"
+      ],
+      "sourceIds": [
+        "FJ1576"
+      ],
+      "fmaId": "FMA45827",
+      "sourceTriangles": 1248,
+      "triangles": 1248
+    },
+    {
+      "id": "muscle-FMA46667",
+      "name": "Stylo-pharyngien — droit",
+      "englishName": "right stylopharyngeus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46667"
+      ],
+      "sourceIds": [
+        "FJ2758"
+      ],
+      "fmaId": "FMA46667",
+      "sourceTriangles": 25752,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46668",
+      "name": "Stylo-pharyngien — gauche",
+      "englishName": "left stylopharyngeus",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46668"
+      ],
+      "sourceIds": [
+        "FJ2746"
+      ],
+      "fmaId": "FMA46668",
+      "sourceTriangles": 3268,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13412",
+      "name": "Subclavier — droit",
+      "englishName": "right subclavius",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13412"
+      ],
+      "sourceIds": [
+        "FJ1460"
+      ],
+      "fmaId": "FMA13412",
+      "sourceTriangles": 1640,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA13411",
+      "name": "Subclavier — gauche",
+      "englishName": "left subclavius",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13411"
+      ],
+      "sourceIds": [
+        "FJ1460M"
+      ],
+      "fmaId": "FMA13411",
+      "sourceTriangles": 1640,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13414",
+      "name": "Subscapulaire — droit",
+      "englishName": "right subscapularis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13414"
+      ],
+      "sourceIds": [
+        "FJ1504"
+      ],
+      "fmaId": "FMA13414",
+      "sourceTriangles": 2092,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA13415",
+      "name": "Subscapulaire — gauche",
+      "englishName": "left subscapularis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA13415"
+      ],
+      "sourceIds": [
+        "FJ1504M"
+      ],
+      "fmaId": "FMA13415",
+      "sourceTriangles": 2092,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38513",
+      "name": "Supinateur — droit",
+      "englishName": "right supinator",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38513"
+      ],
+      "sourceIds": [
+        "FJ1505"
+      ],
+      "fmaId": "FMA38513",
+      "sourceTriangles": 3110,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38514",
+      "name": "Supinateur — gauche",
+      "englishName": "left supinator",
+      "latin": "",
+      "system": "muscular",
+      "region": "arm",
+      "meshNames": [
+        "muscle-FMA38514"
+      ],
+      "sourceIds": [
+        "FJ1505M"
+      ],
+      "fmaId": "FMA38514",
+      "sourceTriangles": 3110,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA32544",
+      "name": "Supra-épineux — droit",
+      "englishName": "right supraspinatus",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA32544"
+      ],
+      "sourceIds": [
+        "FJ1506"
+      ],
+      "fmaId": "FMA32544",
+      "sourceTriangles": 878,
+      "triangles": 878
+    },
+    {
+      "id": "muscle-FMA32545",
+      "name": "Supra-épineux — gauche",
+      "englishName": "left supraspinatus",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA32545"
+      ],
+      "sourceIds": [
+        "FJ1506M"
+      ],
+      "fmaId": "FMA32545",
+      "sourceTriangles": 878,
+      "triangles": 878
+    },
+    {
+      "id": "muscle-FMA22425",
+      "name": "Tenseur du fascia lata — droit",
+      "englishName": "right tensor fasciae latae",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22425"
+      ],
+      "sourceIds": [
+        "FJ1438"
+      ],
+      "fmaId": "FMA22425",
+      "sourceTriangles": 1254,
+      "triangles": 1254
+    },
+    {
+      "id": "muscle-FMA22426",
+      "name": "Tenseur du fascia lata — gauche",
+      "englishName": "left tensor fasciae latae",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22426"
+      ],
+      "sourceIds": [
+        "FJ1438M"
+      ],
+      "fmaId": "FMA22426",
+      "sourceTriangles": 1254,
+      "triangles": 1254
+    },
+    {
+      "id": "muscle-FMA46731",
+      "name": "Tenseur du voile du palais — droit",
+      "englishName": "right tensor veli palatini",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46731"
+      ],
+      "sourceIds": [
+        "FJ2760"
+      ],
+      "fmaId": "FMA46731",
+      "sourceTriangles": 13872,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46732",
+      "name": "Tenseur du voile du palais — gauche",
+      "englishName": "left tensor veli palatini",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46732"
+      ],
+      "sourceIds": [
+        "FJ2748"
+      ],
+      "fmaId": "FMA46732",
+      "sourceTriangles": 13872,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46589",
+      "name": "Thyro-aryténoïdien — droit",
+      "englishName": "right thyro-arytenoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46589"
+      ],
+      "sourceIds": [
+        "FJ2802",
+        "FJ2803"
+      ],
+      "fmaId": "FMA46589",
+      "sourceTriangles": 16742,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA46590",
+      "name": "Thyro-aryténoïdien — gauche",
+      "englishName": "left thyro-arytenoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46590"
+      ],
+      "sourceIds": [
+        "FJ2784",
+        "FJ2785"
+      ],
+      "fmaId": "FMA46590",
+      "sourceTriangles": 15382,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA13352",
+      "name": "Thyro-hyoïdien — droit",
+      "englishName": "right thyrohyoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13352"
+      ],
+      "sourceIds": [
+        "FJ1599"
+      ],
+      "fmaId": "FMA13352",
+      "sourceTriangles": 1450,
+      "triangles": 1450
+    },
+    {
+      "id": "muscle-FMA13353",
+      "name": "Thyro-hyoïdien — gauche",
+      "englishName": "left thyrohyoid",
+      "latin": "",
+      "system": "muscular",
+      "region": "neck",
+      "meshNames": [
+        "muscle-FMA13353"
+      ],
+      "sourceIds": [
+        "FJ1577"
+      ],
+      "fmaId": "FMA13353",
+      "sourceTriangles": 1436,
+      "triangles": 1436
+    },
+    {
+      "id": "muscle-FMA22544",
+      "name": "Tibial antérieur — droit",
+      "englishName": "right tibialis anterior",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22544"
+      ],
+      "sourceIds": [
+        "FJ1439"
+      ],
+      "fmaId": "FMA22544",
+      "sourceTriangles": 2510,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22545",
+      "name": "Tibial antérieur — gauche",
+      "englishName": "left tibialis anterior",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22545"
+      ],
+      "sourceIds": [
+        "FJ1439M"
+      ],
+      "fmaId": "FMA22545",
+      "sourceTriangles": 2510,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA65018",
+      "name": "Tibial postérieur — droit",
+      "englishName": "right tibialis posterior",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA65018"
+      ],
+      "sourceIds": [
+        "FJ1440"
+      ],
+      "fmaId": "FMA65018",
+      "sourceTriangles": 5136,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA65019",
+      "name": "Tibial postérieur — gauche",
+      "englishName": "left tibialis posterior",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA65019"
+      ],
+      "sourceIds": [
+        "FJ1440M"
+      ],
+      "fmaId": "FMA65019",
+      "sourceTriangles": 5136,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA9761",
+      "name": "Transverse du thorax — droit",
+      "englishName": "right transversus thoracis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA9761"
+      ],
+      "sourceIds": [
+        "FJ1461"
+      ],
+      "fmaId": "FMA9761",
+      "sourceTriangles": 4188,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA9762",
+      "name": "Transverse du thorax — gauche",
+      "englishName": "left transversus thoracis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA9762"
+      ],
+      "sourceIds": [
+        "FJ1461M"
+      ],
+      "fmaId": "FMA9762",
+      "sourceTriangles": 4188,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22550",
+      "name": "Troisième fibulaire — droit",
+      "englishName": "right fibularis tertius",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22550"
+      ],
+      "sourceIds": [
+        "FJ1411"
+      ],
+      "fmaId": "FMA22550",
+      "sourceTriangles": 1416,
+      "triangles": 1416
+    },
+    {
+      "id": "muscle-FMA22551",
+      "name": "Troisième fibulaire — gauche",
+      "englishName": "left fibularis tertius",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA22551"
+      ],
+      "sourceIds": [
+        "FJ1411M"
+      ],
+      "fmaId": "FMA22551",
+      "sourceTriangles": 1416,
+      "triangles": 1416
+    },
+    {
+      "id": "muscle-FMA38934",
+      "name": "Vaste intermédiaire — droit",
+      "englishName": "right vastus intermedius",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA38934"
+      ],
+      "sourceIds": [
+        "FJ1441"
+      ],
+      "fmaId": "FMA38934",
+      "sourceTriangles": 4260,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38935",
+      "name": "Vaste intermédiaire — gauche",
+      "englishName": "left vastus intermedius",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA38935"
+      ],
+      "sourceIds": [
+        "FJ1441M"
+      ],
+      "fmaId": "FMA38935",
+      "sourceTriangles": 4260,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA38930",
+      "name": "Vaste latéral — droit",
+      "englishName": "right vastus lateralis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA38930"
+      ],
+      "sourceIds": [
+        "FJ1442"
+      ],
+      "fmaId": "FMA38930",
+      "sourceTriangles": 6688,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38931",
+      "name": "Vaste latéral — gauche",
+      "englishName": "left vastus lateralis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA38931"
+      ],
+      "sourceIds": [
+        "FJ1442M"
+      ],
+      "fmaId": "FMA38931",
+      "sourceTriangles": 6688,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA38932",
+      "name": "Vaste médial — droit",
+      "englishName": "right vastus medialis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA38932"
+      ],
+      "sourceIds": [
+        "FJ1443"
+      ],
+      "fmaId": "FMA38932",
+      "sourceTriangles": 4552,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA38933",
+      "name": "Vaste médial — gauche",
+      "englishName": "left vastus medialis",
+      "latin": "",
+      "system": "muscular",
+      "region": "leg",
+      "meshNames": [
+        "muscle-FMA38933"
+      ],
+      "sourceIds": [
+        "FJ1443M"
+      ],
+      "fmaId": "FMA38933",
+      "sourceTriangles": 4552,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA32540",
+      "name": "Élévateur de la scapula — droit",
+      "englishName": "right levator scapulae",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA32540"
+      ],
+      "sourceIds": [
+        "FJ1532"
+      ],
+      "fmaId": "FMA32540",
+      "sourceTriangles": 4718,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA32541",
+      "name": "Élévateur de la scapula — gauche",
+      "englishName": "left levator scapulae",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA32541"
+      ],
+      "sourceIds": [
+        "FJ1532M"
+      ],
+      "fmaId": "FMA32541",
+      "sourceTriangles": 4718,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46728",
+      "name": "Élévateur du voile du palais — droit",
+      "englishName": "right levator veli palatini",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46728"
+      ],
+      "sourceIds": [
+        "FJ2753"
+      ],
+      "fmaId": "FMA46728",
+      "sourceTriangles": 12312,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA46729",
+      "name": "Élévateur du voile du palais — gauche",
+      "englishName": "left levator veli palatini",
+      "latin": "",
+      "system": "muscular",
+      "region": "head",
+      "meshNames": [
+        "muscle-FMA46729"
+      ],
+      "sourceIds": [
+        "FJ2741"
+      ],
+      "fmaId": "FMA46729",
+      "sourceTriangles": 12318,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA74077",
+      "name": "Élévateurs courts des côtes — droit",
+      "englishName": "set of right levatores costarum breves",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA74077"
+      ],
+      "sourceIds": [
+        "FJ1462"
+      ],
+      "fmaId": "FMA74077",
+      "sourceTriangles": 6050,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA74078",
+      "name": "Élévateurs courts des côtes — gauche",
+      "englishName": "set of left levatores costarum breves",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA74078"
+      ],
+      "sourceIds": [
+        "FJ1462M"
+      ],
+      "fmaId": "FMA74078",
+      "sourceTriangles": 6050,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA74075",
+      "name": "Élévateurs longs des côtes — droit",
+      "englishName": "set of right levatores costarum longi",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA74075"
+      ],
+      "sourceIds": [
+        "FJ1463"
+      ],
+      "fmaId": "FMA74075",
+      "sourceTriangles": 12210,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA74076",
+      "name": "Élévateurs longs des côtes — gauche",
+      "englishName": "set of left levatores costarum longi",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA74076"
+      ],
+      "sourceIds": [
+        "FJ1463M"
+      ],
+      "fmaId": "FMA74076",
+      "sourceTriangles": 12210,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA77179",
+      "name": "Épineux",
+      "englishName": "spinalis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA77179"
+      ],
+      "sourceIds": [
+        "FJ1543",
+        "FJ1543M"
+      ],
+      "fmaId": "FMA77179",
+      "sourceTriangles": 2384,
+      "triangles": 1599
+    },
+    {
+      "id": "muscle-FMA22779",
+      "name": "Épineux du thorax — droit",
+      "englishName": "right spinalis thoracis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22779"
+      ],
+      "sourceIds": [
+        "FJ1544"
+      ],
+      "fmaId": "FMA22779",
+      "sourceTriangles": 7422,
+      "triangles": 1600
+    },
+    {
+      "id": "muscle-FMA22780",
+      "name": "Épineux du thorax — gauche",
+      "englishName": "left spinalis thoracis",
+      "latin": "",
+      "system": "muscular",
+      "region": "torso",
+      "meshNames": [
+        "muscle-FMA22780"
+      ],
+      "sourceIds": [
+        "FJ1544M"
+      ],
+      "fmaId": "FMA22780",
+      "sourceTriangles": 7422,
+      "triangles": 1600
+    }
+  ],
+  "triangles": 564758,
+  "bytes": 4666252,
+  "compression": "EXT_meshopt_compression; positions sur 14 bits"
+}

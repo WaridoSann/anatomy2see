@@ -130,5 +130,8 @@
         "skin"
       ]
     }
-  ]
+  ],
+  "bytes": 1940176,
+  "triangles": 337098,
+  "compression": "EXT_meshopt_compression; positions sur 14 bits"
 }

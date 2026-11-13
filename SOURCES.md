@@ -17,3 +17,18 @@ Les fiches de `src/data/anatomy.ts` sont des synthèses pédagogiques originales
 | Muscles squelettiques | [11.1 · Interactions of Skeletal Muscles](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems) |
 
 Le catalogue scientifique et la disponibilité des modèles sont distincts. Une fiche ne prouve pas qu’un modèle correspondant est livré. L’interface doit s’appuyer sur le manifeste des ressources pour proposer uniquement les structures réellement présentes. Les modèles sont des reconstructions de référence et ne représentent pas toutes les variations individuelles. Les animations schématiques n’ont pas valeur de simulation physiologique.
+
+## Muscles, os et structures nerveuses ajoutés
+
+Les noms et correspondances de maillages proviennent des tables `isa_element_parts.txt` et `partof_element_parts.txt` de BodyParts3D v4.0. Les identifiants d’origine sont suivis dans chaque manifeste. Les groupes, chefs et faisceaux ne sont pas assimilés à des muscles entiers.
+
+Les fonctions générales et résumés français renvoient aux chapitres OpenStax Anatomy and Physiology 2e pertinents :
+
+- 11.3 : muscles axiaux de la tête, du cou et du dos.
+- 11.4 : paroi abdominale et thorax.
+- 11.5 : ceinture pectorale et membres supérieurs.
+- 11.6 : ceinture pelvienne et membres inférieurs.
+- Chapitres 7 et 8 : squelettes axial et appendiculaire.
+- 13.2 et 13.4 : systèmes nerveux central et périphérique.
+
+Les fonctions précises les plus courantes (biceps brachial, triceps, deltoïde, quadriceps, fessiers, muscles du mollet, diaphragme, etc.) sont distinguées des descriptions générales. Les fiches ne prétendent pas détailler toutes les insertions et innervations individuelles.

@@ -1,65 +1,41 @@
 # Architecture d’anatomy2see
 
-## Organisation
+## Parcours et interface
 
-```text
-src/
-  App.tsx                  Assemblage de l’explorateur et lecture du manifeste
-  main.tsx                 Point d’entrée React
-  data/anatomy.ts          Types, systèmes, fiches et références scientifiques
-  state/explorer.ts        État Zustand et commandes de navigation
-  scene/
-    Scene.tsx              Canvas, lumières, qualité et limites WebGL
-    AnatomyModel.tsx       Chargement GLB, matériaux, sélection et étiquettes
-    CameraRig.tsx          Contrôles orbitaux et transitions GSAP
-    model.ts               Correspondances et calculs de cadrage
-  components/ExplorerUI.tsx Interface française et panneaux responsives
-  styles.css               Direction artistique et adaptations mobiles
-  tests/                   Tests unitaires de comportement et géométrie
-public/models/
-  anatomy.glb              Maillages anatomiques locaux
-  manifest.json            Géométrie exportée et provenance
-  source-parts.json        Correspondance avec les éléments BodyParts3D
-  LICENSE.txt              Attribution et licence des modèles
-tests/explorer.spec.ts      Scénarios fonctionnels Playwright
-```
+`src/App.tsx` orchestre les pages accueil, voyage, chapitres, explorateur, fiches et projet. `src/utils/navigation.ts` encode les pages dans le fragment de l’URL, pour permettre les liens directs et les retours du navigateur sur GitHub Pages. L’introduction est déclenchée par une action explicite et débouche sur le chapitre du squelette. Les autres chapitres restent accessibles par quatre onglets.
 
-## Données et disponibilité
+`AtlasUI.tsx` contient l’interface progressive. La liste des structures et les réglages sont repliés. Une sélection ouvre une fiche, avec illustration, source, fonction, localisation et isolation. La 3D occupe l’espace restant ; sur mobile, la fiche devient un panneau inférieur. Les entrées de recherche conservent leur identité React à chaque frappe pour maintenir le focus. Les régions, la nomenclature originale et les synonymes courants participent à la recherche.
 
-`anatomy.ts` est un catalogue scientifique, indépendant du contenu réellement livré. Une fiche dans ce catalogue ne rend pas automatiquement une structure disponible en 3D. Le manifeste permet une première connaissance des assets ; les maillages chargés établissent ensuite la liste effectivement présente. Les systèmes sans structure disponible restent désactivés dans l'interface.
+Manrope est auto-hébergée. Le décor de la salle et le geste de boire sont des SVG originaux, indépendants de la scène anatomique. Le voyage d’introduction charge son propre module WebGL à la demande ; il utilise des cellules instanciées et une géométrie de vaisseau. La préférence de réduction des animations choisit une présentation statique courte. Le bouton Passer et la touche Échap permettent de poursuivre directement.
 
-`structureForMesh()` associe les maillages bilatéraux à une même fiche : poumon gauche/droit vers `lungs`, rein gauche/droit vers `kidneys`. Les autres identifiants sont conservés. Les positions des organes viennent du modèle, sans coordonnées de cadrage codées par organe.
+## Données
 
-## État et interactions
+- `src/types/atlas.ts` définit les types des pages, couches, régions, structures et illustrations.
+- `src/data/anatomy.ts` conserve les fiches sourcées des organes.
+- `public/models/*-manifest.json` fournit les concepts anatomiques, noms de maillages, identifiants des sources et nombres de triangles.
+- `src/data/catalog.ts` adapte ces catalogues en fiches, conserve la nomenclature originale, relie les images régionales et attribue les références OpenStax.
+- `public/illustrations.json` contient les auteurs, sources, licences et légendes des planches. Les fichiers sont locaux, sans hotlink vers Wikimedia à l’exécution.
 
-Le store Zustand conserve la sélection, les systèmes visibles, les structures masquées, l'isolation, la transparence, les étiquettes et la qualité. Chaque commande caméra porte un numéro de séquence, y compris lorsqu'une même structure est sélectionnée plusieurs fois. Cela rend les intentions successives observables par le contrôleur.
+Les éléments de nomenclature n’équivalent pas tous à un muscle ou à un os entier. Les catégories sont explicites dans les noms et les limites du projet. La bibliothèque répertorie uniquement les structures présentes dans les manifestes.
 
-Une nouvelle sélection quitte l'isolation et réaffiche la structure si elle avait été masquée. Le retour général rétablit les couches initiales, les structures et la caméra. Les commandes de caméra sont découplées des composants de fiche.
+## État
 
-Les événements de sélection proviennent des maillages Three.js ou de la liste HTML. Une sélection ne dépend pas d'un label 3D. Les fiches scientifiques restent disponibles lorsque le navigateur ne peut afficher WebGL.
+Le store Zustand `src/state/explorer.ts` gère une couche active, la sélection, l’isolation, la transparence, la qualité, la recherche et les requêtes caméra. Une sélection depuis la bibliothèque choisit sa couche. Changer de chapitre réinitialise la sélection. Les retours tardifs d’un modèle quitté sont ignorés en comparant leur couche avec la couche active.
 
 ## Scène et caméra
 
-`AnatomyModel` charge un GLB local via `useGLTF`, applique des matériaux indépendants à une copie de la scène et garde les géométries partagées. Les matériaux créés par le composant sont libérés lors de son démontage. La sélection et le survol modifient l'émission ; la transparence atténue les structures non sélectionnées.
+`Scene.tsx` compose l’éclairage clair, le décor 2D, les contrôles et le modèle. Les modèles et les modules Three.js sont chargés à la demande ; le squelette est préchargé pendant le voyage. Les profils graphiques limitent le ratio de pixels, avec une valeur initiale plus modérée sur mobile. Aucun modèle n’est déformé pour simuler une fonction physiologique.
 
-`boundsForStructure()` construit la boîte englobante dans le repère mondial à partir des vrais meshes. La peau est exclue du cadrage général. La distance caméra est calculée selon les dimensions projetées de la boîte, le champ de vision et le ratio de l'écran. Cette méthode conserve une échelle utile pour le corps allongé sur les écrans étroits ; la vue latérale permute la largeur et la profondeur. Le rayon englobant reste disponible pour les vérifications de géométrie.
+`AnatomyModel.tsx` clone les scènes chargées et attribue un identifiant de structure à chaque mesh. Les repères osseux discrets donnent le contexte du corps dans les vues musculaire, viscérale et nerveuse. Ils n’interceptent pas les clics. Le survol affiche un nom près du point touché ; la sélection atténue les autres structures et l’isolation masque le contexte. Les ressources matérielles créées par le composant sont libérées au démontage.
 
-`CameraRig` centralise les déplacements de caméra. Une nouvelle requête annule la transition précédente ; un geste manuel tue aussi le tween actif. GSAP anime simultanément la position de la caméra et la cible des OrbitControls. Les préférences `prefers-reduced-motion` suppriment la durée de transition.
+`CameraRig.tsx` s’appuie sur les boîtes englobantes réelles, y compris les transformations de quantification des GLB. Le cadrage tient compte du format de la scène et de la vue choisie. Un geste sur OrbitControls interrompt la transition GSAP. Les changements rapides remplacent la transition précédente. Les limites de zoom restent adaptées à une sélection. Un changement de point de vue conserve le centre de la structure sélectionnée.
 
-## Performance et rendu
+## Ressources et erreurs
 
-Les structures d'origine sont regroupées et simplifiées avant export pour réduire les appels de rendu. Le manifeste conserve les nombres réels de triangles. Les quatre profils limitent le ratio de pixels à 1, 1,25, 1,75 ou 2. Le post-traitement bloom n'est actif qu'en Ultra. Les ombres de contact utilisent une résolution réduite en Low.
+Les quatre GLB sont compressés avec EXT_meshopt_compression, décodé par le chargeur Drei. Les coordonnées partagent le même repère : vertical +Y, avant +Z et squelette de référence de 1,8 unité. `tools/build-segmented-models.py` reconstruit les trois modèles segmentés à partir des OBJ source et des manifestes suivis dans Git. La compression Meshopt est appliquée après l’export Blender.
 
-Ce sont des choix de budget graphique, pas des mesures de performance. Le projet ne contient pas de benchmark matériel certifié ni de garantie de fréquence d'image. Le GLB ne contient pas de textures haute résolution, de sorte que les couleurs et lumières restent des matériaux de présentation.
+Une limite d’erreur protège le Canvas. Sans WebGL ou en cas d’échec du modèle, la bibliothèque et les fiches illustrées restent accessibles. Une perte de contexte est signalée avec une possibilité de rechargement.
 
-## Robustesse et validation
+## Validation
 
-Une limite d'erreur React autour de la scène signale les échecs de chargement. Le Canvas fournit une interface de secours si WebGL est indisponible. Une perte de contexte graphique est interceptée et expliquée à l'utilisateur. La récupération demande un rechargement de page.
-
-Vitest vérifie les invariants du store et la géométrie du cadrage sans dépendre d'un GPU. Playwright décrit les parcours utilisateur et les adaptations mobiles dans un environnement de test disposant d'un navigateur. Ces deux suites sont séparées : `npm test` n'exécute pas les tests fonctionnels.
-
-## Extension
-
-Pour ajouter une structure : intégrer un modèle avec licence vérifiée, conserver ses coordonnées anatomiques, l'ajouter au manifeste et au registre scientifique, puis compléter la correspondance mesh → fiche si nécessaire. Pour un système déjà déclaré, aucune refonte de la navigation n'est nécessaire. Une segmentation plus fine devra remplacer les regroupements actuels avant de proposer l'identification de petites sous-structures.
-
-L'application est statique. Les chemins des assets utilisent la base Vite ; GitHub Actions sélectionne `/anatomy2see/`, l'hébergement à la racine utilise `/`. Aucun secret, compte utilisateur, service clinique ni persistance de données personnelles n'est nécessaire.
+Vitest vérifie l’état, les pages, le décodage de chaque vrai GLB, les correspondances uniques entre catalogues et maillages, les bornes et le cadrage, ainsi que le parcours de l’interface dans jsdom. Playwright fournit des scénarios pour la navigation, le voyage, la recherche, l’isolation et les erreurs, à exécuter dans un environnement navigateur autorisé. Les tests DOM et les builds ne remplacent pas une inspection visuelle WebGL.

@@ -1,0 +1,1387 @@
+{
+  "source": "BodyParts3D v4.0 — Database Center for Life Science",
+  "license": "CC-BY-4.0",
+  "licenseURL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+  "coordinates": {
+    "sourceCenter": [
+      0.023406982421875,
+      -109.03314971923828,
+      782.8699340820312
+    ],
+    "scale": 0.00105462085236557,
+    "up": "+Y",
+    "front": "+Z"
+  },
+  "structures": [
+    {
+      "id": "neural-FMA78454",
+      "name": "Troisième ventricule",
+      "originalName": "third ventricle",
+      "latin": "third ventricle",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA78454"
+      ],
+      "sourceIds": [
+        "FJ1730"
+      ],
+      "fmaId": "FMA78454",
+      "sourceTriangles": 3870,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA78469",
+      "name": "Quatrième ventricule",
+      "originalName": "fourth ventricle",
+      "latin": "fourth ventricle",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA78469"
+      ],
+      "sourceIds": [
+        "FJ1731"
+      ],
+      "fmaId": "FMA78469",
+      "sourceTriangles": 6940,
+      "triangles": 1799
+    },
+    {
+      "id": "neural-FMA72670",
+      "name": "Gyrus angulaire · côté gauche",
+      "originalName": "left angular gyrus",
+      "latin": "left angular gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72670"
+      ],
+      "sourceIds": [
+        "FJ1732"
+      ],
+      "fmaId": "FMA72670",
+      "sourceTriangles": 3588,
+      "triangles": 1799
+    },
+    {
+      "id": "neural-FMA72669",
+      "name": "Gyrus angulaire · côté droit",
+      "originalName": "right angular gyrus",
+      "latin": "right angular gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72669"
+      ],
+      "sourceIds": [
+        "FJ1733"
+      ],
+      "fmaId": "FMA72669",
+      "sourceTriangles": 3554,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA78497",
+      "name": "central canal of spinal cord",
+      "originalName": "central canal of spinal cord",
+      "latin": "central canal of spinal cord",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA78497"
+      ],
+      "sourceIds": [
+        "FJ1737"
+      ],
+      "fmaId": "FMA78497",
+      "sourceTriangles": 728,
+      "triangles": 728
+    },
+    {
+      "id": "neural-FMA78467",
+      "name": "Aqueduc cérébral",
+      "originalName": "cerebral aqueduct",
+      "latin": "cerebral aqueduct",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA78467"
+      ],
+      "sourceIds": [
+        "FJ1738"
+      ],
+      "fmaId": "FMA78467",
+      "sourceTriangles": 518,
+      "triangles": 518
+    },
+    {
+      "id": "neural-FMA72718",
+      "name": "Gyrus cingulaire · côté gauche",
+      "originalName": "left cingulate gyrus",
+      "latin": "left cingulate gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72718"
+      ],
+      "sourceIds": [
+        "FJ1739"
+      ],
+      "fmaId": "FMA72718",
+      "sourceTriangles": 2416,
+      "triangles": 1798
+    },
+    {
+      "id": "neural-FMA72717",
+      "name": "Gyrus cingulaire · côté droit",
+      "originalName": "right cingulate gyrus",
+      "latin": "right cingulate gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72717"
+      ],
+      "sourceIds": [
+        "FJ1740"
+      ],
+      "fmaId": "FMA72717",
+      "sourceTriangles": 2346,
+      "triangles": 1799
+    },
+    {
+      "id": "neural-FMA62032",
+      "name": "Habénula",
+      "originalName": "habenula",
+      "latin": "habenula",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA62032"
+      ],
+      "sourceIds": [
+        "FJ1743"
+      ],
+      "fmaId": "FMA62032",
+      "sourceTriangles": 384,
+      "triangles": 384
+    },
+    {
+      "id": "neural-FMA72658",
+      "name": "Gyrus frontal inférieur · côté gauche",
+      "originalName": "left inferior frontal gyrus",
+      "latin": "left inferior frontal gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72658"
+      ],
+      "sourceIds": [
+        "FJ1744"
+      ],
+      "fmaId": "FMA72658",
+      "sourceTriangles": 3290,
+      "triangles": 1799
+    },
+    {
+      "id": "neural-FMA72657",
+      "name": "Gyrus frontal inférieur · côté droit",
+      "originalName": "right inferior frontal gyrus",
+      "latin": "right inferior frontal gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72657"
+      ],
+      "sourceIds": [
+        "FJ1745"
+      ],
+      "fmaId": "FMA72657",
+      "sourceTriangles": 3292,
+      "triangles": 1799
+    },
+    {
+      "id": "neural-FMA72688",
+      "name": "Gyrus temporal inférieur · côté gauche",
+      "originalName": "left inferior temporal gyrus",
+      "latin": "left inferior temporal gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72688"
+      ],
+      "sourceIds": [
+        "FJ1746"
+      ],
+      "fmaId": "FMA72688",
+      "sourceTriangles": 2732,
+      "triangles": 1799
+    },
+    {
+      "id": "neural-FMA72687",
+      "name": "Gyrus temporal inférieur · côté droit",
+      "originalName": "right inferior temporal gyrus",
+      "latin": "right inferior temporal gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72687"
+      ],
+      "sourceIds": [
+        "FJ1747"
+      ],
+      "fmaId": "FMA72687",
+      "sourceTriangles": 2768,
+      "triangles": 1799
+    },
+    {
+      "id": "neural-FMA72978",
+      "name": "Insula · côté gauche",
+      "originalName": "left insula",
+      "latin": "left insula",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72978"
+      ],
+      "sourceIds": [
+        "FJ1748"
+      ],
+      "fmaId": "FMA72978",
+      "sourceTriangles": 2448,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA72977",
+      "name": "Insula · côté droit",
+      "originalName": "right insula",
+      "latin": "right insula",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72977"
+      ],
+      "sourceIds": [
+        "FJ1749"
+      ],
+      "fmaId": "FMA72977",
+      "sourceTriangles": 2448,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA72907",
+      "name": "Capsule interne · côté gauche",
+      "originalName": "left internal capsule",
+      "latin": "left internal capsule",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72907"
+      ],
+      "sourceIds": [
+        "FJ1750"
+      ],
+      "fmaId": "FMA72907",
+      "sourceTriangles": 10740,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA72906",
+      "name": "Capsule interne · côté droit",
+      "originalName": "right internal capsule",
+      "latin": "right internal capsule",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72906"
+      ],
+      "sourceIds": [
+        "FJ1751"
+      ],
+      "fmaId": "FMA72906",
+      "sourceTriangles": 10742,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA260794",
+      "name": "Substance blanche de l’hémisphère cérébral · côté gauche",
+      "originalName": "white matter of left cerebral hemisphere",
+      "latin": "white matter of left cerebral hemisphere",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA260794"
+      ],
+      "sourceIds": [
+        "FJ1758"
+      ],
+      "fmaId": "FMA260794",
+      "sourceTriangles": 25542,
+      "triangles": 5000
+    },
+    {
+      "id": "neural-FMA261141",
+      "name": "Formation hippocampique · côté gauche",
+      "originalName": "left hippocampal formation",
+      "latin": "left hippocampal formation",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA261141"
+      ],
+      "sourceIds": [
+        "FJ1759"
+      ],
+      "fmaId": "FMA261141",
+      "sourceTriangles": 980,
+      "triangles": 980
+    },
+    {
+      "id": "neural-FMA62008",
+      "name": "Hypothalamus",
+      "originalName": "hypothalamus",
+      "latin": "hypothalamus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA62008"
+      ],
+      "sourceIds": [
+        "FJ1760",
+        "FJ1808"
+      ],
+      "fmaId": "FMA62008",
+      "sourceTriangles": 4078,
+      "triangles": 1799
+    },
+    {
+      "id": "neural-FMA73435",
+      "name": "Colliculus inférieur · côté gauche",
+      "originalName": "left inferior colliculus",
+      "latin": "left inferior colliculus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA73435"
+      ],
+      "sourceIds": [
+        "FJ1762"
+      ],
+      "fmaId": "FMA73435",
+      "sourceTriangles": 156,
+      "triangles": 156
+    },
+    {
+      "id": "neural-FMA78450",
+      "name": "Ventricule latéral · côté gauche",
+      "originalName": "left lateral ventricle",
+      "latin": "left lateral ventricle",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA78450"
+      ],
+      "sourceIds": [
+        "FJ1767"
+      ],
+      "fmaId": "FMA78450",
+      "sourceTriangles": 17968,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA62004",
+      "name": "Moelle allongée (bulbe rachidien)",
+      "originalName": "medulla oblongata",
+      "latin": "medulla oblongata",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA62004"
+      ],
+      "sourceIds": [
+        "FJ1769",
+        "FJ1831"
+      ],
+      "fmaId": "FMA62004",
+      "sourceTriangles": 12096,
+      "triangles": 1799
+    },
+    {
+      "id": "neural-FMA61993",
+      "name": "Mésencéphale",
+      "originalName": "midbrain",
+      "latin": "midbrain",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA61993"
+      ],
+      "sourceIds": [
+        "FJ1770",
+        "FJ1817"
+      ],
+      "fmaId": "FMA61993",
+      "sourceTriangles": 12908,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA67943",
+      "name": "Pont",
+      "originalName": "pons",
+      "latin": "pons",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA67943"
+      ],
+      "sourceIds": [
+        "FJ1775",
+        "FJ1822"
+      ],
+      "fmaId": "FMA67943",
+      "sourceTriangles": 20650,
+      "triangles": 1799
+    },
+    {
+      "id": "neural-FMA73423",
+      "name": "Colliculus supérieur · côté gauche",
+      "originalName": "left superior colliculus",
+      "latin": "left superior colliculus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA73423"
+      ],
+      "sourceIds": [
+        "FJ1779"
+      ],
+      "fmaId": "FMA73423",
+      "sourceTriangles": 180,
+      "triangles": 180
+    },
+    {
+      "id": "neural-FMA62028",
+      "name": "Région hypothalamique intermédiaire",
+      "originalName": "intermediate hypothalamic region",
+      "latin": "intermediate hypothalamic region",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA62028"
+      ],
+      "sourceIds": [
+        "FJ1780",
+        "FJ1828"
+      ],
+      "fmaId": "FMA62028",
+      "sourceTriangles": 1606,
+      "triangles": 1606
+    },
+    {
+      "id": "neural-FMA67944",
+      "name": "Cervelet",
+      "originalName": "cerebellum",
+      "latin": "cerebellum",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA67944"
+      ],
+      "sourceIds": [
+        "FJ1781",
+        "FJ1830"
+      ],
+      "fmaId": "FMA67944",
+      "sourceTriangles": 47700,
+      "triangles": 4999
+    },
+    {
+      "id": "neural-FMA72690",
+      "name": "Gyrus fusiforme · côté gauche",
+      "originalName": "left fusiform gyrus",
+      "latin": "left fusiform gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72690"
+      ],
+      "sourceIds": [
+        "FJ1783"
+      ],
+      "fmaId": "FMA72690",
+      "sourceTriangles": 1550,
+      "triangles": 1550
+    },
+    {
+      "id": "neural-FMA72689",
+      "name": "Gyrus fusiforme · côté droit",
+      "originalName": "right fusiform gyrus",
+      "latin": "right fusiform gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72689"
+      ],
+      "sourceIds": [
+        "FJ1784"
+      ],
+      "fmaId": "FMA72689",
+      "sourceTriangles": 1626,
+      "triangles": 1626
+    },
+    {
+      "id": "neural-FMA72706",
+      "name": "Gyrus parahippocampique · côté gauche",
+      "originalName": "left parahippocampal gyrus",
+      "latin": "left parahippocampal gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72706"
+      ],
+      "sourceIds": [
+        "FJ1785"
+      ],
+      "fmaId": "FMA72706",
+      "sourceTriangles": 740,
+      "triangles": 740
+    },
+    {
+      "id": "neural-FMA72705",
+      "name": "Gyrus parahippocampique · côté droit",
+      "originalName": "right parahippocampal gyrus",
+      "latin": "right parahippocampal gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72705"
+      ],
+      "sourceIds": [
+        "FJ1786"
+      ],
+      "fmaId": "FMA72705",
+      "sourceTriangles": 882,
+      "triangles": 882
+    },
+    {
+      "id": "neural-FMA72656",
+      "name": "Gyrus frontal moyen · côté gauche",
+      "originalName": "left middle frontal gyrus",
+      "latin": "left middle frontal gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72656"
+      ],
+      "sourceIds": [
+        "FJ1787"
+      ],
+      "fmaId": "FMA72656",
+      "sourceTriangles": 3416,
+      "triangles": 1798
+    },
+    {
+      "id": "neural-FMA72655",
+      "name": "Gyrus frontal moyen · côté droit",
+      "originalName": "right middle frontal gyrus",
+      "latin": "right middle frontal gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72655"
+      ],
+      "sourceIds": [
+        "FJ1788"
+      ],
+      "fmaId": "FMA72655",
+      "sourceTriangles": 3326,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA72686",
+      "name": "Gyrus temporal moyen · côté gauche",
+      "originalName": "left middle temporal gyrus",
+      "latin": "left middle temporal gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72686"
+      ],
+      "sourceIds": [
+        "FJ1789"
+      ],
+      "fmaId": "FMA72686",
+      "sourceTriangles": 2710,
+      "triangles": 1799
+    },
+    {
+      "id": "neural-FMA72685",
+      "name": "Gyrus temporal moyen · côté droit",
+      "originalName": "right middle temporal gyrus",
+      "latin": "right middle temporal gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72685"
+      ],
+      "sourceIds": [
+        "FJ1790"
+      ],
+      "fmaId": "FMA72685",
+      "sourceTriangles": 2754,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA72976",
+      "name": "Lobe occipital · côté gauche",
+      "originalName": "left occipital lobe",
+      "latin": "left occipital lobe",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72976"
+      ],
+      "sourceIds": [
+        "FJ1791"
+      ],
+      "fmaId": "FMA72976",
+      "sourceTriangles": 4390,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA72975",
+      "name": "Lobe occipital · côté droit",
+      "originalName": "right occipital lobe",
+      "latin": "right occipital lobe",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72975"
+      ],
+      "sourceIds": [
+        "FJ1792"
+      ],
+      "fmaId": "FMA72975",
+      "sourceTriangles": 4564,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA62033",
+      "name": "Glande pinéale",
+      "originalName": "pineal body",
+      "latin": "pineal body",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA62033"
+      ],
+      "sourceIds": [
+        "FJ1795"
+      ],
+      "fmaId": "FMA62033",
+      "sourceTriangles": 580,
+      "triangles": 580
+    },
+    {
+      "id": "neural-FMA72666",
+      "name": "Gyrus postcentral · côté gauche",
+      "originalName": "left postcentral gyrus",
+      "latin": "left postcentral gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72666"
+      ],
+      "sourceIds": [
+        "FJ1797"
+      ],
+      "fmaId": "FMA72666",
+      "sourceTriangles": 3604,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA72665",
+      "name": "Gyrus postcentral · côté droit",
+      "originalName": "right postcentral gyrus",
+      "latin": "right postcentral gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72665"
+      ],
+      "sourceIds": [
+        "FJ1798"
+      ],
+      "fmaId": "FMA72665",
+      "sourceTriangles": 3604,
+      "triangles": 1799
+    },
+    {
+      "id": "neural-FMA72662",
+      "name": "Gyrus précentral · côté gauche",
+      "originalName": "left precentral gyrus",
+      "latin": "left precentral gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72662"
+      ],
+      "sourceIds": [
+        "FJ1800"
+      ],
+      "fmaId": "FMA72662",
+      "sourceTriangles": 4042,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA72661",
+      "name": "Gyrus précentral · côté droit",
+      "originalName": "right precentral gyrus",
+      "latin": "right precentral gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72661"
+      ],
+      "sourceIds": [
+        "FJ1801"
+      ],
+      "fmaId": "FMA72661",
+      "sourceTriangles": 4042,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA260791",
+      "name": "Substance blanche de l’hémisphère cérébral · côté droit",
+      "originalName": "white matter of right cerebral hemisphere",
+      "latin": "white matter of right cerebral hemisphere",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA260791"
+      ],
+      "sourceIds": [
+        "FJ1806"
+      ],
+      "fmaId": "FMA260791",
+      "sourceTriangles": 26512,
+      "triangles": 5000
+    },
+    {
+      "id": "neural-FMA261139",
+      "name": "Formation hippocampique · côté droit",
+      "originalName": "right hippocampal formation",
+      "latin": "right hippocampal formation",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA261139"
+      ],
+      "sourceIds": [
+        "FJ1807"
+      ],
+      "fmaId": "FMA261139",
+      "sourceTriangles": 1020,
+      "triangles": 1020
+    },
+    {
+      "id": "neural-FMA73434",
+      "name": "Colliculus inférieur · côté droit",
+      "originalName": "right inferior colliculus",
+      "latin": "right inferior colliculus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA73434"
+      ],
+      "sourceIds": [
+        "FJ1810"
+      ],
+      "fmaId": "FMA73434",
+      "sourceTriangles": 204,
+      "triangles": 204
+    },
+    {
+      "id": "neural-FMA78449",
+      "name": "Ventricule latéral · côté droit",
+      "originalName": "right lateral ventricle",
+      "latin": "right lateral ventricle",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA78449"
+      ],
+      "sourceIds": [
+        "FJ1814"
+      ],
+      "fmaId": "FMA78449",
+      "sourceTriangles": 18016,
+      "triangles": 1799
+    },
+    {
+      "id": "neural-FMA73422",
+      "name": "Colliculus supérieur · côté droit",
+      "originalName": "right superior colliculus",
+      "latin": "right superior colliculus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA73422"
+      ],
+      "sourceIds": [
+        "FJ1826"
+      ],
+      "fmaId": "FMA73422",
+      "sourceTriangles": 176,
+      "triangles": 176
+    },
+    {
+      "id": "neural-FMA72654",
+      "name": "Gyrus frontal supérieur · côté gauche",
+      "originalName": "left superior frontal gyrus",
+      "latin": "left superior frontal gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72654"
+      ],
+      "sourceIds": [
+        "FJ1833"
+      ],
+      "fmaId": "FMA72654",
+      "sourceTriangles": 6452,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA72653",
+      "name": "Gyrus frontal supérieur · côté droit",
+      "originalName": "right superior frontal gyrus",
+      "latin": "right superior frontal gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72653"
+      ],
+      "sourceIds": [
+        "FJ1834"
+      ],
+      "fmaId": "FMA72653",
+      "sourceTriangles": 6450,
+      "triangles": 1799
+    },
+    {
+      "id": "neural-FMA72672",
+      "name": "Lobule pariétal supérieur · côté gauche",
+      "originalName": "left superior parietal lobule",
+      "latin": "left superior parietal lobule",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72672"
+      ],
+      "sourceIds": [
+        "FJ1835"
+      ],
+      "fmaId": "FMA72672",
+      "sourceTriangles": 5364,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA72671",
+      "name": "Lobule pariétal supérieur · côté droit",
+      "originalName": "right superior parietal lobule",
+      "latin": "right superior parietal lobule",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72671"
+      ],
+      "sourceIds": [
+        "FJ1836"
+      ],
+      "fmaId": "FMA72671",
+      "sourceTriangles": 5640,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA72668",
+      "name": "Gyrus supramarginal · côté gauche",
+      "originalName": "left supramarginal gyrus",
+      "latin": "left supramarginal gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72668"
+      ],
+      "sourceIds": [
+        "FJ1841"
+      ],
+      "fmaId": "FMA72668",
+      "sourceTriangles": 2344,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA72667",
+      "name": "Gyrus supramarginal · côté droit",
+      "originalName": "right supramarginal gyrus",
+      "latin": "right supramarginal gyrus",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA72667"
+      ],
+      "sourceIds": [
+        "FJ1842"
+      ],
+      "fmaId": "FMA72667",
+      "sourceTriangles": 2314,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA52677",
+      "name": "Nerf ethmoïdal antérieur · côté gauche",
+      "originalName": "left anterior ethmoidal nerve",
+      "latin": "left anterior ethmoidal nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52677"
+      ],
+      "sourceIds": [
+        "FJ1283"
+      ],
+      "fmaId": "FMA52677",
+      "sourceTriangles": 290,
+      "triangles": 290
+    },
+    {
+      "id": "neural-FMA52640",
+      "name": "Nerf frontal · côté gauche",
+      "originalName": "left frontal nerve",
+      "latin": "left frontal nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52640"
+      ],
+      "sourceIds": [
+        "FJ1290"
+      ],
+      "fmaId": "FMA52640",
+      "sourceTriangles": 1258,
+      "triangles": 1258
+    },
+    {
+      "id": "neural-FMA52577",
+      "name": "Branche inférieure du nerf oculomoteur · côté gauche",
+      "originalName": "inferior branch of left oculomotor nerve",
+      "latin": "inferior branch of left oculomotor nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52577"
+      ],
+      "sourceIds": [
+        "FJ1293"
+      ],
+      "fmaId": "FMA52577",
+      "sourceTriangles": 1654,
+      "triangles": 1654
+    },
+    {
+      "id": "neural-FMA52699",
+      "name": "Nerf infratrochléaire · côté gauche",
+      "originalName": "left infratrochlear nerve",
+      "latin": "left infratrochlear nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52699"
+      ],
+      "sourceIds": [
+        "FJ1296"
+      ],
+      "fmaId": "FMA52699",
+      "sourceTriangles": 250,
+      "triangles": 250
+    },
+    {
+      "id": "neural-FMA52630",
+      "name": "Nerf lacrymal · côté gauche",
+      "originalName": "left lacrimal nerve",
+      "latin": "left lacrimal nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52630"
+      ],
+      "sourceIds": [
+        "FJ1300"
+      ],
+      "fmaId": "FMA52630",
+      "sourceTriangles": 1944,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA52670",
+      "name": "Nerf nasociliaire · côté gauche",
+      "originalName": "left nasociliary nerve",
+      "latin": "left nasociliary nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52670"
+      ],
+      "sourceIds": [
+        "FJ1310"
+      ],
+      "fmaId": "FMA52670",
+      "sourceTriangles": 834,
+      "triangles": 834
+    },
+    {
+      "id": "neural-FMA52674",
+      "name": "Branche communicante du nerf nasociliaire avec le ganglion ciliaire · côté gauche",
+      "originalName": "communicating branch of left nasociliary nerve with left ciliary ganglion",
+      "latin": "communicating branch of left nasociliary nerve with left ciliary ganglion",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52674"
+      ],
+      "sourceIds": [
+        "FJ1311"
+      ],
+      "fmaId": "FMA52674",
+      "sourceTriangles": 230,
+      "triangles": 230
+    },
+    {
+      "id": "neural-FMA52623",
+      "name": "Nerf ophtalmique · côté gauche",
+      "originalName": "left ophthalmic nerve",
+      "latin": "left ophthalmic nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52623"
+      ],
+      "sourceIds": [
+        "FJ1312"
+      ],
+      "fmaId": "FMA52623",
+      "sourceTriangles": 1776,
+      "triangles": 1776
+    },
+    {
+      "id": "neural-FMA52716",
+      "name": "Nerf ethmoïdal postérieur · côté gauche",
+      "originalName": "left posterior ethmoidal nerve",
+      "latin": "left posterior ethmoidal nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52716"
+      ],
+      "sourceIds": [
+        "FJ1315"
+      ],
+      "fmaId": "FMA52716",
+      "sourceTriangles": 222,
+      "triangles": 222
+    },
+    {
+      "id": "neural-FMA82735",
+      "name": "Nerf ciliaire long · côté gauche",
+      "originalName": "left long ciliary nerve",
+      "latin": "left long ciliary nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA82735"
+      ],
+      "sourceIds": [
+        "FJ1318"
+      ],
+      "fmaId": "FMA82735",
+      "sourceTriangles": 294,
+      "triangles": 294
+    },
+    {
+      "id": "neural-FMA52575",
+      "name": "Branche supérieure du nerf oculomoteur · côté gauche",
+      "originalName": "superior branch of left oculomotor nerve",
+      "latin": "superior branch of left oculomotor nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52575"
+      ],
+      "sourceIds": [
+        "FJ1321"
+      ],
+      "fmaId": "FMA52575",
+      "sourceTriangles": 810,
+      "triangles": 810
+    },
+    {
+      "id": "neural-FMA52657",
+      "name": "Nerf supraorbitaire · côté gauche",
+      "originalName": "left supra-orbital nerve",
+      "latin": "left supra-orbital nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52657"
+      ],
+      "sourceIds": [
+        "FJ1325"
+      ],
+      "fmaId": "FMA52657",
+      "sourceTriangles": 2598,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA52644",
+      "name": "Nerf supratrochléaire · côté gauche",
+      "originalName": "left supratrochlear nerve",
+      "latin": "left supratrochlear nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52644"
+      ],
+      "sourceIds": [
+        "FJ1326"
+      ],
+      "fmaId": "FMA52644",
+      "sourceTriangles": 2358,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA52676",
+      "name": "Nerf ethmoïdal antérieur · côté droit",
+      "originalName": "right anterior ethmoidal nerve",
+      "latin": "right anterior ethmoidal nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52676"
+      ],
+      "sourceIds": [
+        "FJ1333"
+      ],
+      "fmaId": "FMA52676",
+      "sourceTriangles": 236,
+      "triangles": 236
+    },
+    {
+      "id": "neural-FMA52639",
+      "name": "Nerf frontal · côté droit",
+      "originalName": "right frontal nerve",
+      "latin": "right frontal nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52639"
+      ],
+      "sourceIds": [
+        "FJ1341"
+      ],
+      "fmaId": "FMA52639",
+      "sourceTriangles": 1258,
+      "triangles": 1258
+    },
+    {
+      "id": "neural-FMA52576",
+      "name": "Branche inférieure du nerf oculomoteur · côté droit",
+      "originalName": "inferior branch of right oculomotor nerve",
+      "latin": "inferior branch of right oculomotor nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52576"
+      ],
+      "sourceIds": [
+        "FJ1344"
+      ],
+      "fmaId": "FMA52576",
+      "sourceTriangles": 1570,
+      "triangles": 1570
+    },
+    {
+      "id": "neural-FMA52698",
+      "name": "Nerf infratrochléaire · côté droit",
+      "originalName": "right infratrochlear nerve",
+      "latin": "right infratrochlear nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52698"
+      ],
+      "sourceIds": [
+        "FJ1347"
+      ],
+      "fmaId": "FMA52698",
+      "sourceTriangles": 250,
+      "triangles": 250
+    },
+    {
+      "id": "neural-FMA52629",
+      "name": "Nerf lacrymal · côté droit",
+      "originalName": "right lacrimal nerve",
+      "latin": "right lacrimal nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52629"
+      ],
+      "sourceIds": [
+        "FJ1351"
+      ],
+      "fmaId": "FMA52629",
+      "sourceTriangles": 1958,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA52669",
+      "name": "Nerf nasociliaire · côté droit",
+      "originalName": "right nasociliary nerve",
+      "latin": "right nasociliary nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52669"
+      ],
+      "sourceIds": [
+        "FJ1361"
+      ],
+      "fmaId": "FMA52669",
+      "sourceTriangles": 786,
+      "triangles": 786
+    },
+    {
+      "id": "neural-FMA52673",
+      "name": "Branche communicante du nerf nasociliaire avec le ganglion ciliaire · côté droit",
+      "originalName": "communicating branch of right nasociliary nerve with right ciliary ganglion",
+      "latin": "communicating branch of right nasociliary nerve with right ciliary ganglion",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52673"
+      ],
+      "sourceIds": [
+        "FJ1362"
+      ],
+      "fmaId": "FMA52673",
+      "sourceTriangles": 240,
+      "triangles": 240
+    },
+    {
+      "id": "neural-FMA52622",
+      "name": "Nerf ophtalmique · côté droit",
+      "originalName": "right ophthalmic nerve",
+      "latin": "right ophthalmic nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52622"
+      ],
+      "sourceIds": [
+        "FJ1363"
+      ],
+      "fmaId": "FMA52622",
+      "sourceTriangles": 1776,
+      "triangles": 1776
+    },
+    {
+      "id": "neural-FMA52715",
+      "name": "Nerf ethmoïdal postérieur · côté droit",
+      "originalName": "right posterior ethmoidal nerve",
+      "latin": "right posterior ethmoidal nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52715"
+      ],
+      "sourceIds": [
+        "FJ1366"
+      ],
+      "fmaId": "FMA52715",
+      "sourceTriangles": 200,
+      "triangles": 200
+    },
+    {
+      "id": "neural-FMA82734",
+      "name": "Nerf ciliaire long · côté droit",
+      "originalName": "right long ciliary nerve",
+      "latin": "right long ciliary nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA82734"
+      ],
+      "sourceIds": [
+        "FJ1369"
+      ],
+      "fmaId": "FMA82734",
+      "sourceTriangles": 332,
+      "triangles": 332
+    },
+    {
+      "id": "neural-FMA52574",
+      "name": "Branche supérieure du nerf oculomoteur · côté droit",
+      "originalName": "superior branch of right oculomotor nerve",
+      "latin": "superior branch of right oculomotor nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52574"
+      ],
+      "sourceIds": [
+        "FJ1372"
+      ],
+      "fmaId": "FMA52574",
+      "sourceTriangles": 848,
+      "triangles": 848
+    },
+    {
+      "id": "neural-FMA52656",
+      "name": "Nerf supraorbitaire · côté droit",
+      "originalName": "right supra-orbital nerve",
+      "latin": "right supra-orbital nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52656"
+      ],
+      "sourceIds": [
+        "FJ1376"
+      ],
+      "fmaId": "FMA52656",
+      "sourceTriangles": 2598,
+      "triangles": 1800
+    },
+    {
+      "id": "neural-FMA52643",
+      "name": "Nerf supratrochléaire · côté droit",
+      "originalName": "right supratrochlear nerve",
+      "latin": "right supratrochlear nerve",
+      "system": "nervous",
+      "region": "head",
+      "meshNames": [
+        "neural-FMA52643"
+      ],
+      "sourceIds": [
+        "FJ1377"
+      ],
+      "fmaId": "FMA52643",
+      "sourceTriangles": 2358,
+      "triangles": 1800
+    }
+  ],
+  "limitations": "Encéphale, cavités cérébrospinales et petits nerfs crâniens/orbitaires disponibles dans la source. La moelle épinière complète et le réseau périphérique du tronc et des membres ne sont pas disponibles.",
+  "triangles": 117025,
+  "bytes": 779692,
+  "compression": "EXT_meshopt_compression; positions sur 14 bits"
+}

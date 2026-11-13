@@ -4,7 +4,7 @@ export const structureForMesh=(name:string)=>meshToStructure[name]??name;
 export function boundsForStructure(root:Object3D,id?:string) {
  const bounds=new Box3();
  root.updateMatrixWorld(true);
- root.traverse(object=>{if(object instanceof Mesh && object.name!=='skin' && (!id || structureForMesh(object.name)===id))bounds.union(new Box3().setFromObject(object));});
+ root.traverse(object=>{if(object instanceof Mesh && object.name!=='skin' && (!id || (object.userData.structureId??structureForMesh(object.name))===id))bounds.union(new Box3().setFromObject(object));});
  if(bounds.isEmpty())return null;
  const center=bounds.getCenter(new Vector3());
  const radius=Math.max(bounds.getSize(new Vector3()).length()/2,0.025);

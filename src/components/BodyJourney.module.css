@@ -1,0 +1,22 @@
+.journey{position:fixed;inset:0;z-index:100;background:#48131b;color:#fff9ef;font-family:Manrope,Arial,sans-serif;overflow:hidden;isolation:isolate}
+.journey>div:first-child{position:absolute;inset:0}
+.vignette{position:absolute;inset:0;background:linear-gradient(180deg,rgba(38,5,12,.42),transparent 28%,transparent 45%,rgba(38,5,12,.72)),radial-gradient(ellipse at center,transparent 28%,rgba(32,0,7,.3));pointer-events:none}
+.top{position:absolute;top:35px;left:4.5%;right:4.5%;display:flex;align-items:center;justify-content:space-between;z-index:3}
+.brand{color:#fff9ef;text-decoration:none;font-size:25px;font-weight:750;letter-spacing:-1.3px;line-height:1}
+.brand span{color:#f2d04f}
+.skip{display:flex;align-items:center;gap:12px;color:#fff8eb;border:1px solid #fff5e34a;border-radius:50px;background:#3d101a50;backdrop-filter:blur(12px);padding:12px 19px;font:600 12px Manrope,Arial,sans-serif;cursor:pointer}
+.skip:hover{background:#fff7ed1a}.skip:focus-visible{outline:3px solid #f5d14e;outline-offset:4px}
+.caption{position:absolute;left:8%;right:8%;bottom:19%;max-width:900px;animation:appear .7s both;pointer-events:none}
+.caption p{font-size:12px;font-weight:550;color:#f6c7bb;margin:0 0 17px}
+.caption h1{font-family:Manrope,Arial,sans-serif!important;font-size:clamp(32px,4.6vw,70px);font-weight:650;letter-spacing:-.055em;line-height:1.06;margin:0 0 19px;color:#fff9ef}
+.caption>span{font-size:clamp(13px,1.2vw,17px);line-height:1.6;font-weight:400;color:#f3c8bd}
+.bottom{position:absolute;left:8%;right:8%;bottom:6%;display:grid;grid-template-columns:140px minmax(80px,1fr) auto;align-items:center;gap:22px;z-index:2}
+.bottom>span{font-size:11px;color:#f5cbbd}.bottom>div{height:2px;background:#fff4df30;overflow:hidden;border-radius:5px}.bottom i{display:block;height:100%;width:100%;background:#f4d555;transform-origin:left center}.bottom small{font-size:9px;color:#eab4a8}
+.exit{position:absolute;inset:0;background:#fbf9f1;pointer-events:none;z-index:5}
+.still{position:absolute;inset:0;background:radial-gradient(ellipse at 53% 44%,#52131e 0 12%,#892c37 32%,#b04b49 54%,#6b202b 78%);overflow:hidden}
+.still>span{position:absolute;width:170px;height:80px;top:40%;left:24%;border-radius:50%;background:radial-gradient(ellipse at center,#912531 25%,#d95e59 55%,#ed7a68 65%,#a33640 100%);transform:rotate(22deg);box-shadow:inset 0 -13px 12px #60101d66,0 12px 30px #36081040}
+.still>span:nth-child(2){left:66%;top:25%;width:100px;height:46px;transform:rotate(-30deg)}.still>span:nth-child(3){left:48%;top:61%;width:88px;height:41px;transform:rotate(55deg)}.still>span:nth-child(4){left:8%;top:18%;width:65px;height:30px;transform:rotate(-16deg);filter:blur(2px)}.still>span:nth-child(5){left:78%;top:69%;width:220px;height:103px;transform:rotate(10deg);filter:blur(2px)}
+@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:650px){.top{top:23px;left:22px;right:22px}.brand{font-size:22px}.skip{padding:10px 14px;font-size:11px;gap:9px}.caption{left:25px;right:25px;bottom:24%}.caption p{font-size:10px;margin-bottom:15px}.caption h1{font-size:40px;line-height:1.08;max-width:340px;margin-bottom:16px}.caption>span{font-size:13px}.bottom{left:25px;right:25px;bottom:6%;grid-template-columns:1fr;gap:15px}.bottom small{font-size:8px}.bottom>div{grid-row:2}.bottom>span{font-size:10px}.still>span{width:120px;height:57px;left:18%;top:37%}.still>span:nth-child(2){left:62%;top:23%}.still>span:nth-child(5){left:65%;top:53%;width:150px;height:70px}}
+@media(prefers-reduced-motion:reduce){.caption{animation:none}}
+.arrival{position:absolute;inset:0;background:#fbf9f1;pointer-events:none;z-index:1;display:flex;align-items:center;justify-content:flex-end;padding:4% 9% 14%;gap:20px;color:#a38e52}.arrival svg{width:48%;max-width:560px;height:80%;max-height:520px}.arrival>span{position:absolute;top:23%;left:9%;font-size:12px;line-height:1.9;color:#a89b76}.caption{z-index:2}.hasArrived .caption h1{color:#4a4d3c}.hasArrived .caption p,.hasArrived .caption>span{color:#9b947b}.hasArrived .brand{color:#4a4d3c}.hasArrived .skip{color:#7f775c;border-color:#d8cba2;background:#f8f0d7}.hasArrived .bottom>span,.hasArrived .bottom small{color:#a49c81}.hasArrived .bottom>div{background:#e6ddc2}@media(max-width:650px){.arrival{padding:15% 0 38%}.arrival svg{width:95%;height:60%}.arrival>span{top:15%;left:25px;font-size:10px}}

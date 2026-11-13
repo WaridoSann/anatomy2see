@@ -50,3 +50,31 @@ blender -b -t 4 --python tools/convert-bodyparts.py -- /chemin/isa_BP3D_4.0_obj_
 ```
 
 Le script utilise `source-parts.json` pour retrouver les structures d'origine et régénère le GLB ainsi que son manifeste. Le téléchargement de l'archive d'origine est d'environ 143 Mo ; seuls les maillages sélectionnés et convertis sont livrés au navigateur (environ 7,6 Mo au total).
+
+## Extension musculaire et segmentation (version 2)
+
+Les nouvelles vues utilisent la même source BodyParts3D v4 et la même licence CC BY 4.0 vérifiée ci-dessus. Tous les identifiants de provenance sont conservés dans les manifestes :
+
+- `muscles.glb` : **398 groupes anatomiques**, issus de **425 éléments** de maillage classés comme muscles, chefs, zones ou ensembles musculaires dans les tables officielles. Ils ne représentent pas 398 muscles humains entiers ni tous les muscles du corps. Aucun muscle manquant n’a été remplacé par une primitive.
+- `skeletal.glb` : **238 structures** osseuses et de soutien ; les cartilages et disques gardent leur propre nom. Ce nombre ne désigne pas le nombre d’os du sujet.
+- `nervous.glb` : **80 structures** issues de l’encéphale, de cavités cérébrospinales et de petits nerfs crâniens/orbitaires. La table de composition de « spinal cord » ne fournit ici qu’un élément de canal central ; la moelle épinière complète n’est donc pas annoncée comme disponible. Les réseaux nerveux périphériques du tronc et des membres sont absents.
+
+La source ne contient notamment pas les maillages du droit de l’abdomen, du grand dorsal, du masséter et du temporal. Ces limites sont également indiquées dans l’interface. Certains noms anglais ont été conservés lorsqu’une traduction anatomique précise n’a pas été établie. Les noms français courants ne modifient pas les identifiants sources.
+
+### Transformation et optimisation
+
+Le repère commun est obtenu à partir des OBJ par `(position - centre) × échelle`, avec centre Blender `[0.023406982421875, -109.03314971923828, 782.8699340820312]` et échelle `0.00105462085236557`, puis export glTF Y-up. Les proportions relatives sont conservées.
+
+Les éléments sont décimés dans Blender (cibles usuelles : 1 600 triangles par groupe musculaire, 1 300 par structure osseuse et 1 800 par structure nerveuse ; certains grands éléments cérébraux conservent davantage de détails). Une compression Meshopt et une quantification des positions sur 14 bits réduisent ensuite les fichiers. Les nombres de triangles et tailles réellement obtenus figurent dans chaque manifeste. Le modèle initial `anatomy.glb` a aussi été compressé, sans ajout de structure.
+
+La reconstruction des modèles segmentés utilise `tools/build-segmented-models.py` avec un répertoire d’OBJ officiel :
+
+```bash
+blender -b -t 3 --python tools/build-segmented-models.py -- /chemin/vers/OBJ
+```
+
+Pour recomprimer les exports avec glTF Transform 4.5.1, utiliser la commande `gltf-transform meshopt` sur des chemins d’entrée et de sortie distincts, puis remplacer les GLB après validation. Les identifiants et noms de nodes doivent être conservés.
+
+Le portrait d’accueil est un rendu original de ces muscles avec des repères osseux réels. Le voyage dans un vaisseau, le geste de boire et la salle de SVT sont des illustrations artistiques originales. Ils ne sont pas présentés comme des simulations médicales ni comme des structures anatomiques supplémentaires.
+
+Les références des images et de la police sont détaillées dans [ILLUSTRATIONS.md](ILLUSTRATIONS.md).

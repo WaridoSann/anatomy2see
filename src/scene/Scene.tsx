@@ -1,40 +1,42 @@
 import { Component, Suspense, useCallback, useEffect, useState } from 'react';
 import type { ReactNode } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { ContactShadows } from '@react-three/drei';
-import { Bloom, EffectComposer } from '@react-three/postprocessing';
+import { ContactShadows, useGLTF } from '@react-three/drei';
+import { modelPaths } from '../data/catalog';
 import type { Group } from 'three';
+import type { LayerId } from '../types/atlas';
 import { useExplorer } from '../state/explorer';
+import ClassroomBackdrop from '../components/ClassroomBackdrop';
 import AnatomyModel from './AnatomyModel';
 import CameraRig from './CameraRig';
-class SceneBoundary extends Component<{children:ReactNode},{error:boolean}> {
+class SceneBoundary extends Component<{children:ReactNode;layer:LayerId},{error:boolean}> {
  state={error:false};
  static getDerivedStateFromError(){return {error:true};}
- componentDidCatch(error:Error){useExplorer.getState().setError(`Le modèle 3D n’a pas pu être chargé. ${error.message}`);}
+ componentDidCatch(error:Error){useExplorer.getState().setError(`Le modèle n’a pas pu être chargé. Vérifiez votre connexion et réessayez. (${error.message})`,this.props.layer);}
  render(){return this.state.error?null:this.props.children;}
 }
-function World(){
+function World({layer}:{layer:LayerId}){
  const [model,setModel]=useState<Group|null>(null);
  const receive=useCallback((g:Group)=>setModel(g),[]);
  const quality=useExplorer(s=>s.quality);
  return <>
-  <ambientLight intensity={0.7}/><hemisphereLight args={['#b8d9e6','#263340',1.3]}/>
-  <directionalLight position={[2,3,4]} intensity={3.2} color="#e1e7e6"/>
-  <directionalLight position={[-3,1,-2]} intensity={3} color="#5eccc9"/>
-  <spotLight position={[2,0,-3]} intensity={13} angle={0.7} penumbra={1} color="#97bfff"/>
-  <Suspense fallback={null}><AnatomyModel onModel={receive}/></Suspense>
+  <ambientLight intensity={0.75}/><hemisphereLight args={['#fff8e8','#a9a599',1.1]}/>
+  <directionalLight position={[-3,3,4]} intensity={2.3} color="#fff5dc"/>
+  <directionalLight position={[3,1,-2]} intensity={1.2} color="#ffffff"/>
+  <Suspense fallback={null}><AnatomyModel onModel={receive} layer={layer}/></Suspense>
   <CameraRig model={model}/>
-  <ContactShadows position={[0,-0.915,0]} opacity={0.28} scale={3} blur={2.8} far={2} resolution={quality==='low'?128:256} color="#37a3a8" frames={1}/>
-  {quality==='ultra'&&<EffectComposer multisampling={0}><Bloom intensity={0.15} luminanceThreshold={1.3} mipmapBlur/></EffectComposer>}
+  {quality!=='low'&&<ContactShadows key={model?.uuid??'loading'} position={[0,-0.917,0]} opacity={0.24} scale={3.5} blur={2.7} far={2} resolution={quality==='ultra'?512:256} color="#796e53" frames={2}/>}
  </>;
 }
 export default function Scene(){
- const quality=useExplorer(s=>s.quality);
+ const layer=useExplorer(s=>s.layer);const quality=useExplorer(s=>s.quality);
  const [supported]=useState(()=>{try{const canvas=document.createElement('canvas');const context=canvas.getContext('webgl2');if(!context)return false;context.getExtension('WEBGL_lose_context')?.loseContext();return true;}catch{return false;}});
- useEffect(()=>{if(!supported)useExplorer.getState().setError('WebGL 2 est indisponible sur cet appareil. Les fiches restent accessibles dans la liste.');},[supported]);
- const ratio={low:1,medium:1.25,high:1.75,ultra:2}[quality];
- if(!supported)return <div className="webgl-fallback">Explorez les fiches anatomiques depuis la liste des structures.</div>;
- return <div className="scene-root" role="region" aria-label="Modèle anatomique 3D interactif — glissez pour tourner, molette pour zoomer">
-  <SceneBoundary><Canvas dpr={[1,ratio]} camera={{position:[0,0,3.4],fov:36,near:0.005,far:30}} gl={{antialias:quality!=='low',alpha:true,powerPreference:'high-performance'}} fallback={<div className="webgl-fallback">La 3D nécessite WebGL. Les fiches anatomiques restent consultables dans la liste.</div>} onCreated={({gl})=>{gl.domElement.addEventListener('webglcontextlost',e=>{e.preventDefault();useExplorer.getState().setError('Le contexte graphique a été interrompu. Rechargez la page pour rétablir la 3D.');});}}><World/></Canvas></SceneBoundary>
+ useEffect(()=>{if(!supported)useExplorer.getState().setError('WebGL 2 est indisponible sur cet appareil. Vous pouvez consulter les fiches et leurs illustrations.',layer);},[supported,layer]);
+ const ratio={low:1,medium:1.25,high:1.5,ultra:2}[quality];
+ return <div className="anatomy-stage" role="region" aria-label="Modèle anatomique 3D interactif — glissez pour tourner, molette pour zoomer">
+  <ClassroomBackdrop/>
+  {supported&&<SceneBoundary key={layer} layer={layer}><Canvas dpr={[1,ratio]} camera={{position:[0,0,3.4],fov:36,near:0.002,far:30}} gl={{antialias:quality!=='low',alpha:true,powerPreference:'high-performance'}} onCreated={({gl})=>{gl.domElement.addEventListener('webglcontextlost',e=>{e.preventDefault();useExplorer.getState().setError('Le rendu graphique a été interrompu. Rechargez la page pour retrouver la 3D.');});}}><World key={layer} layer={layer}/></Canvas></SceneBoundary>}
  </div>;
 }
+
+export function preloadLayer(layer:LayerId){useGLTF.preload([`${import.meta.env.BASE_URL}models/${modelPaths[layer]}`,`${import.meta.env.BASE_URL}models/anatomy.glb`]);}
